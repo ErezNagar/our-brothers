@@ -1,38 +1,62 @@
-.App {
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.header {
   background-color: #282c34;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+    url("hero.jpg");
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 15vmin);
+  font-weight: 200;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.description {
+  padding: 50px 200px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: 200;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description p {
+  margin: 0.5em;
+}
+.listContainer {
+  font-size: 2em;
+  margin: 100px 0;
+}
+.list-item {
+  margin: 10px;
+}
+.footer {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 4vmin);
+  font-weight: 200;
+  color: white;
+}
+.credit {
+  font-size: 0.5em;
 }

@@ -1,7 +1,14 @@
 {
-  "name": "lebanon",
-  "version": "0.1.0",
-  "private": true,
+  "name": "our-brothers",
+  "version": "1.0.0",
+  "description": "An unofficial list of all fallen IDF soldiers in South Lebanon",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErezNagar/our-brothers"
+  },
+  "author": "Erez Nagar",
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
