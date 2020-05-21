@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f51c539.chunk.css",
-    "main.js": "/static/js/main.f226bd7f.chunk.js",
-    "main.js.map": "/static/js/main.f226bd7f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3e4311f5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3e4311f5.js.map",
-    "static/js/2.1459dcee.chunk.js": "/static/js/2.1459dcee.chunk.js",
-    "static/js/2.1459dcee.chunk.js.map": "/static/js/2.1459dcee.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.299cad00ca9bc232ccfedf2ec8500af5.js": "/precache-manifest.299cad00ca9bc232ccfedf2ec8500af5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0f51c539.chunk.css.map": "/static/css/main.0f51c539.chunk.css.map",
-    "static/js/2.1459dcee.chunk.js.LICENSE.txt": "/static/js/2.1459dcee.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/hero.ca883aaf.jpg"
+    "main.css": "/ErezNagar/our-brothers/static/css/main.61ec2214.chunk.css",
+    "main.js": "/ErezNagar/our-brothers/static/js/main.d1020a16.chunk.js",
+    "main.js.map": "/ErezNagar/our-brothers/static/js/main.d1020a16.chunk.js.map",
+    "runtime-main.js": "/ErezNagar/our-brothers/static/js/runtime-main.308954cd.js",
+    "runtime-main.js.map": "/ErezNagar/our-brothers/static/js/runtime-main.308954cd.js.map",
+    "static/js/2.1459dcee.chunk.js": "/ErezNagar/our-brothers/static/js/2.1459dcee.chunk.js",
+    "static/js/2.1459dcee.chunk.js.map": "/ErezNagar/our-brothers/static/js/2.1459dcee.chunk.js.map",
+    "index.html": "/ErezNagar/our-brothers/index.html",
+    "precache-manifest.1c85c4318bcffddd92c488995a0d1bc9.js": "/ErezNagar/our-brothers/precache-manifest.1c85c4318bcffddd92c488995a0d1bc9.js",
+    "service-worker.js": "/ErezNagar/our-brothers/service-worker.js",
+    "static/css/main.61ec2214.chunk.css.map": "/ErezNagar/our-brothers/static/css/main.61ec2214.chunk.css.map",
+    "static/js/2.1459dcee.chunk.js.LICENSE.txt": "/ErezNagar/our-brothers/static/js/2.1459dcee.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ErezNagar/our-brothers/static/media/hero.ca883aaf.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e4311f5.js",
+    "static/js/runtime-main.308954cd.js",
     "static/js/2.1459dcee.chunk.js",
-    "static/css/main.0f51c539.chunk.css",
-    "static/js/main.f226bd7f.chunk.js"
+    "static/css/main.61ec2214.chunk.css",
+    "static/js/main.d1020a16.chunk.js"
   ]
 }
