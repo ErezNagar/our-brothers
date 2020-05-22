@@ -17,26 +17,27 @@ const App = () => (
         לא מגדירה את התקופה הזאת, לא מחשיבה אותה כמלחמה ולא סופרת את חלליה.
       </p>
       <p>
-        675 נופלים בלבנון מיום סיום מלחמת שלום הגליל (מלחמת לבנון ה-1)
+        675 נפלו בלבנון מיום סיום מלחמת שלום הגליל (מלחמת לבנון ה-1)
         ב-29/9/1982 ועד ליום היציאה מרצועת הביטחון ב-24/5/2000.
       </p>
-      <p>אלה האחים שלנו, ושוב כמו אז, אספנו אותם.</p>
+      <p>אלה האחים שלנו, ושוב, כמו אז, אספנו אותם.</p>
+    </div>
+    <div className="credit">
+      הרשימה הנ"ל היא פרי עבודתם ומחקרם של יוסי קאופמן, עודד קרמר וחיים הר־זהב
     </div>
     <div className="listContainer">
       <ul>
-        {FALLEN_SOLDIERS.map((soldier) => (
-          <li className="list-item">
-            {soldier.lastName} {soldier.firstName} &middot; בן {soldier.age}{" "}
-            &middot; נפל ב-{soldier.year}
-          </li>
-        ))}
+        {FALLEN_SOLDIERS.map((soldier) => {
+          let item = `${soldier.lastName} ${soldier.firstName} · בן ${soldier.age}`;
+          if (soldier.year) {
+            item += ` · נפל ב-${soldier.year}`;
+          }
+          return <li className="list-item">{item}</li>;
+        })}
       </ul>
     </div>
     <footer className="footer">
       <p>יהי זכרם ברוך</p>
-      <p className="credit" dir="rtl">
-        מקור: מחקרו וספרו של חיים בר זהב, "לבנון: המלחמה האבודה"
-      </p>
     </footer>
   </div>
 );

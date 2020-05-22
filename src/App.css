@@ -39,9 +39,13 @@ ul {
 .description p {
   margin: 0.5em;
 }
+.credit {
+  margin: 50px 0;
+  font-size: 1.25em;
+}
 .listContainer {
   font-size: 2em;
-  margin: 100px 0;
+  margin: 50px 0 100px;
 }
 .list-item {
   margin: 10px;
@@ -56,7 +60,4 @@ ul {
   font-size: calc(10px + 4vmin);
   font-weight: 200;
   color: white;
-}
-.credit {
-  font-size: 0.5em;
 }
