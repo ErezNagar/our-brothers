@@ -689,7 +689,8 @@ const FALLEN_SOLDIERS = [
     age: 36,
   },
   {
-    firstName: "רונן־אריה",
+    firstName: "רונן",
+    lastName: "אריה",
     age: 20,
     year: 2000,
   },
@@ -863,7 +864,8 @@ const FALLEN_SOLDIERS = [
     year: 1997,
   },
   {
-    firstName: "שלמה ברקת",
+    firstName: "שלמה",
+    lastName: "ברקת",
     age: 48,
   },
   {
@@ -2258,7 +2260,8 @@ const FALLEN_SOLDIERS = [
     age: 23,
   },
   {
-    firstName: "דניאל (דני) מילר",
+    firstName: "דניאל (דני)",
+    lastName: "מילר",
     age: 21,
   },
   {
@@ -3455,7 +3458,8 @@ const FALLEN_SOLDIERS = [
     year: 1996,
   },
   {
-    firstName: "אורן שפר",
+    firstName: "אורן",
+    lastName: "שפר",
     age: 19,
   },
   {
