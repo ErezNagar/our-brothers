@@ -4711,33 +4711,54 @@ const FALLEN_SOLDIERS = [
     firstName: "ארן-ערן",
     lastName: "צבאג",
     age: 20,
+    date: "06.12.1995",
+    hebrewDate: 'י"ג בכסלו תשנ"ו',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%A8%D7%9F-%D7%A2%D7%A8%D7%9F%20%D7%A6%D7%91%D7%90%D7%92/en_fb79adfc52e9ab8da5169b514549ad85",
   },
   {
     firstName: "ירון",
     lastName: "צופיוף הכהן",
     age: 20,
-    year: 1997,
+    date: "04.02.1997",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%A8%D7%95%D7%9F%20%D7%A6%D7%95%D7%A4%D7%99%D7%95%D7%A3%20%D7%94%D7%9B%D7%94%D7%9F/en_c393ab38586e1726529c9160d2d46c5d",
   },
   {
     firstName: "אלון",
     lastName: "צור",
     age: 30,
+    date: "21.10.1984",
+    hebrewDate: 'כ"ה בתשרי תשמ"ה',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%9C%D7%95%D7%9F%20%D7%A6%D7%95%D7%A8/en_9ebf3246719586ffbf0aefb89d554f2c",
   },
   {
     firstName: "יונתן",
     lastName: "צירקל",
     age: 22,
-    year: 1997,
+    date: "30.01.1997",
+    hebrewDate: 'כ"ב בשבט תשנ"ז',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%95%D7%A0%D7%AA%D7%9F%20%D7%A6%D7%99%D7%A8%D7%A7%D7%9C/en_6b20e32cc6f3c7d6eef33c0e2b05139a",
   },
   {
     firstName: "יאיר",
     lastName: "צפריר",
     age: 21,
+    date: "31.01.1995",
+    hebrewDate: "ל' בשבט תשנ\"ה",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%90%D7%99%D7%A8%20%D7%A6%D7%A4%D7%A8%D7%99%D7%A8/en_0489c0af067b1603dfca7feb1d0763c9",
   },
   {
     firstName: "נפתלי",
     lastName: "צריקר",
     age: 19,
+    date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%A6%D7%A8%D7%99%D7%A7%D7%A8/en_0ec00811ce4be50ca86204b2a3a486c8",
   },
   {
     firstName: "אמנון",
