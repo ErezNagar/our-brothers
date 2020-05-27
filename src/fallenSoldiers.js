@@ -5367,22 +5367,37 @@ const FALLEN_SOLDIERS = [
     firstName: "מרדכי (מוטי)",
     lastName: "תדמור",
     age: 29,
+    date: "16.02.1983",
+    hebrewDate: "ג' באדר תשמ\"ג",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%AA%D7%93%D7%9E%D7%95%D7%A8/en_a169a0a07db6f61c3b254ce01728a4a2",
   },
   {
     firstName: "יהודה-ליאון",
     lastName: "תובל",
     age: 40,
+    date: "10.02.1985",
+    hebrewDate: 'י"ט בשבט תשמ"ה',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94-%D7%9C%D7%99%D7%90%D7%95%D7%9F%20%D7%AA%D7%95%D7%91%D7%9C/en_3595e35cb66a8a3a476ca5d30fac368c",
   },
   {
     firstName: "אסלאן",
     lastName: "תחאוחו",
     age: 21,
-    year: 1996,
+    date: "06.08.1996",
+    hebrewDate: 'כ"א באב תשנ"ו',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%A1%D7%9C%D7%90%D7%9F%20%D7%AA%D7%97%D7%90%D7%95%D7%97%D7%95/en_3d17ac8d8013b2036d69a3b7ea200b63",
   },
   {
     firstName: "ראגב חסאן",
     lastName: "תחאוקי",
     age: 19,
+    date: "15.11.1983",
+    hebrewDate: "ט' בכסלו תשמ\"ד",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A8%D7%90%D7%92%D7%91%20%D7%97%D7%A1%D7%90%D7%9F%20%D7%AA%D7%97%D7%90%D7%95%D7%A7%D7%99/en_e0463569f6e17ecba17db14da61b5bb4",
   },
 ];
 export default FALLEN_SOLDIERS;
