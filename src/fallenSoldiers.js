@@ -2882,59 +2882,100 @@ const FALLEN_SOLDIERS = [
     firstName: "סאלח",
     lastName: "טאפש",
     age: 21,
+    date: "06.04.1992",
+    hebrewDate: "ג' בניסן תשנ\"ב",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A1%D7%90%D7%9C%D7%97%20%D7%98%D7%90%D7%A4%D7%A9/en_7fc14107dcd596439f83ea7f7a9eced4",
   },
   {
     firstName: "רז",
     lastName: "טבי",
     age: 22,
-    year: 1997,
+    date: "05.09.1997",
+    hebrewDate: "ג' באלול תשנ\"ז",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A8%D7%96%20%D7%98%D7%91%D7%99/en_774c3cbbde95e28b21a6e57e5e05d331",
   },
   {
     firstName: "אריה",
     lastName: "טובול",
     age: 20,
+    date: "31.07.1986",
+    hebrewDate: 'כ"ד בתמוז תשמ"ו',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94%20%D7%98%D7%95%D7%91%D7%95%D7%9C/en_520241937bc5100df6be4f109d6ff7fc",
   },
   {
     firstName: "לירז (רז)",
     lastName: "טיטו",
     age: 21,
-    year: 1999,
+    date: "23.02.1999",
+    hebrewDate: "ז' באדר תשנ\"ט",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9C%D7%99%D7%A8%D7%96%20%D7%98%D7%99%D7%98%D7%95/en_eeb9cca7a08c3c2782c487ade83dfcd0",
   },
   {
     firstName: "גיא",
     lastName: "טל",
     age: 20,
+    date: "26.11.1990",
+    hebrewDate: "י' בכסלו תשנ\"א",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%98%D7%9C/en_2fd56d947f942733309c6801224fbaef",
   },
   {
     firstName: "אילן טל",
     lastName: "טאוסיג",
     age: 33,
+    date: "19.10.1988",
+    hebrewDate: "ח' בחשון תשמ\"ט",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%98%D7%9C%20%D7%98%D7%90%D7%95%D7%A1%D7%99%D7%92/en_9bfcdf8e1862728693a57723ee5b3380",
   },
   {
     firstName: "איתן טל",
     lastName: "טמקין",
     age: 42,
+    date: "17.01.1984",
+    hebrewDate: 'י"ג בשבט תשמ"ד',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%98%D7%9C%20%D7%98%D7%9E%D7%A7%D7%99%D7%9F/en_1ea8fcfcff49a103e945b35a5e1fc406",
   },
   {
     firstName: "תדהר",
     lastName: "טמפלהוף",
     age: 24,
-    year: 2000,
+    date: "31.01.2000",
+    hebrewDate: 'כ"ד בשבט תש"ס',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%AA%D7%93%D7%94%D7%A8%20%D7%98%D7%9E%D7%A4%D7%9C%D7%94%D7%95%D7%A3/en_437c0db4eebfb4f2a8b5f4316634acf3",
   },
   {
     firstName: "רון",
     lastName: "טנדיט",
     age: 20,
+    date: "08.12.1987",
+    hebrewDate: 'י"ז בכסלו תשמ"ח',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%98%D7%A0%D7%93%D7%99%D7%98%20%D7%A8%D7%95%D7%9F/en_d0f1b57971177ad1942614a3c27bcd2f",
   },
   {
     firstName: "אסף-יחזקאל",
     lastName: "טננבאום",
     age: 21,
+    date: "19.08.1993",
+    hebrewDate: "ב' באלול תשנ\"ג",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%98%D7%A0%D7%A0%D7%91%D7%90%D7%95%D7%9D%20%D7%90%D7%A1%D7%A3/en_f1d1a0482734774260e53285ccfdffba",
   },
   {
     firstName: "אביב",
     lastName: "טרוטנר",
     age: 20,
+    date: "14.02.1993",
+    hebrewDate: 'כ"ג בשבט תשנ"ג',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91%20%D7%98%D7%A8%D7%95%D7%98%D7%A0%D7%A8/en_0adecda750652d925481b9d24d255a29",
   },
   {
     firstName: "שמעון יהב",
