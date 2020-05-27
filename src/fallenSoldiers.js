@@ -4092,60 +4092,100 @@ const FALLEN_SOLDIERS = [
     firstName: "עמאד",
     lastName: "נבואני",
     age: 21,
+    date: "07.03.1985",
+    hebrewDate: 'י"ד באדר תשמ"ה',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%90%D7%93%20%D7%A0%D7%91%D7%95%D7%90%D7%A0%D7%99/en_73fea43c61db76e1508457fb167366b1",
   },
   {
     firstName: "משה-מולו",
     lastName: "נגטו",
     age: 23,
-    year: 1999,
+    date: "03.05.1999",
+    hebrewDate: 'י"ז באייר תשנ"ט',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9E%D7%95%D7%9C%D7%95-%D7%9E%D7%A9%D7%94%20%D7%A0%D7%92%D7%98%D7%95/en_d27dcb85eb5054fc3f348fdc80177a19",
   },
   {
     firstName: "מעוז",
     lastName: "נגר",
     age: 20,
+    date: "20.04.1985",
+    hebrewDate: 'כ"ט בניסן תשמ"ה',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9E%D7%A2%D7%95%D7%96%20%D7%A0%D7%92%D7%A8/en_d8c88a8f79caa99317a2982c0d771d24",
   },
   {
     firstName: "שלמה",
     lastName: "נגר",
     age: 19,
+    date: "10.03.1985",
+    hebrewDate: 'י"ז באדר תשמ"ה',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%A0%D7%92%D7%A8/en_b3d7ef9c209d718f69e720cf42e65a3d",
   },
   {
     firstName: "בנימין (בני)",
     lastName: "נהון",
     age: 21,
+    date: "09.06.1983",
+    hebrewDate: 'כ"ח בסיון תשמ"ג',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A0%D7%94%D7%95%D7%9F/en_0883d5cea9b2b20331372f382b7b55ce",
   },
   {
     firstName: "אהד-ניר",
     lastName: "נחמיאס",
     age: 20,
-    year: 1998,
+    date: "27.11.1998",
+    hebrewDate: "ח' בכסלו תשנ\"ט",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%94%D7%93-%D7%A0%D7%99%D7%A8%20%D7%A0%D7%97%D7%9E%D7%99%D7%90%D7%A1/en_f666d68e916e8956e76360f9b71799e8",
   },
   {
     firstName: "ליאור",
     lastName: "ניב",
     age: 21,
-    year: 2000,
+    date: "31.01.2000",
+    hebrewDate: 'כ"ד בשבט תש"ס',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%A0%D7%99%D7%91/en_2ee90da08e0f75b6b6125127d4965e31",
   },
   {
     firstName: "אוהד (דדי)",
     lastName: "ניסים",
     age: 20,
+    date: "08.09.1994",
+    hebrewDate: "ג' בתשרי תשנ\"ה",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%90%D7%95%D7%94%D7%93%20%D7%A0%D7%99%D7%A1%D7%99%D7%9D/en_07b27622d9647a8e5bcebe0095da5666",
   },
   {
     firstName: "יובל",
     lastName: "ניר",
     age: 22,
-    year: 1997,
+    date: "30.05.1997",
+    hebrewDate: 'כ"ד באייר תשנ"ז',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%95%D7%91%D7%9C%20%D7%A0%D7%99%D7%A8/en_e38c21b4abb67e22642066edc4f14e92",
   },
   {
     firstName: "מוחמד",
     lastName: "נפאע",
     age: 31,
+    date: "04.11.1983",
+    hebrewDate: 'כ"ח בחשון תשמ"ד',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93%20%D7%A0%D7%A4%D7%90%D7%A2/en_8430f24dd3d7c448a9116b5f60fd6eb0",
   },
   {
     firstName: "גיא",
     lastName: "נתנאל",
     age: 19,
+    date: "25.11.1987",
+    hebrewDate: "ה' בכסלו תשמ\"ח",
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%A0%D7%AA%D7%A0%D7%90%D7%9C/en_13ea715847fefae2ce1b4a0dbeaeedca",
   },
   {
     firstName: "מרזוק",
