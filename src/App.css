@@ -50,7 +50,15 @@ ul {
   margin: 6vh 2vw 10vh;
 }
 .list-item {
-  margin: 2vh 0;
+  margin: 2vh 0 4vh;
+}
+.list-item .details {
+  margin-top: .2em;
+  font-size: calc(0.7em + 0.1vw);
+}
+.izkor-logo{
+  width: .6em;
+  color: gray;
 }
 .footer {
   background-color: #282c34;
