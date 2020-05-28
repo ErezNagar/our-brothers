@@ -128,7 +128,7 @@ const FALLEN_SOLDIERS = [
   {
     firstName: "מנחם (אולג)",
     lastName: "אברמוב",
-    age: 18, // -----------------------------------------------
+    age: 24,
     date: "17.02.1985",
     hebrewDate: 'כ"ו בשבט תשמ"ה',
     izkorLink:
@@ -2684,7 +2684,6 @@ const FALLEN_SOLDIERS = [
     age: 31,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-    hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%93%D7%93/en_977666096368f521e5cb8032b65c1f0d",
   },
@@ -2694,7 +2693,6 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-    hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%97%D7%93%D7%93/en_5140dc79fbd3a454e53fdb91ede41241",
   },
@@ -2722,7 +2720,6 @@ const FALLEN_SOLDIERS = [
     age: 39,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-    hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%97%D7%96%D7%A7%D7%90%D7%9C%20%D7%97%D7%95%D7%A8%D7%A9/en_87d24bc72e2718a7f39f5f93577a5256",
   },
@@ -2786,7 +2783,6 @@ const FALLEN_SOLDIERS = [
     age: 25,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-    hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%97%D7%96%D7%9F/en_d2a3abf96ff8a3b123cacc57523dbb52",
   },
@@ -2859,7 +2855,6 @@ const FALLEN_SOLDIERS = [
     age: 37,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-    hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%97%D7%9B%D7%9E%D7%95%D7%9F/en_fd7708ed04f2f63706c6146de9e0631f",
   },

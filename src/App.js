@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import izkorLogo from "./izkor.png";
 import FALLEN_SOLDIERS from "./fallenSoldiers";
 
 const App = () => (
@@ -17,8 +18,8 @@ const App = () => (
         לא מגדירה את התקופה הזאת, לא מחשיבה אותה כמלחמה ולא סופרת את חלליה.
       </p>
       <p>
-        675 נפלו בלבנון מיום סיום מלחמת שלום הגליל (מלחמת לבנון ה-1)
-        ב-29/9/1982 ועד ליום היציאה מרצועת הביטחון ב-24/5/2000.
+        675 נפלו בלבנון מיום סיום מלחמת שלום הגליל (מלחמת לבנון ה-1) ב-29/9/1982
+        ועד ליום היציאה מרצועת הביטחון ב-24/5/2000.
       </p>
       <p>אלה האחים שלנו, ושוב, כמו אז, אספנו אותם.</p>
     </div>
@@ -27,13 +28,26 @@ const App = () => (
     </div>
     <div className="listContainer">
       <ul>
-        {FALLEN_SOLDIERS.map((soldier) => {
-          let item = `${soldier.lastName} ${soldier.firstName} · בן ${soldier.age}`;
-          if (soldier.year) {
-            item += ` · נפל ב-${soldier.year}`;
-          }
-          return <li className="list-item">{item}</li>;
-        })}
+        {FALLEN_SOLDIERS.map((soldier) => (
+          <li className="list-item">
+            <div>{`${soldier.lastName} ${soldier.firstName}`}</div>
+            <div className="list-item details">
+              <a
+                href={soldier.izkorLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="izkor-logo"
+                  src={izkorLogo}
+                  alt="עמוד יזכור"
+                  title="עמוד יזכור"
+                />
+              </a>
+              {` בן ${soldier.age} · נפל ב-${soldier.date}, ${soldier.hebrewDate} · `}
+            </div>
+          </li>
+        ))}
       </ul>
     </div>
     <footer className="footer">
