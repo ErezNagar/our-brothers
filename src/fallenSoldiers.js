@@ -3,6 +3,10 @@ const FALLEN_SOLDIERS = [
     firstName: "יאסר",
     lastName: "אבו זידאן",
     age: 26,
+    date: "04.11.1983",
+    hebrewDate: 'כ"ח בחשון תשמ"ד',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%99%D7%90%D7%A1%D7%A8%20%D7%90%D7%91%D7%95%20%D7%96%D7%99%D7%93%D7%90%D7%9F/en_0558eac2e6b4c2545c80ef3814574e8d",
   },
   {
     firstName: "סובחי",
@@ -181,6 +185,7 @@ const FALLEN_SOLDIERS = [
     age: 48,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%90%D7%94%D7%A8%D7%95%D7%9F/en_1bb33d744428f21f17e02a3f3f3393a4",
   },
@@ -190,6 +195,7 @@ const FALLEN_SOLDIERS = [
     age: 21,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A8%D7%92%D7%99%D7%95%20%D7%90%D7%94%D7%A8%D7%95%D7%A0%D7%95%D7%91%D7%99%D7%A5/en_00a448ed0817613bea404a9c38e2a9c8",
   },
@@ -199,6 +205,7 @@ const FALLEN_SOLDIERS = [
     age: 31,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A9%D7%9B%D7%A8%20%D7%90%D7%94%D7%A8%D7%95%D7%A0%D7%99/en_cc518ed7e78e6aef6987576fd52171e6",
   },
@@ -253,6 +260,7 @@ const FALLEN_SOLDIERS = [
     age: 49,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%90%D7%95%D7%9E%D7%9F%20%D7%90%D7%95%D7%A7%D7%A1%D7%9E%D7%9F/en_3adf28adaf149b9d24c21368b85d7f69",
   },
@@ -316,6 +324,7 @@ const FALLEN_SOLDIERS = [
     age: 20,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%98%D7%93%D7%92%D7%99/en_4e5898ce05c8c47469267219cc33a20b",
   },
@@ -416,6 +425,7 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94-%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%90%D7%9C%D7%92%D7%A8%D7%91%D7%9C%D7%99/en_b7dd20eac63060ae4631a36c5a9e23de",
   },
@@ -502,8 +512,7 @@ const FALLEN_SOLDIERS = [
   },
   {
     firstName: "ציון",
-    lastName: "אלמלם",
-    lastName: "אלמעלם", //-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    lastName: "אלמעלם",
     age: 22,
     date: "12.09.1984",
     hebrewDate: 'ט"ו באלול תשמ"ד',
@@ -534,6 +543,7 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%94%D7%95%20%D7%90%D7%9C%D7%A7%D7%99%D7%99%D7%9D/en_84b1a7afab33faccef5690c68b93b815",
   },
@@ -588,6 +598,7 @@ const FALLEN_SOLDIERS = [
     age: 22,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%90%D7%9E%D7%A8%D7%95%D7%A1%D7%99/en_c20a89fcd00c6b35359e3550fde31705",
   },
@@ -633,6 +644,7 @@ const FALLEN_SOLDIERS = [
     age: 23,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%96%D7%A8%D7%90%20%D7%90%D7%A4%D7%A8%D7%99%D7%9D/en_b0cbefb1a2637249bac909cc3bf52e6c",
   },
@@ -641,6 +653,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ארזי",
     age: 23,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%92%D7%99%D7%90%20%D7%90%D7%A8%D7%96%D7%99/en_360cde91648673bca88f5a117e81f02e",
   },
@@ -676,6 +689,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ארמן",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9F-%D7%A8%D7%90%D7%95%D7%91%D7%9F%20%D7%90%D7%A8%D7%9E%D7%9F/en_15c19202bb44288b9ad5a84638a0b9e0",
   },
@@ -729,6 +743,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בביאן",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%97%D7%99%20%D7%91%D7%91%D7%99%D7%90%D7%9F/en_2430aae15830267b1cbe7e618ad6807c",
   },
@@ -746,6 +761,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בדו",
     age: 36,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%93%D7%95/en_f3ec755761636077cd5d50dc861e39da",
   },
@@ -799,6 +815,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בונקר",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%9C%20%D7%91%D7%95%D7%A0%D7%A7%D7%A8/en_b3e71b4842a7ed944fabbde6c77ea0d1",
   },
@@ -862,6 +879,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ביבס",
     age: 26,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%95%D7%9C%20%D7%91%D7%99%D7%91%D7%A1/en_ac30ff01f53f2f299e2e4d4d215378d4",
   },
@@ -879,6 +897,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ביטון",
     age: 38,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_83c1e742b957114698f2cf15f9076e44",
   },
@@ -905,6 +924,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ביטון",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9E%D7%95%D7%9F-%D7%90%D7%9E%D7%A0%D7%95%D7%9F%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_0dbdad7dd83f9b1445934ce56699cb05",
   },
@@ -913,6 +933,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ביטון",
     age: 29,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_2cac06864a1a04e77f0c564050047689",
   },
@@ -975,6 +996,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בללטי",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%A4%D7%99%20%D7%91%D7%9C%D7%9C%D7%98%D7%99/en_a71a1831abd4618d817d6c39b5c50fcd",
   },
@@ -1110,6 +1132,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בן חיים",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8%20%D7%91%D7%9F%20%D7%97%D7%99%D7%99%D7%9D/en_d821558c5c96aac707c425a2a024066d",
   },
@@ -1136,6 +1159,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בן עזרה",
     age: 23,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F%20%D7%A2%D7%96%D7%A8%D7%90%20%D7%90%D7%9C%D7%99%D7%94%D7%95/en_4c57d9498db1ab18ed948787dc365228",
   },
@@ -1153,6 +1177,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בן שם",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A7%D7%95%D7%91%D7%99%20%D7%91%D7%9F%20%D7%A9%D7%9D/en_23cd7fad03c45d28253ce587553c3b0b",
   },
@@ -1161,6 +1186,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בן שמואל",
     age: 36,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%9F%20%D7%A9%D7%9E%D7%95%D7%90%D7%9C/en_7cb3a3c8bccf6b0e4489717eaa85149b",
   },
@@ -1466,6 +1492,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ברקוביץ",
     age: 22,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%92%D7%99%D7%90%20%D7%91%D7%A8%D7%A7%D7%95%D7%91%D7%99%D7%A5/en_69ec3dc93108bbdc05e7cd8fc36e8785",
   },
@@ -1492,6 +1519,7 @@ const FALLEN_SOLDIERS = [
     lastName: "בשיר",
     age: 35,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%95%D7%A1%D7%99%D7%99%D7%9F%20%D7%91%D7%A9%D7%99%D7%A8/en_5e7a933bca70a97ae9b7e82b44caee91",
   },
@@ -1510,6 +1538,7 @@ const FALLEN_SOLDIERS = [
     age: 35,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A2%D7%93%D7%90%D7%9C%D7%9C%D7%94%20%D7%92%D7%90%D7%A0%D7%9D/en_ce42ea8129f870e208306821f6152e4d",
   },
@@ -1582,6 +1611,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גבריאל",
     age: 21,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%99%D7%95%D7%9F%20%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C/en_cff4c4ca76a03cccad3be85229e14c04",
   },
@@ -1590,6 +1620,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גברילוביץ",
     age: 23,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%9C%D7%95%D7%91%D7%99%D7%A5%20%D7%A8%D7%99%D7%A9%D7%A8%D7%93/en_b224d2eb70092f03758cd99ef69a2e46",
   },
@@ -1598,12 +1629,16 @@ const FALLEN_SOLDIERS = [
     lastName: "גדעון",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%9E%D7%95%D7%9C%D7%98%D7%95-%D7%90%D7%A9%D7%A8%20%D7%92%D7%93%D7%A2%D7%95%D7%9F/en_376c887c577a76de48f878685f9c2120",
   },
   {
     firstName: "אבישי (שייקוש)",
     lastName: "גדרון",
     age: 19,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A9%D7%99%20%D7%92%D7%93%D7%A8%D7%95%D7%9F/en_5538d5c564dbcc8f2b091ca9e5169981",
   },
@@ -1621,6 +1656,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גודינצקי",
     age: 20,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%92%D7%95%D7%93%D7%99%D7%A0%D7%A6%D7%A7%D7%99/en_48a51806e1b061967cba93c2a0bf9fa3",
   },
@@ -1629,6 +1665,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גוטליב",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9B%D7%94%20%D7%92%D7%95%D7%98%D7%9C%D7%99%D7%91/en_f5bf04d0dbd3f2915baef6f1eeb9950e",
   },
@@ -1646,6 +1683,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גולדברג",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9E%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%91%D7%A8%D7%92/en_ba8c15a48285e74d4a314504e842ea86",
   },
@@ -1654,6 +1692,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גולמבה",
     age: 22,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%92%D7%95%D7%9C%D7%9E%D7%91%D7%94/en_637417d61c2c80f8f052553816ec5915",
   },
@@ -1671,6 +1710,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גולן",
     age: 24,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91-%D7%A9%D7%A9%D7%95%D7%9F%20%D7%92%D7%95%D7%9C%D7%9F/en_52360b7890ffdfd754595d0acdeae87e",
   },
@@ -1697,6 +1737,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גונן",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91%20%D7%92%D7%95%D7%A0%D7%9F/en_d16e8de7ae30d3743cd8fad645ef018a",
   },
@@ -1714,6 +1755,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גוס",
     age: 30,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%92%D7%95%D7%A1/en_9d048603a047134f6ae98e95ac7154ff",
   },
@@ -1740,6 +1782,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ויצקוביץ",
     age: 28,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%92%D7%95%D7%A8%D7%9F%20%D7%95%D7%99%D7%A6%D7%A7%D7%95%D7%91%D7%99%D7%A5/en_5fc4cacd211bb51e9dadafdb588fa740",
   },
@@ -1748,6 +1791,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גלזר",
     age: 24,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%9E%D7%99%D7%A8%20%D7%92%D7%9C%D7%96%D7%A8/en_2201e32cee0daadc3003487ce9be87a6",
   },
@@ -1783,6 +1827,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גנון",
     age: 30,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%91%D7%A8%D7%98-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%92%D7%A0%D7%95%D7%9F/en_2a5762d77ccdc67d464d35293f086f7d",
   },
@@ -1818,6 +1863,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גפר",
     age: 18,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%92%D7%A4%D7%A8/en_c17d03a35a7129a73c07fecfa5eae66fc",
   },
@@ -1826,6 +1872,7 @@ const FALLEN_SOLDIERS = [
     lastName: "גראוברט",
     age: 22,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%95%D7%93%20%D7%92%D7%A8%D7%90%D7%95%D7%91%D7%A8%D7%98/en_721ad2d50ac36086d0dfa751ceb51826",
   },
@@ -1924,6 +1971,7 @@ const FALLEN_SOLDIERS = [
     lastName: "דהאן",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%93%D7%94%D7%90%D7%9F/en_132d5782036d3e5745078a7dc66c1e52",
   },
@@ -2040,6 +2088,7 @@ const FALLEN_SOLDIERS = [
     lastName: "דיאב",
     age: 26,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9C%D7%90%D7%9E%D7%94%20%D7%93%D7%99%D7%90%D7%91/en_d9c8215865599115488bda8aaa0b6508",
   },
@@ -2048,6 +2097,7 @@ const FALLEN_SOLDIERS = [
     lastName: "דיב",
     age: 22,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9E%D7%99%D7%A8%20%D7%93%D7%99%D7%91/en_16722b4a2906eacfc61621983a1d65db",
   },
@@ -2074,6 +2124,7 @@ const FALLEN_SOLDIERS = [
     lastName: "דנה",
     age: 45,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A0%D7%A8%D7%99%20%D7%93%D7%A0%D7%94/en_31f66f18c20d8bfee0209a1b5f95193b",
   },
@@ -2154,6 +2205,7 @@ const FALLEN_SOLDIERS = [
     lastName: "הוימן",
     age: 24,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%A7-%D7%A1%D7%9C%D7%95%D7%9E%D7%95%D7%9F%20%D7%94%D7%95%D7%99%D7%9E%D7%9F/en_cb79bd579112e7f672909b301d11cc0f",
   },
@@ -2180,6 +2232,7 @@ const FALLEN_SOLDIERS = [
     lastName: "הופמן",
     age: 19,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%97%D7%A0%D7%93%D7%A8%D7%95-%D7%90%D7%9C%D7%94%20%D7%94%D7%95%D7%A4%D7%9E%D7%9F/en_3f89d41103434d74fabd040a279347e2",
   },
@@ -2234,6 +2287,7 @@ const FALLEN_SOLDIERS = [
     lastName: "הלוי קליין",
     age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%9E%D7%90%D7%99%D7%A8%20%D7%94%D7%9C%D7%95%D7%99%20%D7%A7%D7%9C%D7%99%D7%99%D7%9F/en_15c56cbf07e23b47d4463e9dc91a3a6f",
   },
@@ -2422,6 +2476,7 @@ const FALLEN_SOLDIERS = [
     lastName: "זאדה",
     age: 28,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%A9%D7%A2-%D7%99%D7%95%D7%A1%D7%A3%20%D7%96%D7%90%D7%93%D7%94/en_a3ba59ec6c8876a0f50426d4cadbbd65",
   },
@@ -2430,6 +2485,7 @@ const FALLEN_SOLDIERS = [
     lastName: "זהבי",
     age: 28,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_6958c37173d77b183529de82803bf215",
   },
@@ -2438,6 +2494,7 @@ const FALLEN_SOLDIERS = [
     lastName: "זהבי",
     age: 19,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_6b74cb769885094d09672e7af7eaf837",
   },
@@ -2455,6 +2512,7 @@ const FALLEN_SOLDIERS = [
     lastName: "זהבי",
     age: 39,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_5b6f6581082605da2267662a803002e3",
   },
@@ -2508,6 +2566,7 @@ const FALLEN_SOLDIERS = [
     lastName: "זזניקביץ",
     age: 30,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%A0%D7%9F%20%D7%96%D7%99%D7%95%20%D7%96%D7%96%D7%A0%D7%99%D7%A7%D7%91%D7%99%D7%A5/en_8e82ff6475a056105ab7a63892ba1c31",
   },
@@ -2603,11 +2662,12 @@ const FALLEN_SOLDIERS = [
   },
   {
     firstName: "חליל",
-    lastName: "חדאד",
+    lastName: "חדיד",
     age: 28,
-    date: "",
-    hebrewDate: "",
-    izkorLink: "",
+    date: "04.11.1983",
+    hebrewDate: 'כ"ח בחשון תשמ"ד',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%97%D7%9C%D7%99%D7%9C%20%D7%97%D7%93%D7%99%D7%93/en_dd6e6de1adebf53620d0eed7da96af3c",
   },
   {
     firstName: "גיא-שלם",
@@ -2623,6 +2683,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חדד",
     age: 31,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%93%D7%93/en_977666096368f521e5cb8032b65c1f0d",
@@ -2632,6 +2693,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חדד",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%97%D7%93%D7%93/en_5140dc79fbd3a454e53fdb91ede41241",
@@ -2659,6 +2721,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חורש",
     age: 39,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%97%D7%96%D7%A7%D7%90%D7%9C%20%D7%97%D7%95%D7%A8%D7%A9/en_87d24bc72e2718a7f39f5f93577a5256",
@@ -2668,7 +2731,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חושני",
     age: 35,
     date: "04.02.1997",
-    hebrewDate: "",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%97%D7%95%D7%A9%D7%A0%D7%99/en_4f1a0a0d399bff91be2cbe8573094b72",
   },
@@ -2720,8 +2783,9 @@ const FALLEN_SOLDIERS = [
   {
     firstName: "שמעון",
     lastName: "חזן",
-    age: 24,
+    age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%97%D7%96%D7%9F/en_d2a3abf96ff8a3b123cacc57523dbb52",
@@ -2794,6 +2858,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חכמון",
     age: 37,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     hebrewDate: "",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%97%D7%9B%D7%9E%D7%95%D7%9F/en_fd7708ed04f2f63706c6146de9e0631f",
@@ -2830,6 +2895,7 @@ const FALLEN_SOLDIERS = [
     lastName: "חלפון",
     age: 35,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%97%D7%9C%D7%A4%D7%95%D7%9F/en_b286a58b9b8c1e4d2751a914504c6398",
   },
@@ -3082,6 +3148,7 @@ const FALLEN_SOLDIERS = [
     lastName: "כץ",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9B%D7%90%D7%9C%20%D7%9B%D7%A5/en_2b6def2466fe21cbeb6555ebf046a859",
   },
@@ -3153,6 +3220,7 @@ const FALLEN_SOLDIERS = [
     lastName: "כהן",
     age: 22,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%AA%D7%9F-%D7%99%D7%A6%D7%97%D7%A7%20%D7%9B%D7%94%D7%9F/en_719dc838d3bd26fc0553e20e0aab8f05",
   },
@@ -3196,8 +3264,8 @@ const FALLEN_SOLDIERS = [
     firstName: "יעקב",
     lastName: "כהן",
     age: 23,
-    date: "27.05.1987",
-    hebrewDate: 'כ"ט באייר תשמ"ז',
+    date: "",
+    hebrewDate: "",
     izkorLink: "",
   },
   {
@@ -3277,6 +3345,7 @@ const FALLEN_SOLDIERS = [
     lastName: "כיתאין",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9D%20%D7%9B%D7%99%D7%AA%D7%90%D7%99%D7%9F/en_807060d00188a57df8841a1d6922f616",
   },
@@ -3375,6 +3444,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לבבי",
     age: 27,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%20%D7%9C%D7%91%D7%91%D7%99/en_dfe4fa886ec902b46a06a5ed996b69bc",
   },
@@ -3402,6 +3472,7 @@ const FALLEN_SOLDIERS = [
     age: 27,
     year: 1997,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
 
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A9%D7%99%20%D7%9C%D7%95%D7%99/en_171704cac9fd95bd4cbbca62930b092f",
@@ -3474,6 +3545,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לוי",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%99%D7%9C%D7%94%20%D7%9C%D7%95%D7%99/en_20e14f9b25e5978925d79458495c3207",
   },
@@ -3500,6 +3572,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לזימי",
     age: 20,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%9C%D7%96%D7%99%D7%9E%D7%99/en_5af28c117d49daa9efae63f411681e24",
   },
@@ -3535,6 +3608,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ליפשיץ",
     age: 34,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%A0%D7%97%D7%A1%20%D7%9C%D7%99%D7%A4%D7%A9%D7%99%D7%A5/en_9692906b7348b8e2f30083c9c6d4ec83",
   },
@@ -3552,6 +3626,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לישצינסקי",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%91%20%D7%9C%D7%99%D7%A9%D7%A6%D7%99%D7%A0%D7%A1%D7%A7%D7%99/en_43c25133240f64bf163f35f5be0b8f1c",
   },
@@ -3569,6 +3644,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לניר",
     age: 22,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%D7%99%D7%A8%20%D7%9C%D7%A0%D7%99%D7%A8/en_72eb82617655748a6d88081624bb5ed0",
   },
@@ -3577,6 +3653,7 @@ const FALLEN_SOLDIERS = [
     lastName: "לנציצקי",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%9C%D7%A0%D7%A6%D7%99%D7%A6%D7%A7%D7%99/en_d8cb9b38c3bef860a1b33894040431a8",
   },
@@ -3603,6 +3680,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מדר",
     age: 36,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%9E%D7%93%D7%A8/en_9f2c324d3236c7b98f53b22b28409fa6",
   },
@@ -3620,6 +3698,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מועלם",
     age: 18,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%9E%D7%95%D7%A2%D7%9C%D7%9D/en_63b20e92d589c5bb61fb933d8674b2e0",
   },
@@ -3628,6 +3707,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מועלם",
     age: 32,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%9E%D7%95%D7%A2%D7%9C%D7%9D/en_89b91cff9a2394453027c36d82079865",
   },
@@ -3699,6 +3779,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מושל",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%D7%A2%D7%93%20%D7%9E%D7%95%D7%A9%D7%9C/en_70a91fdeff6de035ca284db1820761ad",
   },
@@ -3778,6 +3859,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מיזלס",
     age: 24,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%20%D7%9E%D7%99%D7%96%D7%9C%D7%A1/en_89e0663bd8b7223af3b2266dd6409f7c",
   },
@@ -3795,6 +3877,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מיכאילוב",
     age: 22,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%9C%D7%93%D7%99%D7%A1%D7%9C%D7%91%20%D7%9E%D7%99%D7%9B%D7%90%D7%99%D7%9C%D7%95%D7%91/en_9bf64ad20721fcf4a5d108d1472d1624",
   },
@@ -3857,6 +3940,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מישייב",
     age: 20,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%9C%D7%9C%20%D7%9E%D7%99%D7%A9%D7%99%D7%99%D7%91/en_3aad69d62ec9b3d293a46e7c3f5f66fc",
   },
@@ -3919,6 +4003,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מלמד",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%9E%D7%9C%D7%9E%D7%93/en_888fcd35363106518208509dc1c95891",
   },
@@ -3954,6 +4039,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ממו",
     age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94%20%D7%9E%D7%9E%D7%95/en_6ca0ab0bfca62817105336cc7e58fa36",
   },
@@ -3962,6 +4048,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ממן",
     age: 26,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F-%D7%99%D7%A2%D7%A7%D7%91%20%D7%9E%D7%9E%D7%9F/en_87ee2afbb7693bbf091c2a00ccee20d7",
   },
@@ -4060,6 +4147,7 @@ const FALLEN_SOLDIERS = [
     lastName: "מרסיאנו",
     age: 32,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%94%D7%95%20%D7%9E%D7%A8%D7%A1%D7%99%D7%90%D7%A0%D7%95/en_198e578df5a0ac8f85f1aec62a09a6a7",
   },
@@ -4075,9 +4163,10 @@ const FALLEN_SOLDIERS = [
     firstName: "דרור",
     lastName: "משה",
     age: 22,
-    date: "",
-    hebrewDate: "",
-    izkorLink: "",
+    date: "18.04.1987",
+    hebrewDate: 'י"ט בניסן תשמ"ז',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%93%D7%A8%D7%95%D7%A8%20%D7%9E%D7%A9%D7%94/en_89f93a661ae0b0d91038871f5c552ba6",
   },
   {
     firstName: "יורם",
@@ -4192,6 +4281,7 @@ const FALLEN_SOLDIERS = [
     lastName: "סאבק",
     age: 44,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%96%D7%95%D7%A7%20%D7%A1%D7%90%D7%91%D7%A7/en_bf0168be944cbc806d9c0128d75e6735",
   },
@@ -4271,9 +4361,10 @@ const FALLEN_SOLDIERS = [
     firstName: "שמעון",
     lastName: "סוסן",
     age: 44,
-    date: "",
-    hebrewDate: "",
-    izkorLink: "",
+    date: "16.02.1984",
+    hebrewDate: 'י"ג באדר א\' תשמ"ד',
+    izkorLink:
+      "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%A1%D7%95%D7%A1%D7%9F/en_b92ef59150de57fd3ea63efd99bab92a",
   },
   {
     firstName: "יורם",
@@ -4281,6 +4372,7 @@ const FALLEN_SOLDIERS = [
     age: 18,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D%20%D7%A1%D7%95%D7%A4%D7%99/en_0fef037ccd24ab235e5d3da1e829d43d",
   },
@@ -4317,6 +4409,7 @@ const FALLEN_SOLDIERS = [
     age: 20,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%A1%D7%99%D7%9C%D7%95%D7%A7/en_c4ec90ef5f513e8738abd9fe930e4ab7",
   },
@@ -4343,6 +4436,7 @@ const FALLEN_SOLDIERS = [
     lastName: "סלימי",
     age: 37,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A9%D7%95%D7%9F%20%D7%A1%D7%9C%D7%99%D7%9E%D7%99/en_483e017f046ec36b65444f874dac5be8",
   },
@@ -4379,6 +4473,7 @@ const FALLEN_SOLDIERS = [
     age: 30,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8%20%D7%A1%D7%9C%D7%A4%D7%98%D7%A8/en_4d61fa243d20900ca64cfe6fa2fed79f",
   },
@@ -4396,6 +4491,7 @@ const FALLEN_SOLDIERS = [
     lastName: "סמור",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%91%D7%99%D7%9C%20%D7%A1%D7%9E%D7%95%D7%A8/en_4fa14c9517b61fbc0f6f03cb6f92ee78",
   },
@@ -4413,6 +4509,7 @@ const FALLEN_SOLDIERS = [
     lastName: "סעד",
     age: 33,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%95%D7%90%D7%93%20%D7%A1%D7%A2%D7%93/en_b143624a713d37cfbe8e54c818a1f798",
   },
@@ -4493,6 +4590,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עדן",
     age: 44,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%82%D7%99%D7%A9%D7%82%20%D7%A2%D7%93%D7%9F/en_31cd696e71b4963d4d532f717d687553",
   },
@@ -4519,6 +4617,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עווידה",
     age: 23,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%9C%20%D7%A2%D7%95%D7%95%D7%99%D7%93%D7%94/en_cd7a4ab286ba2ecca125c7d3e39f53ea",
   },
@@ -4545,6 +4644,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עזרא",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%99%20%D7%A2%D7%96%D7%A8%D7%90/en_98ae279a7f7198169a18b2be29f710ba",
   },
@@ -4562,6 +4662,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עיסאת",
     age: 31,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93%20%D7%A2%D7%99%D7%A1%D7%90%D7%AA/en_896f3a6a2d0f7e6abfaa492e537ab82d",
   },
@@ -4570,6 +4671,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עמדי",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%A0%D7%AA%D7%9F%20%D7%A2%D7%9E%D7%93%D7%99/en_5a37e7fe3c9e161bb0f40855242a74bf",
   },
@@ -4587,6 +4689,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עמר",
     age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%A2%D7%9E%D7%A8/en_0c449da2ec402af00b644b2f435234d9",
   },
@@ -4604,6 +4707,7 @@ const FALLEN_SOLDIERS = [
     lastName: "ענבר",
     age: 19,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%99%D7%9D%20%D7%A2%D7%A0%D7%91%D7%A8/en_919e3bb1523c2932e77b63dbddcf0d51",
   },
@@ -4621,6 +4725,7 @@ const FALLEN_SOLDIERS = [
     lastName: "עציוני",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%A2%D7%9D%20%D7%A2%D7%A6%D7%99%D7%95%D7%A0%D7%99/en_2a80d815bbc7eeff317a0303b9499844",
   },
@@ -4656,6 +4761,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פארס",
     age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9C%D7%9E%D7%90%D7%9F%20%D7%A4%D7%90%D7%A8%D7%A1/en_acbdc1688cdc940819f28361ea71e5f3",
   },
@@ -4664,6 +4770,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פארס",
     age: 30,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%91%D7%99%D7%97%20%D7%A4%D7%90%D7%A8%D7%A1/en_3f478916982588f710b5e8f9fc890da7",
   },
@@ -4681,6 +4788,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פוגל",
     age: 28,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99%D7%A7%D7%94%20%D7%A4%D7%95%D7%92%D7%9C/en_444a17253e85694818acc114dc32b90f",
   },
@@ -4689,7 +4797,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פוזנר",
     age: 22,
     date: "04.02.1997",
-    hebrewDate: "",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%93%D7%A2%D7%95%D7%9F%20%D7%A4%D7%95%D7%96%D7%A0%D7%A8/en_d6890cc209594c4456ba2ee71d5e4da4",
   },
@@ -4698,7 +4806,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פיזואתי",
     age: 19,
     date: "04.02.1997",
-    hebrewDate: "",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%A4%D7%99%D7%96%D7%95%D7%90%D7%AA%D7%99/en_a362e5bdf0c2a6f90bc35e8728baf0c3",
   },
@@ -4743,6 +4851,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פלדמן",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%97%D7%9D%20%D7%A4%D7%9C%D7%93%D7%9E%D7%9F/en_9d4fc3977dbeabe33ff564469e4219a8",
   },
@@ -4769,6 +4878,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פסחוב",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%A1%D7%97%D7%95%D7%91%20%20%D7%95%D7%99%D7%98%D7%9C%D7%99%20/en_9259cf98b84047f1190c9de784cb1605",
   },
@@ -4831,6 +4941,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פרנס",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%9F-%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8%20%D7%A4%D7%A8%D7%A0%D7%A1/en_c9b5844d6b6b73405ba2b355ee30c51b",
   },
@@ -4866,6 +4977,7 @@ const FALLEN_SOLDIERS = [
     lastName: "פרץ",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F-%D7%97%D7%99%20%D7%A4%D7%A8%D7%A5/en_5360e0476d5177159097af2f24206a7a",
   },
@@ -4892,6 +5004,7 @@ const FALLEN_SOLDIERS = [
     lastName: "צופיוף הכהן",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%95%D7%9F%20%D7%A6%D7%95%D7%A4%D7%99%D7%95%D7%A3%20%D7%94%D7%9B%D7%94%D7%9F/en_c393ab38586e1726529c9160d2d46c5d",
   },
@@ -4928,6 +5041,7 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%A6%D7%A8%D7%99%D7%A7%D7%A8/en_0ec00811ce4be50ca86204b2a3a486c8",
   },
@@ -4963,6 +5077,7 @@ const FALLEN_SOLDIERS = [
     lastName: "קובריגרו",
     age: 38,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F%20%D7%A6%D7%99%D7%95%D7%9F%20%D7%A7%D7%95%D7%91%D7%A8%D7%99%D7%92%D7%A8%D7%95/en_934b83ed9bfe7c41f6feb1c64dcef1d0",
   },
@@ -5034,6 +5149,7 @@ const FALLEN_SOLDIERS = [
     lastName: "צ'יז'יק",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9E%D7%A8%20%D7%A7%D7%99%D7%93%D7%A8%20%D7%A6%D7%99%D7%96'%D7%99%D7%A7/en_39c521879840de4df459bfb5101660c8",
   },
@@ -5051,6 +5167,7 @@ const FALLEN_SOLDIERS = [
     lastName: "קיסוס",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8-%D7%99%D7%A2%D7%A7%D7%91%20%D7%A7%D7%99%D7%A1%D7%95%D7%A1/en_c9a39499ce3d862b7e6f43862c0c8cf4",
   },
@@ -5075,8 +5192,9 @@ const FALLEN_SOLDIERS = [
   {
     firstName: "יואל (חוליו)",
     lastName: "קלכמן",
-    age: 23,
+    age: 22,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%9C%20%D7%A7%D7%9C%D7%9B%D7%9E%D7%9F/en_c83deb45943b4fa7883fb373b2eec266",
   },
@@ -5184,6 +5302,7 @@ const FALLEN_SOLDIERS = [
     lastName: "רדינסקי",
     age: 33,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%99%D7%98%D7%90%D7%9C%D7%99%20%D7%A8%D7%93%D7%99%D7%A0%D7%A1%D7%A7%D7%99/en_30b4dd496af108b7a742e7c9a125d598",
   },
@@ -5193,6 +5312,7 @@ const FALLEN_SOLDIERS = [
     age: 37,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
+
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%A0%D7%95%D7%9F%20%D7%A8%D7%93%D7%99%D7%A2/en_42746cf07c60e75d8b4b91e7a094680c",
   },
@@ -5219,6 +5339,7 @@ const FALLEN_SOLDIERS = [
     lastName: "רוזנברג",
     age: 47,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A8%D7%95%D7%96%D7%A0%D7%91%D7%A8%D7%92/en_22b6e234c9462fe84f715285d8af6f46",
   },
@@ -5227,6 +5348,7 @@ const FALLEN_SOLDIERS = [
     lastName: "רוזנברג",
     age: 20,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8%20%D7%A8%D7%95%D7%96%D7%A0%D7%91%D7%A8%D7%92/en_d61bd90ec47b7d5e7dc8f0ac9d80dbb3",
   },
@@ -5325,6 +5447,7 @@ const FALLEN_SOLDIERS = [
     lastName: "רחאל",
     age: 27,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9B%D7%90%D7%9E%D7%9C%20%D7%A8%D7%97%D7%90%D7%9C/en_d772f8ffaf3976a3852d3db0c49ab070",
   },
@@ -5414,6 +5537,7 @@ const FALLEN_SOLDIERS = [
     lastName: "רימון",
     age: 40,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%95%D7%A1%20%D7%A8%D7%99%D7%9E%D7%95%D7%9F/en_57c55661fe78df23d2f45da365afd348",
   },
@@ -5485,6 +5609,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שבסו",
     age: 24,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%91%D7%99%D7%9C%20%D7%A9%D7%91%D7%A1%D7%95/en_70f882dc5fa0adc0b5cef31f7c34d019",
   },
@@ -5502,6 +5627,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שובל",
     age: 22,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%A4%D7%A8%D7%99%D7%A8%20%D7%A9%D7%95%D7%91%D7%9C/en_ee8eb5d2aa06cf46ab0feb32d8b84a98",
   },
@@ -5573,6 +5699,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שטרית",
     age: 44,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%98%D7%A8%D7%99%D7%AA%20%D7%A2%D7%9E%D7%A8%D7%9D/en_61327da99153a43aa34a724818b52fec",
   },
@@ -5591,6 +5718,7 @@ const FALLEN_SOLDIERS = [
     age: 21,
     year: 1997,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96%20%D7%A9%D7%98%D7%A8%D7%A7/en_f3a1440b0e368cd045ff063ff84dd1b2",
   },
@@ -5599,6 +5727,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שי",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9E%D7%A8%20%D7%A9%D7%99/en_71535ab89e8cd352442830811c4c21ec",
   },
@@ -5661,6 +5790,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שליט סגל",
     age: 19,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%9E%D7%A8%20%D7%A9%D7%9C%D7%99%D7%98%20%D7%A1%D7%92%D7%9C/en_f5bdb0a565ee8241202e5c4c16dba618",
   },
@@ -5678,6 +5808,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שלפוברסקי",
     age: 21,
     date: "04.02.1997",
+    hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A4%D7%AA%D7%97%20%D7%A9%D7%9C%D7%A4%D7%95%D7%91%D7%A8%D7%A1%D7%A7%D7%99/en_47e3405bb3ee44797221a5181c49c3ee",
   },
@@ -5722,6 +5853,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שמי",
     age: 25,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%A9%D7%9E%D7%99/en_b749ebc26e4f8734ff841f094df319e0",
   },
@@ -5910,6 +6042,7 @@ const FALLEN_SOLDIERS = [
     lastName: "שרף",
     age: 33,
     date: "11.11.1982",
+    hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A2%D7%99%D7%93%20%D7%A9%D7%A8%D7%A3/en_fab69dbf95b3e6b0b39e1f79f3cb1383",
   },
