@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/our-brothers/static/css/main.07ca2011.chunk.css",
-    "main.js": "/our-brothers/static/js/main.94a42a46.chunk.js",
-    "main.js.map": "/our-brothers/static/js/main.94a42a46.chunk.js.map",
-    "runtime-main.js": "/our-brothers/static/js/runtime-main.d23fcd21.js",
-    "runtime-main.js.map": "/our-brothers/static/js/runtime-main.d23fcd21.js.map",
-    "static/js/2.ff35a1e8.chunk.js": "/our-brothers/static/js/2.ff35a1e8.chunk.js",
-    "static/js/2.ff35a1e8.chunk.js.map": "/our-brothers/static/js/2.ff35a1e8.chunk.js.map",
-    "index.html": "/our-brothers/index.html",
-    "precache-manifest.6b9f0767c09df3a7c476e2b68a5aa21b.js": "/our-brothers/precache-manifest.6b9f0767c09df3a7c476e2b68a5aa21b.js",
-    "service-worker.js": "/our-brothers/service-worker.js",
-    "static/css/main.07ca2011.chunk.css.map": "/our-brothers/static/css/main.07ca2011.chunk.css.map",
-    "static/js/2.ff35a1e8.chunk.js.LICENSE.txt": "/our-brothers/static/js/2.ff35a1e8.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/our-brothers/static/media/hero.ca883aaf.jpg",
-    "static/media/izkor.png": "/our-brothers/static/media/izkor.caa2378b.png"
+    "main.css": "/static/css/main.b8bd164b.chunk.css",
+    "main.js": "/static/js/main.75656d7a.chunk.js",
+    "main.js.map": "/static/js/main.75656d7a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e4311f5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e4311f5.js.map",
+    "static/js/2.ff35a1e8.chunk.js": "/static/js/2.ff35a1e8.chunk.js",
+    "static/js/2.ff35a1e8.chunk.js.map": "/static/js/2.ff35a1e8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9166e909efd834db656bb2639fc65883.js": "/precache-manifest.9166e909efd834db656bb2639fc65883.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b8bd164b.chunk.css.map": "/static/css/main.b8bd164b.chunk.css.map",
+    "static/js/2.ff35a1e8.chunk.js.LICENSE.txt": "/static/js/2.ff35a1e8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/hero.ca883aaf.jpg",
+    "static/media/izkor.png": "/static/media/izkor.caa2378b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d23fcd21.js",
+    "static/js/runtime-main.3e4311f5.js",
     "static/js/2.ff35a1e8.chunk.js",
-    "static/css/main.07ca2011.chunk.css",
-    "static/js/main.94a42a46.chunk.js"
+    "static/css/main.b8bd164b.chunk.css",
+    "static/js/main.75656d7a.chunk.js"
   ]
 }
