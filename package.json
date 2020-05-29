@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/ErezNagar/our-brothers"
   },
-  "homepage": "https://ereznagar.github.io/our-brothers",
+  "homepage": "https://ereznagar.github.io",
   "author": "Erez Nagar",
   "license": "ISC",
   "dependencies": {
