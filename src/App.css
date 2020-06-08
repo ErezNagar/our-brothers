@@ -8,6 +8,11 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .app {
   text-align: center;
 }
@@ -53,14 +58,16 @@ ul {
   margin: 2vh 0 4vh;
 }
 .list-item .details {
-  margin-top: .2em;
+  margin-top: 0.2em;
   font-size: calc(0.7em + 0.1vw);
 }
-.izkor-logo{
-  width: .6em;
-  color: gray;
+.izkor-logo {
+  width: 0.6em;
 }
-.footer {
+.izkor {
+  font-size: 0.8em;
+}
+.footer-top {
   background-color: #282c34;
   min-height: 50vh;
   display: flex;
@@ -70,4 +77,22 @@ ul {
   font-size: calc(10px + 4vmin);
   font-weight: 200;
   color: white;
+  margin-bottom: 0;
+}
+
+.footer-bottom {
+  direction: rtl;
+  border-top: 1px solid white;
+  background-color: #282c34;
+  color: white;
+  font-weight: 200;
+  font-size: calc(10px + 1vmin);
+}
+.footer-bottom li {
+  margin: 0 1em;
+  padding: 1em 0;
+  display: inline-flex;
+}
+.footer-link-svg {
+  padding: 0 0.5em;
 }

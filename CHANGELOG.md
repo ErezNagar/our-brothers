@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.3.0](https://github.com/ErezNagar/our-brothers/compare/v1.2.1...v1.3.0) - 8/6/2020
+
+### Added
+
+- Contact email and Github link in footer
+
+### Updated
+
+- Link to Izkor to include text
+
+### Fixed
+
+- Date and hebrew date that was undefined
+- Removed missing data of 3 soldiers for now
+
 ## [1.2.1](https://github.com/ErezNagar/our-brothers/compare/v1.1.1...v1.2.1) - 27/5/2020
 
 ### Added

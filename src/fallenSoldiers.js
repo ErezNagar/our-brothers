@@ -7,6 +7,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%90%D7%A1%D7%A8%20%D7%90%D7%91%D7%95%20%D7%96%D7%99%D7%93%D7%90%D7%9F/en_0558eac2e6b4c2545c80ef3814574e8d",
+    id: 0,
   },
   {
     firstName: "סובחי",
@@ -16,6 +17,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בתמוז תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%95%D7%91%D7%97%D7%99%20%D7%90%D7%91%D7%95%20%D7%97%D7%9E%D7%93/en_1a55c5d1384a9966f2ca4aabcb43ff3c",
+    id: 1,
   },
   {
     firstName: "גאלב (מוניר)",
@@ -25,6 +27,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%90%D7%9C%D7%91%20%D7%90%D7%91%D7%95%20%D7%9E%D7%A0%D7%A1%D7%95%D7%A8/en_73f76d30bc3e6f034a8f7af7655e40f6",
+    id: 2,
   },
   {
     firstName: "נוהד",
@@ -34,6 +37,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%94%D7%93%20%D7%90%D7%91%D7%95%20%D7%A8%D7%95%D7%A7%D7%95%D7%9F/en_d8c3bfa8b0b24f1a1462179160b736d7",
+    id: 3,
   },
   {
     firstName: "עאמד (סאמר)",
@@ -43,6 +47,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באדר תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%90%D7%93%20%D7%90%D7%91%D7%95%20%D7%A8%D7%99%D7%A9/en_f0b4b709b507058f710553bcfc2b65f4",
+    id: 4,
   },
   {
     firstName: "אמציה-יהודה",
@@ -52,6 +57,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%A6%D7%99%D7%94%20%D7%90%D7%91%D7%95%D7%93%D7%A8%D7%94%D7%9D/en_cbe19146b45fd18d6b0c2c1e7cc69bfa",
+    id: 5,
   },
   {
     firstName: "ניסים",
@@ -61,6 +67,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בחשון תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%90%D7%91%D7%99%D7%98%D7%9F/en_0180674b7ccc81529a80b75ecdbd07f7",
+    id: 6,
   },
   {
     firstName: "אסף (אסי)",
@@ -70,6 +77,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkor:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%90%D7%91%D7%A0%D7%99/en_9095aa02796cc110b6240210fcc5f9b0",
+    id: 7,
   },
   {
     firstName: "חיים-מאיר",
@@ -79,6 +87,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D-%D7%9E%D7%90%D7%99%D7%A8%20%D7%90%D7%91%D7%A0%D7%A8/en_cce34376b39660e4a67ef3760c451c8a",
+    id: 8,
   },
   {
     firstName: "אבי-משה",
@@ -88,6 +97,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בטבת תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99-%D7%9E%D7%A9%D7%94%20%D7%90%D7%91%D7%A7%D7%A1%D7%99%D7%A1/en_4dd61e05cee2ad6b793f2720b4ce11dc",
+    id: 9,
   },
   {
     firstName: "שי",
@@ -97,6 +107,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%99%20%D7%90%D7%91%D7%A7%D7%A1%D7%99%D7%A1/en_f9df173c2da951a0654e937b200a0839",
+    id: 10,
   },
   {
     firstName: "נחום-אורי",
@@ -106,6 +117,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%97%D7%95%D7%9D-%D7%90%D7%95%D7%A8%D7%99%20%D7%90%D7%91%D7%A8%D7%94%D7%9D/en_c0749000d9f20279b3330a03a8eb55a8",
+    id: 11,
   },
   {
     firstName: "איתן",
@@ -115,15 +127,17 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בכסלו תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%90%D7%91%D7%A8%D7%94%D7%9E%D7%99/en_cb80fd3c08054cc409842f6dba9ff970",
+    id: 12,
   },
   {
     firstName: "ישראל-ויאצ'סלב",
     lastName: "אברמוב",
-    age: 24, //-------------------------------------------------
+    age: 24, // -------------------------------------------------
     date: "03.08.1983",
     hebrewDate: 'כ"ד באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%9E%D7%95%D7%91%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%95%D7%99%D7%90%D7%A6'%D7%A1%D7%9C%D7%91/en_4446a65dc53f8be9c529753e6f521afd",
+    id: 13,
   },
   {
     firstName: "מנחם (אולג)",
@@ -133,6 +147,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%97%D7%9D%20%D7%90%D7%91%D7%A8%D7%9E%D7%95%D7%91/en_ac3d910d14b25663b0c3bd1fdd348326",
+    id: 14,
   },
   {
     firstName: "אריה-שמעון",
@@ -142,6 +157,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94-%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%90%D7%91%D7%A8%D7%9E%D7%96%D7%95%D7%9F/en_f1aa90fc4382453478338f4db1d30a8a",
+    id: 15,
   },
   {
     firstName: "שמואל (שמוליק)",
@@ -151,6 +167,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%95%D7%90%D7%9C%20%D7%90%D7%93%D7%99%D7%91/en_d36c2d6ae991da05774c7a683de36562",
+    id: 16,
   },
   {
     firstName: "איתי-אבי",
@@ -160,6 +177,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%99-%D7%90%D7%91%D7%99%20%D7%90%D7%93%D7%9C%D7%A8/en_65f6da398760fcb68aaaefb043efd3b8",
+    id: 17,
   },
   {
     firstName: "משה",
@@ -169,6 +187,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%90%D7%93%D7%9C%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_75177b75bcb4db26d8f51677d1c84090",
+    id: 18,
   },
   {
     firstName: "יואל",
@@ -178,6 +197,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בתמוז תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%9C%20%D7%90%D7%93%D7%A8%D7%AA/en_cc3d23d1e09584cfbd96710c637107e6",
+    id: 19,
   },
   {
     firstName: "שלמה",
@@ -185,9 +205,9 @@ const FALLEN_SOLDIERS = [
     age: 48,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%90%D7%94%D7%A8%D7%95%D7%9F/en_1bb33d744428f21f17e02a3f3f3393a4",
+    id: 20,
   },
   {
     firstName: "סרג'יו",
@@ -195,9 +215,9 @@ const FALLEN_SOLDIERS = [
     age: 21,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A8%D7%92%D7%99%D7%95%20%D7%90%D7%94%D7%A8%D7%95%D7%A0%D7%95%D7%91%D7%99%D7%A5/en_00a448ed0817613bea404a9c38e2a9c8",
+    id: 21,
   },
   {
     firstName: "יששכר (איסי)",
@@ -205,9 +225,9 @@ const FALLEN_SOLDIERS = [
     age: 31,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A9%D7%9B%D7%A8%20%D7%90%D7%94%D7%A8%D7%95%D7%A0%D7%99/en_cc518ed7e78e6aef6987576fd52171e6",
+    id: 22,
   },
   {
     firstName: "אהרון-אורי",
@@ -217,6 +237,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%A8%D7%95%D7%9F-%D7%90%D7%95%D7%A8%D7%99%20%D7%90%D7%95%D7%97%D7%99%D7%95%D7%9F/en_98ad946f1f91d98d8a11db76d547e75f",
+    id: 23,
   },
   {
     firstName: "משה",
@@ -226,6 +247,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בשבט תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%90%D7%95%D7%97%D7%99%D7%95%D7%9F/en_216ffd6ff50a0ade26ed2d82d643f2d5",
+    id: 24,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -235,6 +257,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%90%D7%95%D7%97%D7%A0%D7%94/en_6b38971c8dbbace7c4c1b27c78b8d12e",
+    id: 25,
   },
   {
     firstName: "יעקב",
@@ -244,6 +267,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בכסלו תשמ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%90%D7%95%D7%97%D7%A0%D7%94/en_0ff8ee80fce10fedaa84695ff0bb441c",
+    id: 26,
   },
   {
     firstName: "גבריאל (גבי)",
@@ -253,6 +277,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C%20%D7%90%D7%95%D7%97%D7%A0%D7%95%D7%A0%D7%94/en_8c9709bc07d594885d540cf862b2b87f",
+    id: 27,
   },
   {
     firstName: "משה (מוישיק)",
@@ -260,9 +285,9 @@ const FALLEN_SOLDIERS = [
     age: 49,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%90%D7%95%D7%9E%D7%9F%20%D7%90%D7%95%D7%A7%D7%A1%D7%9E%D7%9F/en_3adf28adaf149b9d24c21368b85d7f69",
+    id: 28,
   },
   {
     firstName: "יצחק (איציק)",
@@ -272,6 +297,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בניסן תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%90%D7%95%D7%A8%D7%91%D7%9B%D7%A8/en_fbd9a7b4bcee2d3c87a7345f3cf223aa",
+    id: 29,
   },
   {
     firstName: "אבשלום",
@@ -281,6 +307,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%95%D7%A8%D7%9F/en_a4b6248f59053494af27cd6eb2a6fc85",
+    id: 30,
   },
   {
     firstName: "אורי",
@@ -290,6 +317,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%90%D7%96%D7%95%D7%9C%D7%90%D7%99/en_f2f6dfbba7444494cac5e2ec3a323cc6",
+    id: 31,
   },
   {
     firstName: "אמיל",
@@ -299,6 +327,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%9C%20%D7%90%D7%96%D7%95%D7%9C%D7%90%D7%99/en_046bb65342460501ef9c38ea170ac725",
+    id: 32,
   },
   {
     firstName: "מקס",
@@ -308,6 +337,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A7%D7%A1%20%D7%90%D7%96%D7%95%D7%9C%D7%90%D7%99/en_1d0d1d87cb0f90164b7ec96a7eb7f028",
+    id: 33,
   },
   {
     firstName: "ערן",
@@ -317,6 +347,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%90%D7%96%D7%95%D7%9C%D7%90%D7%99/en_4bb97a79c1a89c650a07511324b150f7",
+    id: 34,
   },
   {
     firstName: "שלום",
@@ -324,9 +355,9 @@ const FALLEN_SOLDIERS = [
     age: 20,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%95%D7%9D%20%D7%90%D7%98%D7%93%D7%92%D7%99/en_4e5898ce05c8c47469267219cc33a20b",
+    id: 35,
   },
   {
     firstName: "ראובן-שמעון",
@@ -336,6 +367,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%90%D7%95%D7%91%D7%9F-%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%90%D7%99%D7%91%D7%92%D7%99/en_572e19e51f24be421f863612266cd880",
+    id: 36,
   },
   {
     firstName: "צחי",
@@ -345,6 +377,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באדר א' תש\"ס",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%97%D7%99%20%D7%90%D7%99%D7%98%D7%97/en_c107e8c7ddf6e8de96499564a0cd9826",
+    id: 37,
   },
   {
     firstName: "גיל",
@@ -355,6 +388,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%9C%20%D7%90%D7%99%D7%99%D7%96%D7%9F/en_9687b950f6b48b689533794d74c9963f",
+    id: 38,
   },
   {
     firstName: "רונן",
@@ -364,6 +398,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בניסן תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%90%D7%99%D7%9C%D7%95%D7%9F/en_a8dca87a7bbff89240ee9dc817361cfc",
+    id: 39,
   },
   {
     firstName: "חזקיה-דריוש (חזי)",
@@ -373,6 +408,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בטבת תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%96%D7%A7%D7%99%D7%94-%D7%93%D7%A8%D7%99%D7%95%D7%A9%20%D7%90%D7%99%D7%9E%D7%A0%D7%99/en_7cd7591a754852e17b6b5738bd28fde4",
+    id: 40,
   },
   {
     firstName: "האני",
@@ -382,6 +418,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בסיון תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%90%D7%A0%D7%99%20%D7%90%D7%9C%20%D7%94%D7%99%D7%99%D7%91/en_8953027fb13e85e6eb5ca0f533edaa2c",
+    id: 41,
   },
   {
     firstName: "עמר",
@@ -391,6 +428,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באדר תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%A8%20%D7%90%D7%9C-%D7%A7%D7%91%D7%A5/en_b39805ceec006e12935f06bfa9eba8c9",
+    id: 42,
   },
   {
     firstName: "רמאון",
@@ -400,6 +438,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בשבט תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%90%D7%91%20%D7%A8%D7%9E%D7%90%D7%95%D7%9F/en_1fbb7a48efd57235ead46d256f299a70",
+    id: 43,
   },
   {
     firstName: "יעקב (קובי)",
@@ -409,6 +448,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בסיון תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%90%D7%9C%D7%92%D7%9E%D7%99%D7%A1/en_b8acf6dbb455bedf8d3c7775f380b8f3",
+    id: 44,
   },
   {
     firstName: "אודי-יהודה",
@@ -418,6 +458,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בתמוז תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%93%D7%99-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%90%D7%9C%D7%92%D7%A8%D7%91%D7%9C%D7%99/en_34f600a15fed62e2b320ab90c8b50db4",
+    id: 45,
   },
   {
     firstName: "שלמה-מרדכי",
@@ -425,9 +466,9 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94-%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%90%D7%9C%D7%92%D7%A8%D7%91%D7%9C%D7%99/en_b7dd20eac63060ae4631a36c5a9e23de",
+    id: 46,
   },
   {
     firstName: "נחום",
@@ -437,6 +478,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בחשון תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%97%D7%95%D7%9D%20%D7%90%D7%9C%D7%94/en_2e62a00ec40fa26d425e0eb29b76eb5a",
+    id: 47,
   },
   {
     firstName: "אסף-שלמה",
@@ -446,6 +488,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בניסן תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3-%D7%A9%D7%9C%D7%9E%D7%94%20%D7%90%D7%9C%D7%95%D7%9F/en_b0c1d780f91d8f300e646deb8eabc537",
+    id: 48,
   },
   {
     firstName: "גיא",
@@ -455,6 +498,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%90%D7%9C%D7%99%D7%90%D7%A9/en_b7d57cda504c249f3fc22469ad252bf9",
+    id: 49,
   },
   {
     firstName: "ישי",
@@ -464,6 +508,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג בשבט תשנ"א',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%99%20%D7%90%D7%9C%D7%99%D7%90%D7%A9/en_4fb42ac83c893f903ff6be3335da62dc",
+    id: 50,
   },
   {
     firstName: "איתמר",
@@ -473,6 +518,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9E%D7%A8%20%D7%90%D7%9C%D7%99%D7%94/en_1be58cd37ad59e7b2932ca82c4b4b9b0",
+    id: 51,
   },
   {
     firstName: "עופר",
@@ -482,6 +528,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בשבט תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%A4%D7%A8%20%D7%90%D7%9C%D7%99%D7%94%D7%95/en_c6b01a53b05cc6e25b6c56236ad55145",
+    id: 52,
   },
   {
     firstName: "אמנון",
@@ -491,6 +538,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%A0%D7%95%D7%9F%20%D7%90%D7%9C%D7%99%D7%A2%D7%96/en_a795fa13b6beae41c364ec05f533b7ab",
+    id: 53,
   },
   {
     firstName: "ערן",
@@ -500,6 +548,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז באדר א\' תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%90%D7%9C%D7%9B%D7%90%D7%95%D7%99/en_53f82c5e1b62788885ad9cc7f2784297",
+    id: 54,
   },
   {
     firstName: "אמתי",
@@ -509,6 +558,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד באלול תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%AA%D7%99%20%D7%90%D7%9C%D7%9E%D7%93%D7%95%D7%9F/en_e3ef14a4c67982f91f16455bdd5669a4",
+    id: 55,
   },
   {
     firstName: "ציון",
@@ -518,6 +568,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו באלול תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%99%D7%95%D7%9F%20%D7%90%D7%9C%D7%9E%D7%A2%D7%9C%D7%9D/en_11e685c40586594ccf01aef658488a59",
+    id: 56,
   },
   {
     firstName: "שלמה (שלומי)",
@@ -527,6 +578,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בטבת תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%90%D7%9C%D7%A4%D7%A1%D7%99/en_8dc5a898ee5af819391fecaea10c6159",
+    id: 57,
   },
   {
     firstName: "עידן",
@@ -536,6 +588,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%99%D7%93%D7%9F%20%D7%90%D7%9C%D7%A4%D7%A8/en_667227139acc96f1159e8560e6ff5fc5",
+    id: 58,
   },
   {
     firstName: "אליהו",
@@ -543,9 +596,9 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%94%D7%95%20%D7%90%D7%9C%D7%A7%D7%99%D7%99%D7%9D/en_84b1a7afab33faccef5690c68b93b815",
+    id: 59,
   },
   {
     firstName: "אברהם (ממושי)",
@@ -555,6 +608,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בטבת תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%90%D7%9C%D7%A8%D7%9F%20%D7%9C%D7%96%D7%A8%D7%95%D7%91%D7%99%D7%A5/en_40b53a59e9dc6bd03c083bcb73f6aae5",
+    id: 60,
   },
   {
     firstName: "רחמים (רמי)",
@@ -564,6 +618,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באדר א' תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%97%D7%9E%D7%99%D7%9D%20%D7%9C%D7%95%D7%99%20%D7%90%D7%9C%D7%A9%D7%99%D7%99%D7%9A/en_21a4fd06022e681fbcfc95a9489bf3ae",
+    id: 61,
   },
   {
     firstName: "אבנר",
@@ -573,6 +628,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A0%D7%A8%20%D7%90%D7%9C%D7%AA%D7%A8/en_7511653fb47b8593ebc56aaeeef34832",
+    id: 62,
   },
   {
     firstName: "ניב",
@@ -582,6 +638,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
     izkor:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%91%20%D7%90%D7%9E%D7%95%D7%99%D7%90%D7%9C/en_f31732dd731647ec7b6f54bb8f25f637",
+    id: 63,
   },
   {
     firstName: "משה",
@@ -591,6 +648,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%90%D7%9E%D7%A1%D7%9C%D7%9D/en_68fc83ce3f40b7ed1c383632295413ca",
+    id: 64,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -598,9 +656,9 @@ const FALLEN_SOLDIERS = [
     age: 22,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%90%D7%9E%D7%A8%D7%95%D7%A1%D7%99/en_c20a89fcd00c6b35359e3550fde31705",
+    id: 65,
   },
   {
     firstName: "אברהם (אלה)",
@@ -610,6 +668,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%95%D7%9C%D7%99%D7%9F%20%D7%90%D7%91%D7%A8%D7%94%D7%9D/en_fb9476cd23372265eca0e7274012caea",
+    id: 66,
   },
   {
     firstName: "עמית",
@@ -619,6 +678,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בתמוז תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%99%D7%AA%20%D7%90%D7%A1%D7%95%D7%9C%D7%99%D7%9F/en_846420189b6d92aab4d29339a65b27d8",
+    id: 67,
   },
   {
     firstName: "סמיר",
@@ -628,6 +688,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בתשרי תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9E%D7%99%D7%A8%20%D7%90%D7%A1%D7%A2%D7%93/en_7c610df5004b26ea703f35e108fdab3b",
+    id: 68,
   },
   {
     firstName: "אברהם-גד (אבי)",
@@ -637,6 +698,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A4%D7%A0%D7%A8%20%D7%90%D7%91%D7%A8%D7%94%D7%9D-%D7%92%D7%93/en_2cdfa37ed086fe2f63a5b2a0a31b2343",
+    id: 69,
   },
   {
     firstName: "עזרא (עוזי)",
@@ -644,9 +706,9 @@ const FALLEN_SOLDIERS = [
     age: 23,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%96%D7%A8%D7%90%20%D7%90%D7%A4%D7%A8%D7%99%D7%9D/en_b0cbefb1a2637249bac909cc3bf52e6c",
+    id: 70,
   },
   {
     firstName: "שגיא",
@@ -656,6 +718,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%92%D7%99%D7%90%20%D7%90%D7%A8%D7%96%D7%99/en_360cde91648673bca88f5a117e81f02e",
+    id: 71,
   },
   {
     firstName: "אביב-אברהם (אבי)",
@@ -665,6 +728,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%90%D7%A8%D7%99%D7%90%D7%9C/en_082f4288c821ceb9819d36bd3888cac6",
+    id: 72,
   },
   {
     firstName: "ערן (ערנו)",
@@ -674,6 +738,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בתשרי תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%90%D7%A8%D7%99%D7%90%D7%9C/en_04a4da1b92618182c0854c916e2f19dd",
+    id: 73,
   },
   {
     firstName: "עופר",
@@ -683,6 +748,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באייר תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%A4%D7%A8%20%D7%90%D7%A8%D7%99%D7%90%D7%9C%D7%99/en_f05f876303a6d004cc6544283ae1a7af",
+    id: 74,
   },
   {
     firstName: "רן-ראובן",
@@ -692,6 +758,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9F-%D7%A8%D7%90%D7%95%D7%91%D7%9F%20%D7%90%D7%A8%D7%9E%D7%9F/en_15c19202bb44288b9ad5a84638a0b9e0",
+    id: 75,
   },
   {
     firstName: "עומר",
@@ -701,6 +768,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בתשרי תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%9E%D7%A8%20%D7%90%D7%A9%D7%93/en_583a982317cd45a5537db75f1ff299c8",
+    id: 76,
   },
   {
     firstName: "נועם",
@@ -710,6 +778,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בניסן תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%A2%D7%9D%20%D7%90%D7%A9%D7%9B%D7%95%D7%9C/en_a71aa65d9ea30a26d0df02e9a61b663e",
+    id: 77,
   },
   {
     firstName: "רונן",
@@ -719,6 +788,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בשבט תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%90%D7%A9%D7%9C/en_80de51a054f0a60c7ab1b41d7091f7cc",
+    id: 78,
   },
   {
     firstName: "עזרא",
@@ -728,6 +798,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בסיון תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%96%D7%A8%D7%90%20%D7%90%D7%A9%D7%A8/en_a12e67c9c3d4e855541d508480fe5bb0",
+    id: 79,
   },
   {
     firstName: "רוני",
@@ -737,6 +808,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' באדר תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%99%20%D7%90%D7%A9%D7%A8/en_5b8b6b679d0e22dce2ba61dabe2cfc0a",
+    id: 80,
   },
   {
     firstName: "אלון-אברהם חי",
@@ -746,6 +818,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%97%D7%99%20%D7%91%D7%91%D7%99%D7%90%D7%9F/en_2430aae15830267b1cbe7e618ad6807c",
+    id: 81,
   },
   {
     firstName: "דוד",
@@ -755,6 +828,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' באדר ב' תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%91%D7%92%D7%93%D7%93%D7%99/en_c4d9dc3a54e5d3b01713679fd41ab3b3",
+    id: 82,
   },
   {
     firstName: "אברהם",
@@ -764,6 +838,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%93%D7%95/en_f3ec755761636077cd5d50dc861e39da",
+    id: 83,
   },
   {
     firstName: "יעקב",
@@ -773,6 +848,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%91%D7%93%D7%A8%D7%99/en_eee198ce08cfe8412cc72333d6ae7d6d",
+    id: 84,
   },
   {
     firstName: "הרצל",
@@ -782,6 +858,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בתשרי תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%A6%D7%9C%20%D7%91%D7%95%D7%91%D7%9C%D7%99%D7%9C/en_c4311cdc3da43e5bba9d7ccd315b2977",
+    id: 85,
   },
   {
     firstName: "יונתן",
@@ -791,6 +868,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באב תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A0%D7%AA%D7%9F%20%D7%91%D7%95%D7%99%D7%93%D7%9F/en_db9a155683b9b50b3f02a9d395571a88",
+    id: 86,
   },
   {
     firstName: "אריה",
@@ -800,6 +878,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באב תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94%20%D7%91%D7%95%D7%99%D7%A8%D7%A1%D7%A7%D7%99/en_ec35c874f0ed755fe76231229bc3154b",
+    id: 87,
   },
   {
     firstName: "רמי",
@@ -809,6 +888,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באייר תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9E%D7%99%20%D7%91%D7%95%D7%9B%D7%A8%D7%99%D7%A1/en_fa5e5d1fe66d84e261f0d460bbf59a97",
+    id: 88,
   },
   {
     firstName: "יואל",
@@ -818,6 +898,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%9C%20%D7%91%D7%95%D7%A0%D7%A7%D7%A8/en_b3e71b4842a7ed944fabbde6c77ea0d1",
+    id: 89,
   },
   {
     firstName: "צבי",
@@ -827,6 +908,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באייר תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99%20%D7%91%D7%95%D7%A1%D7%A7%D7%99%D7%9C%D7%94/en_158c113e1c0497f4b9777adbc1447fd3",
+    id: 90,
   },
   {
     firstName: "זהר",
@@ -836,6 +918,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%94%D7%A8%20%D7%91%D7%95%D7%A2%D7%96/en_12108073bb13ba0ba6cfab82c6f7804e",
+    id: 91,
   },
   {
     firstName: "אברהם-יעקב (אבי)",
@@ -846,6 +929,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D-%D7%99%D7%A2%D7%A7%D7%91%20%D7%91%D7%95%D7%A7/en_dbec43c58d9c1f1f6e8e6c155b8c51f6",
+    id: 92,
   },
   {
     firstName: "מישל",
@@ -855,6 +939,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%A9%D7%9C%20%D7%91%D7%95%D7%A7%D7%95%D7%91%D7%96%D7%94/en_3dc8db89d11c2023479ceb40016361b4",
+    id: 93,
   },
   {
     firstName: "חיים",
@@ -864,6 +949,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באייר תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%91%D7%95%D7%A7%D7%98%D7%95%D7%A1/en_305deb0f580fb2e30ff6276271d4a3e8",
+    id: 94,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -873,6 +959,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באב תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%91%D7%97%D7%A8%D7%99/en_21c971920506a137fd3462381f642b2e",
+    id: 95,
   },
   {
     firstName: "פול",
@@ -882,6 +969,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%95%D7%9C%20%D7%91%D7%99%D7%91%D7%A1/en_ac30ff01f53f2f299e2e4d4d215378d4",
+    id: 96,
   },
   {
     firstName: "אורן-אורי",
@@ -891,6 +979,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בטבת תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%9F-%D7%90%D7%95%D7%A8%D7%99%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_bd3a9706c5390ffdf532e1ccc48f2434",
+    id: 97,
   },
   {
     firstName: "דוד",
@@ -900,6 +989,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_83c1e742b957114698f2cf15f9076e44",
+    id: 98,
   },
   {
     firstName: "יואב",
@@ -909,6 +999,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד באייר תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%91%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_c1209908a9257699db2e8d20dd57abcf",
+    id: 99,
   },
   {
     firstName: "מאיר (מיקי)",
@@ -918,6 +1009,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בטבת תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_ac82505b3b7c82cc71e2f74205487186",
+    id: 100,
   },
   {
     firstName: "מימון-אמנון",
@@ -927,6 +1019,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9E%D7%95%D7%9F-%D7%90%D7%9E%D7%A0%D7%95%D7%9F%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_0dbdad7dd83f9b1445934ce56699cb05",
+    id: 101,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -936,6 +1029,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_2cac06864a1a04e77f0c564050047689",
+    id: 102,
   },
   {
     firstName: "משה (מושיקו)",
@@ -945,6 +1039,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_4d44f5f28565a1c8a6ee39b0e1e43463",
+    id: 103,
   },
   {
     firstName: "ניסים",
@@ -954,6 +1049,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באדר א\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%91%D7%99%D7%98%D7%95%D7%9F/en_6aea3d96f8510cf3a238eee8e2bf9381",
+    id: 104,
   },
   {
     firstName: "שגיא",
@@ -963,6 +1059,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%92%D7%99%D7%90%20%D7%91%D7%9C%D7%90%D7%95/en_fc9d41ec3b150663d43fbc7864cb28d8",
+    id: 105,
   },
   {
     firstName: "ניצן",
@@ -972,6 +1069,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בכסלו תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A6%D7%9F%20%D7%91%D7%9C%D7%93%D7%A8%D7%9F/en_f965af678d2ae8057dd921ccd94dd1f4",
+    id: 106,
   },
   {
     firstName: "איתן",
@@ -981,6 +1079,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באדר תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%91%D7%9C%D7%97%D7%A1%D7%9F/en_6c56f6d5144a509d3514512c5d9d2cac",
+    id: 107,
   },
   {
     firstName: "רונן-יהודה",
@@ -990,6 +1089,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' באדר תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%91%D7%9C%D7%97%D7%A1%D7%9F/en_6c56f6d5144a509d3514512c5d9d2cac",
+    id: 108,
   },
   {
     firstName: "רפי (רפאל)",
@@ -999,6 +1099,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%A4%D7%99%20%D7%91%D7%9C%D7%9C%D7%98%D7%99/en_a71a1831abd4618d817d6c39b5c50fcd",
+    id: 109,
   },
   {
     firstName: "שרון",
@@ -1008,6 +1109,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בניסן תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F%20%D7%90%D7%A8%D7%99%D7%94%20%D7%A9%D7%A8%D7%95%D7%9F/en_c9668c14d691a9b0d1e42431e7cb10a7",
+    id: 110,
   },
   {
     firstName: "אברהם-גל",
@@ -1017,6 +1119,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%9F-%D7%92%D7%9C%20%D7%91%D7%95%D7%96%D7%92%D7%9C%D7%95/en_3b8bf0db11d7912ffae425d0845fecba",
+    id: 111,
   },
   {
     firstName: "גיא-יוסף",
@@ -1026,6 +1129,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בתמוז תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90-%D7%99%D7%95%D7%A1%D7%A3%20%D7%91%D7%9F-%D7%93%D7%91/en_2217eeac0fa46e273c112e87eeb11fc3",
+    id: 112,
   },
   {
     firstName: "אלעד-אפרים",
@@ -1035,8 +1139,8 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בניסן תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%A2%D7%93-%D7%90%D7%A4%D7%A8%D7%99%D7%9D%20%D7%91%D7%9F-%D7%93%D7%95%D7%93/en_b52101c0a33dbff5284801274017dbdc",
+    id: 113,
   },
-
   {
     firstName: "עמרי",
     lastName: "בן זכרי",
@@ -1045,6 +1149,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בתשרי תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%A8%D7%99%20%D7%91%D7%9F-%D7%96%D7%9B%D7%A8%D7%99/en_1ef3c14d8a05bfa104a9b8caf9b73706",
+    id: 114,
   },
   {
     firstName: "אילן",
@@ -1054,6 +1159,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%91%D7%9F-%D7%97%D7%99%D7%99%D7%9D/en_a61b4798140676d21188f8dc204be5c6",
+    id: 115,
   },
   {
     firstName: "שמעון",
@@ -1063,6 +1169,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%91%D7%9F-%D7%99%D7%A6%D7%97%D7%A7/en_72f165b54b0dc8289087a4672b87edfa",
+    id: 116,
   },
   {
     firstName: "דוד (דודו)",
@@ -1072,6 +1179,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בכסלו תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%91%D7%9F-%D7%A2%D7%9E%D7%99/en_17d66d17a950204e3154fb6562c10d2c",
+    id: 117,
   },
   {
     firstName: "שלום",
@@ -1081,6 +1189,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%9F-%D7%A2%D7%9E%D7%99/en_ce273ae4e28f5defedf86fb65f749a7b",
+    id: 118,
   },
   {
     firstName: "משה",
@@ -1090,6 +1199,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בכסלו תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%91%D7%9F-%D7%A6%D7%95%D7%A8/en_77e430bbd82b4793a969bcf857779ca6",
+    id: 119,
   },
   {
     firstName: "יעקב",
@@ -1099,6 +1209,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%91%D7%9F-%D7%A9%D7%90%D7%A0%D7%9F/en_72c8a6e54e5b71c1788e657a4d508d7d",
+    id: 120,
   },
   {
     firstName: "אלון",
@@ -1108,6 +1219,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א באדר א\' תשמ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F-%D7%A9%D7%97%D7%A8%20%D7%90%D7%9C%D7%95%D7%9F/en_c3042fd9589c30fc6ff6fc71eb0da40a",
+    id: 121,
   },
   {
     firstName: "משה",
@@ -1117,6 +1229,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באלול תשמ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%91%D7%9F%20%D7%90%D7%91%D7%95/en_854763a64404a5792c6d57bb0f1e7873",
+    id: 122,
   },
   {
     firstName: "יוסף",
@@ -1126,6 +1239,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%91%D7%9F%20%D7%90%D7%95%D7%A8/en_f46bb582d8bfd65212f8e7f5910e0bca",
+    id: 123,
   },
   {
     firstName: "ניר",
@@ -1135,6 +1249,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8%20%D7%91%D7%9F%20%D7%97%D7%99%D7%99%D7%9D/en_d821558c5c96aac707c425a2a024066d",
+    id: 124,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -1144,15 +1259,17 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%91%D7%9F%20%D7%9E%D7%95%D7%97%D7%90/en_204f8af47fbe1fe391c49fd4f57465cf",
+    id: 125,
   },
   {
     firstName: "אשל-אמיר",
     lastName: "בן משה",
     age: 21,
-    dte: "10.06.1996",
+    date: "10.06.1996",
     hebrewDate: 'כ"ג בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A9%D7%9C-%D7%90%D7%9E%D7%99%D7%A8%20%D7%91%D7%9F%20%D7%9E%D7%A9%D7%94/en_027e8b348794340e7f57f0347d67198d",
+    id: 126,
   },
   {
     firstName: "אליהו",
@@ -1162,6 +1279,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F%20%D7%A2%D7%96%D7%A8%D7%90%20%D7%90%D7%9C%D7%99%D7%94%D7%95/en_4c57d9498db1ab18ed948787dc365228",
+    id: 127,
   },
   {
     firstName: "רמי",
@@ -1171,6 +1289,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א באדר תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9E%D7%99%20%D7%91%D7%9F%20%D7%A6%D7%91%D7%99/en_8ab7c3e9237f0585b28a0f09a4fa5a7e",
+    id: 128,
   },
   {
     firstName: "קובי",
@@ -1180,6 +1299,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A7%D7%95%D7%91%D7%99%20%D7%91%D7%9F%20%D7%A9%D7%9D/en_23cd7fad03c45d28253ce587553c3b0b",
+    id: 129,
   },
   {
     firstName: "אברהם",
@@ -1189,6 +1309,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%9F%20%D7%A9%D7%9E%D7%95%D7%90%D7%9C/en_7cb3a3c8bccf6b0e4489717eaa85149b",
+    id: 130,
   },
   {
     firstName: "רונן",
@@ -1198,6 +1319,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בשבט תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%91%D7%9F-%D7%90%D7%A8%D7%99%D7%94/en_fc39e528d5e30e30985cb1a39b6a0723",
+    id: 131,
   },
   {
     firstName: "יעקב (פקו)",
@@ -1207,6 +1329,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%91%D7%A0%D7%95%D7%9C%D7%99%D7%90%D7%9C/en_0021f06310bddc1a2e9631b71c3d7048",
+    id: 132,
   },
   {
     firstName: "יצחק-צחי",
@@ -1216,6 +1339,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%A6%D7%97%D7%99%20%D7%93%D7%A8%20%D7%91%D7%A0%D7%98%D7%95%D7%91/en_c44653762baec49ef4972bee54096042",
+    id: 133,
   },
   {
     firstName: "יוסי",
@@ -1225,6 +1349,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A0%D7%99%D7%95%D7%9F%20%D7%99%D7%95%D7%A1%D7%99/en_1f7dba26d6768919e62afcd94ee75eeb",
+    id: 134,
   },
   {
     firstName: "אופיר-אשר",
@@ -1234,6 +1359,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באלול תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A4%D7%99%D7%A8-%D7%90%D7%A9%D7%A8%20%D7%91%D7%A1%D7%95%D7%9C/en_d32045f606962af474e597d8dd56ed67",
+    id: 135,
   },
   {
     firstName: "בנימין (בני)",
@@ -1243,6 +1369,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%91%D7%A1%D7%99%D7%A8%D7%98%D7%9E%D7%9F/en_9b5b0ce5b837d612dcfeb0051ddf28e9",
+    id: 136,
   },
   {
     firstName: "אברהם (אבי)",
@@ -1252,6 +1379,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בתשרי תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%91%D7%A6%D7%9C%D7%90%D7%9C/en_e4495bb247ff462c09e6ec6e8db34975",
+    id: 137,
   },
   {
     firstName: "ארז-איתן",
@@ -1261,6 +1389,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באייר תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96-%D7%90%D7%99%D7%AA%D7%9F%20%D7%91%D7%A6%D7%9C%D7%90%D7%9C/en_7ea64a7007df805076ce2c27b43f3c79",
+    id: 138,
   },
   {
     firstName: "ניר",
@@ -1270,6 +1399,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בסיון תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8%20%D7%91%D7%A8/en_a27940179c705f3b2159251602b1fb5a",
+    id: 139,
   },
   {
     firstName: "אבי",
@@ -1279,6 +1409,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%20%D7%91%D7%A8-%D7%A0%D7%A1/en_3e45ec5e741e54be2f787591e3626699",
+    id: 140,
   },
   {
     firstName: "חיים",
@@ -1288,6 +1419,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בכסלו תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%91%D7%A8-%D7%A0%D7%AA%D7%9F/en_909d120498c757e4f2c2da40c0876e21",
+    id: 141,
   },
   {
     firstName: "שלמה",
@@ -1297,6 +1429,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו באלול תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A8-%D7%A6%D7%99%D7%95%D7%9F%20%D7%A9%D7%9C%D7%9E%D7%94/en_0e0a891ab09ee4b11d9fc04fb5f554ca",
+    id: 142,
   },
   {
     firstName: "יצחק (איציק)",
@@ -1306,6 +1439,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%91%D7%A8%20%D7%90%D7%9C%D7%99/en_0aeeff8be4d70debbecbc83f7a40aa74",
+    id: 143,
   },
   {
     firstName: "דרור",
@@ -1315,6 +1449,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A8%D7%95%D7%A8%20%D7%91%D7%A8%D7%90%D7%A9%D7%99/en_11dcb6fcd9b63a6c057a5f92c7bd5979",
+    id: 144,
   },
   {
     firstName: "עירן",
@@ -1324,6 +1459,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א באדר תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%99%D7%A8%D7%9F%20%D7%91%D7%A8%D7%92/en_a9831b3c82c0e8afb44ebc5dd0081f79",
+    id: 145,
   },
   {
     firstName: "יוחנן (יוני)",
@@ -1333,6 +1469,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בטבת תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%97%D7%A0%D7%9F%20%D7%91%D7%A8%D7%92%D7%A8/en_b7d7d58f7c7cbbfd88c33d3f29588298",
+    id: 146,
   },
   {
     firstName: "דוד",
@@ -1342,6 +1479,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בשבט תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%91%D7%A8%D7%93%D7%94/en_1a83a0fca2e8febb4ca064f107732f61",
+    id: 147,
   },
   {
     firstName: "יעקב (קובי)",
@@ -1351,6 +1489,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בסיון תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%91%D7%A8%D7%93%D7%A1%20%D7%99%D7%A2%D7%A7%D7%91/en_f26d33a41608bb5abaafcf971352d817",
+    id: 148,
   },
   {
     firstName: "חן-חנוך",
@@ -1360,6 +1499,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בחשון תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%9F-%D7%97%D7%A0%D7%95%D7%9A%20%D7%91%D7%A8%D7%95%D7%93/en_8a2c125243274fc81fd92be8508da2c1",
+    id: 149,
   },
   {
     firstName: "עזרא",
@@ -1369,6 +1509,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%96%D7%A8%D7%90%20%D7%91%D7%A8%D7%95%D7%9A/en_ed5f2bc4fa60b55aaace8f616eb4a82c",
+    id: 150,
   },
   {
     firstName: "ברוך",
@@ -1378,6 +1519,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A8%D7%95%D7%9A%20%D7%91%D7%A8%D7%95%D7%A0%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_d3927734fdde072c04141b1dc642f0e5",
+    id: 151,
   },
   {
     firstName: "משה",
@@ -1387,6 +1529,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בניסן תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%91%D7%A8%D7%99/en_965fc8af1cbbfa0259fc42523d2b44e7",
+    id: 152,
   },
   {
     firstName: "סלמאן",
@@ -1396,6 +1539,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9C%D7%9E%D7%9F%20%D7%91%D7%A8%D7%9B%D7%90%D7%AA/en_c188812372fbeb853be8ff109008fd6e",
+    id: 153,
   },
   {
     firstName: "יצחק (איציק)",
@@ -1405,6 +1549,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בסיון תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%91%D7%A8%D7%9B%D7%94/en_2d79707b17bd57e8b77a98b7e2a64c2f",
+    id: 154,
   },
   {
     firstName: "בן-ציון-הכהן (בני)",
@@ -1414,6 +1559,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז באלול תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F-%D7%A6%D7%99%D7%95%D7%9F-%D7%94%D7%9B%D7%94%D7%9F%20%D7%91%D7%A8%D7%A0%D7%93%D7%9C%D7%A8/en_36b38efd13f63982a1d5f20f28ea9ff2",
+    id: 155,
   },
   {
     firstName: "זאב-דובי",
@@ -1423,6 +1569,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באלול תש\"ן",
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%90%D7%91-%D7%93%D7%95%D7%91%D7%99%20%D7%91%D7%A8%D7%A0%D7%98/en_d611606cad704b1483dd2f1ccd48db12",
+    id: 156,
   },
   {
     firstName: "עובד-עובדיה",
@@ -1432,6 +1579,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בניסן תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%91%D7%93-%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%94%20%D7%91%D7%A8%D7%A0%D7%99%D7%A5/en_2c129d4a9b498ca9c076268364732320",
+    id: 157,
   },
   {
     firstName: "יונתן (יוני)",
@@ -1441,6 +1589,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בשבט תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A0%D7%AA%D7%9F%20%D7%91%D7%A8%D7%A0%D7%A1/en_f9caf303804b294b0d6efc5bc38c4eb8",
+    id: 158,
   },
   {
     firstName: "נועם-מיכאל",
@@ -1450,6 +1599,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בניסן תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%A2%D7%9D-%D7%9E%D7%99%D7%9B%D7%90%D7%9C%20%D7%91%D7%A8%D7%A0%D7%A2/en_eb15a6e3217cb892305c022b2664eabc",
+    id: 159,
   },
   {
     firstName: "מרקו-מאיר",
@@ -1459,6 +1609,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באייר תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%A7%D7%95-%D7%9E%D7%90%D7%99%D7%A8%20%D7%91%D7%A8%D7%A0%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_7d94e945a2713f1c953d28f57edcc8ab",
+    id: 160,
   },
   {
     firstName: "יבגני",
@@ -1468,6 +1619,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%91%D7%92%D7%A0%D7%99%20%D7%91%D7%A8%D7%A6%D7%9C%D7%91%D7%A1%D7%A7%D7%99/en_63ca7e00507f4cb66bef6ad4a6999ed4",
+    id: 161,
   },
   {
     firstName: "דותן",
@@ -1477,6 +1629,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%AA%D7%9F%20%D7%91%D7%A8%D7%A7/en_c0f94c43ed9b9d180a88b58b83925a10",
+    id: 162,
   },
   {
     firstName: "יהודה-יאיר",
@@ -1486,6 +1639,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94-%D7%99%D7%90%D7%99%D7%A8%20%D7%91%D7%A8%D7%A7/en_9055124a423f15385dcf1896fd49fc25",
+    id: 163,
   },
   {
     firstName: "שגיא (סגוש)",
@@ -1495,6 +1649,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%92%D7%99%D7%90%20%D7%91%D7%A8%D7%A7%D7%95%D7%91%D7%99%D7%A5/en_69ec3dc93108bbdc05e7cd8fc36e8785",
+    id: 164,
   },
   {
     firstName: "שלמה",
@@ -1504,6 +1659,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באב תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%91%D7%A8%D7%A7%D7%AA/en_f161cb6e9b970cb16d71e57d6cc09c15",
+    id: 165,
   },
   {
     firstName: "אבשלום (אבי)",
@@ -1513,6 +1669,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בשבט תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A9%D7%9C%D7%95%D7%9D%20%D7%91%D7%A9%D7%90%D7%A8%D7%99/en_606d3e86f6bfa004e061f317926a6d8d",
+    id: 166,
   },
   {
     firstName: "חוסיין",
@@ -1522,6 +1679,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%95%D7%A1%D7%99%D7%99%D7%9F%20%D7%91%D7%A9%D7%99%D7%A8/en_5e7a933bca70a97ae9b7e82b44caee91",
+    id: 167,
   },
   {
     firstName: "מחמוד",
@@ -1531,6 +1689,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%97%D7%9E%D7%95%D7%93%20%D7%92%D7%95%D7%9E%D7%A2%D7%94/en_3416860cbc142ae52adcb60d296a7cb3",
+    id: 168,
   },
   {
     firstName: "סעדאללה",
@@ -1538,9 +1697,9 @@ const FALLEN_SOLDIERS = [
     age: 35,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A2%D7%93%D7%90%D7%9C%D7%9C%D7%94%20%D7%92%D7%90%D7%A0%D7%9D/en_ce42ea8129f870e208306821f6152e4d",
+    id: 169,
   },
   {
     firstName: "גבריאל (גבי)",
@@ -1550,6 +1709,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באדר ב' תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C%20%D7%92%D7%90%D7%A7%D7%9E%D7%9F/en_3455c10552eb4e67e08a278a8a7ba334",
+    id: 170,
   },
   {
     firstName: "דוד",
@@ -1559,6 +1719,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%92%D7%91%D7%90%D7%99/en_6b5b3158538aee26a7bb3094657a4efa",
+    id: 171,
   },
   {
     firstName: "יעקב (קובי)",
@@ -1568,6 +1729,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בסיון תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%92%D7%91%D7%90%D7%99/en_a358816d64f69e623d1368a5946318a5",
+    id: 172,
   },
   {
     firstName: "אסף",
@@ -1577,6 +1739,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בסיון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%92%D7%91%D7%99%D7%A9/en_d82daf3714c5d8fdb9db91476cb0407e",
+    id: 173,
   },
   {
     firstName: "זאב גבע",
@@ -1586,6 +1749,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו באלול תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%90%D7%91%20%D7%92%D7%91%D7%A2%20%D7%92%D7%A8%D7%99%D7%A0%D7%91%D7%A8%D7%92/en_dd958d65afbfdfa813dde29999207fdf",
+    id: 174,
   },
   {
     firstName: "אברהם גבע",
@@ -1595,6 +1759,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו באדר א\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A2%20%D7%90%D7%91%D7%A8%D7%94%D7%9D/en_6161f7c0519bff807de44eb48c861f4f",
+    id: 175,
   },
   {
     firstName: "עידן",
@@ -1605,6 +1770,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%99%D7%93%D7%9F%20%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C/en_b5fff9dcaf7e0abfd67f2fac03cd3669",
+    id: 176,
   },
   {
     firstName: "ציון",
@@ -1614,6 +1780,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%99%D7%95%D7%9F%20%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C/en_cff4c4ca76a03cccad3be85229e14c04",
+    id: 177,
   },
   {
     firstName: "רישרד (ריצ'רד)",
@@ -1623,6 +1790,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%9C%D7%95%D7%91%D7%99%D7%A5%20%D7%A8%D7%99%D7%A9%D7%A8%D7%93/en_b224d2eb70092f03758cd99ef69a2e46",
+    id: 178,
   },
   {
     firstName: "מולטו-אשר",
@@ -1632,6 +1800,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%9C%D7%98%D7%95-%D7%90%D7%A9%D7%A8%20%D7%92%D7%93%D7%A2%D7%95%D7%9F/en_376c887c577a76de48f878685f9c2120",
+    id: 179,
   },
   {
     firstName: "אבישי (שייקוש)",
@@ -1641,6 +1810,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A9%D7%99%20%D7%92%D7%93%D7%A8%D7%95%D7%9F/en_5538d5c564dbcc8f2b091ca9e5169981",
+    id: 180,
   },
   {
     firstName: "אייל",
@@ -1650,6 +1820,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באלול תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%99%D7%9C%20%D7%92%D7%95%D7%90%D7%98%D7%94/en_1006f00b1e747c656f073a68d410a4a4",
+    id: 181,
   },
   {
     firstName: "אברהם",
@@ -1659,6 +1830,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%92%D7%95%D7%93%D7%99%D7%A0%D7%A6%D7%A7%D7%99/en_48a51806e1b061967cba93c2a0bf9fa3",
+    id: 182,
   },
   {
     firstName: "מיכה (מיכי)",
@@ -1668,6 +1840,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9B%D7%94%20%D7%92%D7%95%D7%98%D7%9C%D7%99%D7%91/en_f5bf04d0dbd3f2915baef6f1eeb9950e",
+    id: 183,
   },
   {
     firstName: "יוסי (יוסקה)",
@@ -1677,6 +1850,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' באב תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%99%20%D7%92%D7%95%D7%99%D7%9C%D7%99/en_677c966d855920efb02f5530f0549625",
+    id: 184,
   },
   {
     firstName: "תומר",
@@ -1686,6 +1860,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9E%D7%A8%20%D7%92%D7%95%D7%9C%D7%93%D7%91%D7%A8%D7%92/en_ba8c15a48285e74d4a314504e842ea86",
+    id: 185,
   },
   {
     firstName: "שבתאי",
@@ -1695,6 +1870,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%92%D7%95%D7%9C%D7%9E%D7%91%D7%94/en_637417d61c2c80f8f052553816ec5915",
+    id: 186,
   },
   {
     firstName: "ריקרדו-דניאל",
@@ -1704,6 +1880,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו באדר ב\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%99%D7%A7%D7%A8%D7%93%D7%95-%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%92%D7%95%D7%9C%D7%9E%D7%9F/en_08ea766f9028208e6920eaa5a5c80086",
+    id: 187,
   },
   {
     firstName: "אביב-ששון",
@@ -1713,6 +1890,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91-%D7%A9%D7%A9%D7%95%D7%9F%20%D7%92%D7%95%D7%9C%D7%9F/en_52360b7890ffdfd754595d0acdeae87e",
+    id: 188,
   },
   {
     firstName: "אסף-חנן",
@@ -1722,6 +1900,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3-%D7%97%D7%A0%D7%9F%20%D7%92%D7%95%D7%9C%D7%9F/en_41810ef2cfc529ce49277a1a015d3d1c",
+    id: 189,
   },
   {
     firstName: "גיא",
@@ -1731,6 +1910,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%92%D7%95%D7%9C%D7%9F/en_62d16a663ece1cdb251c2de335fce532",
+    id: 190,
   },
   {
     firstName: "אביב",
@@ -1740,6 +1920,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91%20%D7%92%D7%95%D7%A0%D7%9F/en_d16e8de7ae30d3743cd8fad645ef018a",
+    id: 191,
   },
   {
     firstName: "עמרי-ספי (המיש)",
@@ -1749,6 +1930,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר א\' תשמ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%A8%D7%99-%D7%A1%D7%A4%D7%99%20%D7%92%D7%95%D7%A0%D7%9F/en_65b846a049641d33d6a1a70d46b4fb8e",
+    id: 192,
   },
   {
     firstName: "יצחק (איז'ו)",
@@ -1758,6 +1940,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%92%D7%95%D7%A1/en_9d048603a047134f6ae98e95ac7154ff",
+    id: 193,
   },
   {
     firstName: "בני גור",
@@ -1767,6 +1950,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בניסן תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A0%D7%99%20%D7%92%D7%95%D7%A8%20%D7%92%D7%91%D7%99%D7%A8%D7%A5/en_c9ac21444b9926f70d927bcd8ef1bfe2",
+    id: 194,
   },
   {
     firstName: "גנאדי",
@@ -1776,6 +1960,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בכסלו תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%A0%D7%90%D7%93%D7%99%20%D7%92%D7%95%D7%A8%D7%91%D7%A0%D7%95%D7%91/en_c6d1f62f9e3fafe18504f1a1ff52f45e",
+    id: 195,
   },
   {
     firstName: "ישראל גורן",
@@ -1785,6 +1970,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%92%D7%95%D7%A8%D7%9F%20%D7%95%D7%99%D7%A6%D7%A7%D7%95%D7%91%D7%99%D7%A5/en_5fc4cacd211bb51e9dadafdb588fa740",
+    id: 196,
   },
   {
     firstName: "תמיר",
@@ -1794,6 +1980,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%9E%D7%99%D7%A8%20%D7%92%D7%9C%D7%96%D7%A8/en_2201e32cee0daadc3003487ce9be87a6",
+    id: 197,
   },
   {
     firstName: "עמיר",
@@ -1803,6 +1990,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באב תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%99%D7%A8%20%D7%92%D7%9C%D7%99%D7%9C%D7%99/en_b4ef43e1651bc983b8c4414122a29410",
+    id: 198,
   },
   {
     firstName: "יבגני",
@@ -1812,6 +2000,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א באייר תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%91%D7%92%D7%A0%D7%99%20%D7%92%D7%9C%D7%A8%D7%9E%D7%9F/en_a50353f3647077f022e36d271df414d1",
+    id: 199,
   },
   {
     firstName: "ניר-ישראל",
@@ -1821,6 +2010,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בטבת תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%92%D7%A0%D7%93%D7%9C%D7%91%D7%A8%D7%92/en_957ddb7620cb84b55e485821e95c2e36",
+    id: 200,
   },
   {
     firstName: "אלברט-אברהם",
@@ -1830,6 +2020,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%91%D7%A8%D7%98-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%92%D7%A0%D7%95%D7%9F/en_2a5762d77ccdc67d464d35293f086f7d",
+    id: 201,
   },
   {
     firstName: "ולרי",
@@ -1839,6 +2030,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באלול תשנ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%9C%D7%A8%D7%99%20%D7%92%D7%A0%D7%96%D7%9E%D7%9F/en_2ceb02824b32a67314c7d28ddf249bf2",
+    id: 202,
   },
   {
     firstName: "ידידיה",
@@ -1848,6 +2040,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בשבט תש\"ס",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%93%D7%99%D7%93%D7%99%D7%94%20%D7%92%D7%A4%D7%9F/en_8d2187cbf12717105f0ab28f964e098b",
+    id: 203,
   },
   {
     firstName: "גבריאל (גבי)",
@@ -1857,6 +2050,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C%20%D7%92%D7%A4%D7%A0%D7%99/en_14abaa6c7f1499ca338bf932e0468ae5",
+    id: 204,
   },
   {
     firstName: "אמיר",
@@ -1866,6 +2060,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%92%D7%A4%D7%A8/en_c17d03a35a7129a73c07fecfa5eae66fc",
+    id: 205,
   },
   {
     firstName: "אהוד (אודי)",
@@ -1875,6 +2070,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%95%D7%93%20%D7%92%D7%A8%D7%90%D7%95%D7%91%D7%A8%D7%98/en_721ad2d50ac36086d0dfa751ceb51826",
+    id: 206,
   },
   {
     firstName: "צבי",
@@ -1884,6 +2080,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99%20%D7%92%D7%A8%D7%95%D7%A1%D7%9E%D7%9F/en_c61fdb73d56878883cffa695e4e82db7",
+    id: 207,
   },
   {
     firstName: "משה",
@@ -1893,6 +2090,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%92%D7%A8%D7%99%D7%93%D7%99/en_acee1379d1c36791e33e897a1eb01e7e",
+    id: 208,
   },
   {
     firstName: "דוד",
@@ -1902,6 +2100,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד בשבט תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%92%D7%A8%D7%99%D7%A0%D7%95%D7%9C%D7%93/en_8643b0f5de991243abd98b8b3021522b",
+    id: 209,
   },
   {
     firstName: "יעקב",
@@ -1911,6 +2110,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%92%D7%A8%D7%A0%D7%93%D7%94/en_66033218124d3d33ba8aa5773a6d0f21",
+    id: 210,
   },
   {
     firstName: "דוד-יעקב",
@@ -1920,6 +2120,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באדר תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93-%D7%99%D7%A2%D7%A7%D7%91%20%D7%92%D7%A8%D7%A0%D7%99%D7%AA/en_9505ea3395e8bca7de087756e5c3d3ce",
+    id: 211,
   },
   {
     firstName: "ארז",
@@ -1929,6 +2130,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באדר תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96%20%D7%92%D7%A8%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_7bf834833ba258ef053750365be9f66c",
+    id: 212,
   },
   {
     firstName: "צחי",
@@ -1938,6 +2140,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%97%D7%99%20%D7%93%D7%90%D7%9C%D7%99/en_853a347177e5dd4878abb39c4b210a12",
+    id: 213,
   },
   {
     firstName: "יהונתן (יוני)",
@@ -1947,6 +2150,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בשבט תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%A0%D7%AA%D7%9F%20%D7%93%D7%91%D7%99%D7%A8%D7%99/en_58cc134d992839130a12478d669b2908",
+    id: 214,
   },
   {
     firstName: "מאהר",
@@ -1956,6 +2160,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%92%D7%A9%20%D7%9E%D7%90%D7%94%D7%A8/en_fa8ed4e550ff5f4cab2b383c7f09d70d",
+    id: 215,
   },
   {
     firstName: "אורי",
@@ -1965,6 +2170,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז באייר תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%93%D7%94%D7%90%D7%9F/en_bc6c46a040c6ee71ee6ec29153c67124",
+    id: 216,
   },
   {
     firstName: "אסף",
@@ -1974,6 +2180,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%93%D7%94%D7%90%D7%9F/en_132d5782036d3e5745078a7dc66c1e52",
+    id: 217,
   },
   {
     firstName: "יורם-יעקב",
@@ -1983,6 +2190,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D-%D7%99%D7%A2%D7%A7%D7%91%20%D7%93%D7%94%D7%90%D7%9F/en_911a00c51dc2dea432c45fcde59b5491",
+    id: 218,
   },
   {
     firstName: "מאיר",
@@ -1992,6 +2200,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%93%D7%94%D7%9F/en_9a7720962c1d99009cbbb80014a83ae3",
+    id: 219,
   },
   {
     firstName: "מוריס",
@@ -2001,6 +2210,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%A8%D7%99%D7%A1%20%D7%93%D7%94%D7%9F/en_ef9474194d2de34e76399de34e45450c",
+    id: 220,
   },
   {
     firstName: "משה",
@@ -2010,6 +2220,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%93%D7%94%D7%9F/en_e2b60b53db20db7f818ae9f55fe3e6fa",
+    id: 221,
   },
   {
     firstName: "עמרם",
@@ -2019,6 +2230,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%A8%D7%9D%20%D7%93%D7%94%D7%9F/en_c5f2853029caac40ddd2423e2f7f0275",
+    id: 222,
   },
   {
     firstName: "ניר",
@@ -2028,6 +2240,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8%20%D7%93%D7%95%D7%91%D7%91/en_6368587f7b061f25862ea785e2879e9e",
+    id: 223,
   },
   {
     firstName: "אורי",
@@ -2037,6 +2250,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בתשרי תשנ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%93%D7%95%D7%93/en_14fe912cc2f6551a546559656eea7bce",
+    id: 224,
   },
   {
     firstName: "ארז-טל",
@@ -2046,6 +2260,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96-%D7%98%D7%9C%20%D7%93%D7%95%D7%93/en_ec0098c8fa6c0fbde882854574ab7384",
+    id: 225,
   },
   {
     firstName: "שמעון (שימי)",
@@ -2055,6 +2270,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%93%D7%95%D7%93/en_24a06b498b1a437c6648b624dbdfccbf",
+    id: 226,
   },
   {
     firstName: "נפתלי (תלי)",
@@ -2064,6 +2280,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%93%D7%95%D7%93%D7%9C%D7%A1/en_1ce4744f59adcfc1e0f9d3ced425f0ff",
+    id: 227,
   },
   {
     firstName: "רועי (דומבי)",
@@ -2073,6 +2290,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A2%D7%99%20%D7%93%D7%95%D7%9E%D7%91/en_9f9ea5cfd8d44fc73fe94af121b910cd",
+    id: 228,
   },
   {
     firstName: "זהר",
@@ -2082,6 +2300,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בתשרי תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%94%D7%A8%20%D7%93%D7%95%D7%A8%D7%95%D7%9F/en_2fddce5aa342beb436f6adba901415cf",
+    id: 229,
   },
   {
     firstName: "סלאמה",
@@ -2091,6 +2310,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9C%D7%90%D7%9E%D7%94%20%D7%93%D7%99%D7%90%D7%91/en_d9c8215865599115488bda8aaa0b6508",
+    id: 230,
   },
   {
     firstName: "סמיר",
@@ -2100,6 +2320,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9E%D7%99%D7%A8%20%D7%93%D7%99%D7%91/en_16722b4a2906eacfc61621983a1d65db",
+    id: 231,
   },
   {
     firstName: "עופר",
@@ -2109,6 +2330,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%A4%D7%A8%20%D7%93%D7%99%D7%99%D7%9F/en_5345a644a80453de1cf31cfe4b0f1f5f",
+    id: 232,
   },
   {
     firstName: "וילי",
@@ -2118,6 +2340,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' באדר ב' תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%99%D7%9C%D7%99%20%D7%93%D7%99%D7%A7%D7%9E%D7%9F/en_4de6c7f2bfefb2bad6b504ac164933d9",
+    id: 233,
   },
   {
     firstName: "הנרי (ריקו)",
@@ -2127,6 +2350,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A0%D7%A8%D7%99%20%D7%93%D7%A0%D7%94/en_31f66f18c20d8bfee0209a1b5f95193b",
+    id: 234,
   },
   {
     firstName: "שמעיה-אביחי",
@@ -2136,6 +2360,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בתמוז תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%99%D7%94-%D7%90%D7%91%D7%99%D7%97%D7%99%20%D7%93%D7%A0%D7%95%D7%9A/en_7eb48a0838d28f416224a4afd778b0bf",
+    id: 235,
   },
   {
     firstName: "סטפן-איציק",
@@ -2145,6 +2370,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בטבת תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%A1%D7%98%D7%A4%D7%9F/en_5beef01307cf745828c7efe6895684c5",
+    id: 236,
   },
   {
     firstName: "נתנאל",
@@ -2154,6 +2380,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%AA%D7%A0%D7%90%D7%9C%20%D7%93%D7%A0%D7%99%D7%90%D7%9C%D7%95%D7%91/en_8af276fa43e8c25e27840f42aa3b40a8",
+    id: 237,
   },
   {
     firstName: "דן",
@@ -2163,6 +2390,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%9F%20%D7%93%D7%A8%D7%95%D7%9D/en_bba40e110c60610dc26a80f20e9767f1",
+    id: 238,
   },
   {
     firstName: "אלכסנדר",
@@ -2172,6 +2400,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8%20%D7%93%D7%A8%D7%95%D7%A7%D7%A8/en_8bfcbeeead61633be9234c44ca1ab3b5",
+    id: 239,
   },
   {
     firstName: "מרדכי",
@@ -2181,6 +2410,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בחשון תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%93%D7%A8%D7%A2%D7%99/en_6a31817d0d882a079a36cad43335cf56",
+    id: 240,
   },
   {
     firstName: "מרדכי",
@@ -2190,6 +2420,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%93%D7%A8%D7%A2%D7%99/en_0430ed41e3dd1350156c9f5eca4cea36",
+    id: 241,
   },
   {
     firstName: "חסן",
@@ -2199,6 +2430,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%A1%D7%9F%20%D7%94%D7%93%D7%90%D7%99%D7%94/en_3764e5c5a982d2d1a4dd4b8aba119c64",
+    id: 242,
   },
   {
     firstName: "אריק-סלומון",
@@ -2208,6 +2440,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%A7-%D7%A1%D7%9C%D7%95%D7%9E%D7%95%D7%9F%20%D7%94%D7%95%D7%99%D7%9E%D7%9F/en_cb79bd579112e7f672909b301d11cc0f",
+    id: 243,
   },
   {
     firstName: "מרקוס",
@@ -2217,6 +2450,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בניסן תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%A7%D7%95%D7%A1%20%D7%94%D7%95%D7%9B%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_eb8aadcc1c22c1cc07ea7b0ac3a61bda",
+    id: 244,
   },
   {
     firstName: "אביקם-אבי (ראובן)",
@@ -2226,6 +2460,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בתמוז תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A7%D7%9D-%D7%90%D7%91%D7%99%20%D7%94%D7%95%D7%A4%D7%9E%D7%9F%20%D7%94%D7%95%D7%A4%D7%9E%D7%9F/en_b575e3e677b51495d2ec57360ac4631a",
+    id: 245,
   },
   {
     firstName: "אלחנדרו-אלה",
@@ -2235,6 +2470,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%97%D7%A0%D7%93%D7%A8%D7%95-%D7%90%D7%9C%D7%94%20%D7%94%D7%95%D7%A4%D7%9E%D7%9F/en_3f89d41103434d74fabd040a279347e2",
+    id: 246,
   },
   {
     firstName: "עלי",
@@ -2244,6 +2480,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9C%D7%99%20%D7%94%D7%95%D7%A8%D7%A0%D7%A8/en_b11628012e226be1443b35ee48a4096e",
+    id: 247,
   },
   {
     firstName: "נאייף",
@@ -2253,6 +2490,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%90%D7%99%D7%99%D7%A3%20%D7%94%D7%99%D7%99%D7%91/en_b122074b508939a333063bcea983e9ae",
+    id: 248,
   },
   {
     firstName: "יוחנן-אברהם",
@@ -2263,6 +2501,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%97%D7%A0%D7%9F-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%94%D7%99%D7%9C%D7%91%D7%A8%D7%92/en_3687e5b9e9d26c8994d816a7dbcb9b8a",
+    id: 249,
   },
   {
     firstName: "דורון",
@@ -2272,6 +2511,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באלול תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%A8%D7%95%D7%9F%20%D7%94%D7%99%D7%A8%D7%A9%D7%A7%D7%95%D7%91%D7%99%D7%A5/en_7ae45b535c89e5a0500739d1ab03b5fc",
+    id: 250,
   },
   {
     firstName: "יעקב הכהן",
@@ -2281,6 +2521,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%94%D7%9B%D7%94%D7%9F%20%D7%98%D7%A8%D7%90%D7%91-%D7%9E%D7%A1%D7%9C%D7%AA%D7%95%D7%9F/en_e563e667323939b889768b4b3b62d507",
+    id: 251,
   },
   {
     firstName: "יצחק-מאיר (איציק)",
@@ -2290,6 +2531,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%9E%D7%90%D7%99%D7%A8%20%D7%94%D7%9C%D7%95%D7%99%20%D7%A7%D7%9C%D7%99%D7%99%D7%9F/en_15c56cbf07e23b47d4463e9dc91a3a6f",
+    id: 252,
   },
   {
     firstName: "אורי",
@@ -2299,6 +2541,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%94%D7%9C%D7%9E%D7%9F/en_91d8f56006edde44a47cca8590c7e5ba",
+    id: 253,
   },
   {
     firstName: "משה",
@@ -2308,6 +2551,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%94%D7%A8%D7%95%D7%A9/en_55b60e734c55ab301ce93cd551d06711",
+    id: 254,
   },
   {
     firstName: "יואב",
@@ -2317,6 +2561,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בשבט תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%A9%D7%95%D7%A9%D7%A0%D7%99%D7%9D%20%D7%99%D7%95%D7%90%D7%91%20/en_f320251b067708e507a0339b690dc6f5",
+    id: 255,
   },
   {
     firstName: "עשהאל (אסי)",
@@ -2326,6 +2571,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בניסן תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A9%D7%94%D7%90%D7%9C%20%D7%95%D7%94%D7%91/en_ea4fcb6e66736a63ea8b95a880326c03",
+    id: 256,
   },
   {
     firstName: "שי",
@@ -2335,6 +2581,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באב תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%99%20%D7%95%D7%95%D7%9C%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_d3c4a358289348a2df501cc5b2c67870",
+    id: 257,
   },
   {
     firstName: "חנן (חוני)",
@@ -2344,6 +2591,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר א\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%A0%D7%9F%20%D7%95%D7%95%D7%A8%D7%91%D7%A8/en_8b2ee008b61d422579068c59a49630e1",
+    id: 258,
   },
   {
     firstName: "רמזי",
@@ -2353,6 +2601,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9E%D7%96%D7%99%20%D7%95%D7%97%D7%A9/en_9b9db0422814f7fcc73e023d7646037a",
+    id: 259,
   },
   {
     firstName: "ארי-יחיאל",
@@ -2362,6 +2611,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99-%D7%99%D7%97%D7%99%D7%90%D7%9C%20%D7%95%D7%99%D7%93%D7%9C/en_d7855248f0f2528d95956f528f2c7775",
+    id: 260,
   },
   {
     firstName: "מאיר-שלמה",
@@ -2371,6 +2621,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בניסן תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8-%D7%A9%D7%9C%D7%9E%D7%94%20%D7%95%D7%99%D7%93%D7%9E%D7%9F/en_cf8e0e23161b4b659c9e9f30720e5747",
+    id: 261,
   },
   {
     firstName: "שמואל-ינאי",
@@ -2380,6 +2631,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בטבת תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%95%D7%90%D7%9C-%D7%99%D7%A0%D7%90%D7%99%20%D7%95%D7%99%D7%99%D7%A0%D7%A9%D7%98%D7%95%D7%A7/en_9771df5578cc120d60f4a29325bdc829",
+    id: 262,
   },
   {
     firstName: "ברוך",
@@ -2389,6 +2641,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באייר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A8%D7%95%D7%9A%20%D7%95%D7%99%D7%99%D7%A6%D7%9E%D7%9F/en_3141c242e86b7bc40ed7f64b765890d2",
+    id: 263,
   },
   {
     firstName: "יעקב (ג'קי)",
@@ -2398,6 +2651,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%95%D7%99%D7%99%D7%A8/en_a6a21352922174d70c0c3f35c8d02703",
+    id: 264,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -2407,6 +2661,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באב תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%95%D7%99%D7%A0%D7%A9%D7%98%D7%95%D7%A7/en_ceb4ddc0584217debfdafa047d4b2fa5",
+    id: 265,
   },
   {
     firstName: "יובל",
@@ -2416,6 +2671,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%91%D7%9C%20%D7%95%D7%99%D7%A0%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_76855d83fa560893f0d1727752bfe539",
+    id: 266,
   },
   {
     firstName: "ישי-רונן",
@@ -2425,6 +2681,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באלול תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%99-%D7%A8%D7%95%D7%A0%D7%9F%20%D7%95%D7%99%D7%A1%D7%9E%D7%9F/en_269bcd8667fecfdec987eb94fd6b0953",
+    id: 267,
   },
   {
     firstName: "ארנון",
@@ -2434,6 +2691,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באייר תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%A0%D7%95%D7%9F%20%D7%95%D7%A1%D7%A4%D7%99/en_3b0ae2089b7c5e1b0f0961472ee2afac",
+    id: 268,
   },
   {
     firstName: "אייל דרור",
@@ -2443,6 +2701,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%99%D7%9C%20%D7%93%D7%A8%D7%95%D7%A8%20%D7%95%D7%A7%D7%A0%D7%99%D7%9F/en_fa5058f6888d03b909f4f3a0c1f42d00",
+    id: 269,
   },
   {
     firstName: "רון",
@@ -2452,6 +2711,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באלול תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%9F%20%D7%95%D7%A8%D7%93%D7%99/en_e0d11ee72d7ad613d51e9f336df12092",
+    id: 270,
   },
   {
     firstName: "רון",
@@ -2461,6 +2721,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%9F%20%D7%95%D7%A8%D7%A0%D7%A8/en_4f72ad30d5b744af230bdd5bf8e2c5f1",
+    id: 271,
   },
   {
     firstName: "רונן",
@@ -2470,6 +2731,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96'%D7%95%D7%A8%D7%A0%D7%95%20%D7%A8%D7%95%D7%A0%D7%9F/en_ce12b9752832a421f55352e8ab7278d6",
+    id: 272,
   },
   {
     firstName: "יהושע-יוסף",
@@ -2479,6 +2741,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%A9%D7%A2-%D7%99%D7%95%D7%A1%D7%A3%20%D7%96%D7%90%D7%93%D7%94/en_a3ba59ec6c8876a0f50426d4cadbbd65",
+    id: 273,
   },
   {
     firstName: "איתן",
@@ -2488,6 +2751,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_6958c37173d77b183529de82803bf215",
+    id: 274,
   },
   {
     firstName: "דן (דני)",
@@ -2497,6 +2761,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_6b74cb769885094d09672e7af7eaf837",
+    id: 275,
   },
   {
     firstName: "שאול (שאולי)",
@@ -2506,6 +2771,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%90%D7%95%D7%9C%20%D7%96%D7%94%D7%91%D7%99/en_46cbdf738733798de51f30612629d1c3",
+    id: 276,
   },
   {
     firstName: "שמעון",
@@ -2515,6 +2781,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%96%D7%94%D7%91%D7%99/en_5b6f6581082605da2267662a803002e3",
+    id: 277,
   },
   {
     firstName: "זאביק",
@@ -2524,6 +2791,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%90%D7%91%D7%99%D7%A7%20%D7%96%D7%95%D7%9E%D7%A8%D7%A4%D7%9C%D7%93/en_9dfdd6e6ac80f8fda24f6b340657b1b2",
+    id: 278,
   },
   {
     firstName: "דוד",
@@ -2533,6 +2801,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בחשון תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%96%D7%95%D7%A0%D7%98%D7%92/en_b44f60a64e6183e54ed476a099f98123",
+    id: 279,
   },
   {
     firstName: "זיאד",
@@ -2542,6 +2811,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באדר ב' תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%99%D7%90%D7%93%20%D7%96%D7%99%D7%90%D7%93%D7%94/en_6184bcabc63363d963a4f06fce251971",
+    id: 280,
   },
   {
     firstName: "סאלח-כאמל",
@@ -2551,6 +2821,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%90%D7%9C%D7%97-%D7%9B%D7%90%D7%9E%D7%9C%20%D7%96%D7%99%D7%93%D7%90%D7%9F/en_7ab2e1fb2b006ba55554f6123c5abbab",
+    id: 281,
   },
   {
     firstName: "אמיר",
@@ -2560,6 +2831,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באדר תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%96%D7%99%D7%93%D7%A0%D7%A8/en_6534f79e61f2c528e8f396f2c4ec5f9d",
+    id: 282,
   },
   {
     firstName: "חנן (חנינה) זיו",
@@ -2569,6 +2841,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%A0%D7%9F%20%D7%96%D7%99%D7%95%20%D7%96%D7%96%D7%A0%D7%99%D7%A7%D7%91%D7%99%D7%A5/en_8e82ff6475a056105ab7a63892ba1c31",
+    id: 283,
   },
   {
     firstName: "עוזי",
@@ -2578,6 +2851,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%96%D7%99%20%D7%96%D7%99%D7%9C%D7%91%D7%A8/en_a06c806519b35f0560d288fdbe45838d",
+    id: 284,
   },
   {
     firstName: "אלכסנדר-לרנד (אלכס)",
@@ -2587,6 +2861,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באלול תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8-%D7%9C%D7%A8%D7%A0%D7%93%20%D7%96%D7%99%D7%A0%D7%92%D7%A8/en_97b9cbaf780f10c26c03d25c2ee848fe",
+    id: 285,
   },
   {
     firstName: "יאיר",
@@ -2596,6 +2871,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו באלול תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%90%D7%99%D7%A8%20%D7%96%D7%99%D7%A0%D7%A8/en_4d1d80794ed9ae254958cd58a30fcd9f",
+    id: 286,
   },
   {
     firstName: "אוהד",
@@ -2605,6 +2881,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בטבת תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%94%D7%93%20%D7%96%D7%9A/en_c406b8a0c96a8597963356271395080b",
+    id: 287,
   },
   {
     firstName: "ניסים-ניר",
@@ -2614,6 +2891,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8-%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%96%D7%9C%D7%90%D7%99%D7%98/en_dc4cd166a0a048bcf547d72e4ce41cd3",
+    id: 288,
   },
   {
     firstName: "רפאל (רפי)",
@@ -2623,6 +2901,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בשבט תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%A4%D7%90%D7%9C%20%D7%96%D7%A0%D7%92%D7%95%D7%95%D7%99%D7%9C/en_5a80b4f2eb0889bdd94434a0e0394930",
+    id: 289,
   },
   {
     firstName: "אורן",
@@ -2632,6 +2911,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באב תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%9F%20%D7%96%D7%A8%D7%99%D7%A3/en_f1f8d567828f7ef6e740b7ccc873e9fa",
+    id: 290,
   },
   {
     firstName: "רוקון ח'טיב",
@@ -2641,6 +2921,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: ' י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A7%D7%95%D7%9F%20%D7%97%D7%98%D7%99%D7%91%20%D7%96%D7%95%D7%99%D7%94%D7%93/en_38e7495db299e700b0b38c338d0bd268",
+    id: 291,
   },
   {
     firstName: "חמד",
@@ -2650,6 +2931,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%90%D7%98%D7%99%D7%91%20%D7%97%D7%9E%D7%93/en_6bbe8386f81a3745d257deee4d139128",
+    id: 292,
   },
   {
     firstName: "כיואן",
@@ -2659,6 +2941,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בטבת תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9B%D7%99%D7%95%D7%90%D7%9F%20%D7%97%D7%90%D7%9E%D7%93/en_16d391f0747dd879199f120dedd63842",
+    id: 293,
   },
   {
     firstName: "חליל",
@@ -2668,6 +2951,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%9C%D7%99%D7%9C%20%D7%97%D7%93%D7%99%D7%93/en_dd6e6de1adebf53620d0eed7da96af3c",
+    id: 294,
   },
   {
     firstName: "גיא-שלם",
@@ -2677,6 +2961,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90-%D7%A9%D7%9C%D7%9D%20%D7%97%D7%93%D7%93/en_786b6e6ab2c85a238a4c2e92dbc544fc",
+    id: 295,
   },
   {
     firstName: "יוסף (שושן)",
@@ -2686,6 +2971,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%93%D7%93/en_977666096368f521e5cb8032b65c1f0d",
+    id: 296,
   },
   {
     firstName: "יצחק-יהודה (צ'יקו)",
@@ -2695,6 +2981,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%97%D7%93%D7%93/en_5140dc79fbd3a454e53fdb91ede41241",
+    id: 297,
   },
   {
     firstName: "מוחמד",
@@ -2704,6 +2991,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בכסלו תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93%20%D7%97%D7%95%D7%92%D7%99%D7%A8%D7%90%D7%AA/en_f2beaab12015f7fc294abfc607e32749",
+    id: 298,
   },
   {
     firstName: "ערן",
@@ -2713,6 +3001,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בתמוז תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%97%D7%95%D7%93%D7%93%D7%94/en_162f700a47aa037ac13a152ab4d6c2af",
+    id: 299,
   },
   {
     firstName: "יחזקאל",
@@ -2722,6 +3011,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%97%D7%96%D7%A7%D7%90%D7%9C%20%D7%97%D7%95%D7%A8%D7%A9/en_87d24bc72e2718a7f39f5f93577a5256",
+    id: 300,
   },
   {
     firstName: "ישראל",
@@ -2731,6 +3021,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%97%D7%95%D7%A9%D7%A0%D7%99/en_4f1a0a0d399bff91be2cbe8573094b72",
+    id: 301,
   },
   {
     firstName: "ניב",
@@ -2740,6 +3031,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%91%20%D7%97%D7%96%D7%95%D7%9F/en_79ee0dff5770147407268f19e01ace54",
+    id: 302,
   },
   {
     firstName: "אבנר-כפיר",
@@ -2749,6 +3041,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' באדר ב' תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A0%D7%A8-%D7%9B%D7%A4%D7%99%D7%A8%20%D7%97%D7%96%D7%99/en_075641b1b4714e32786ea6c4b5ab05e2",
+    id: 303,
   },
   {
     firstName: "אילן",
@@ -2758,6 +3051,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בניסן תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%97%D7%96%D7%99%D7%96%D7%94/en_8e4827e392aa8ad5fa374b55214e7a6c",
+    id: 304,
   },
   {
     firstName: "אפרים (אפי)",
@@ -2767,6 +3061,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A4%D7%A8%D7%99%D7%9D%20%D7%97%D7%96%D7%9F/en_9e47877926a318075e1772f4d344471e",
+    id: 305,
   },
   {
     firstName: "גולן (גולי)",
@@ -2776,6 +3071,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%95%D7%9C%D7%9F%20%D7%97%D7%96%D7%9F/en_2752f97573d8511d55d38f0ae374630d",
+    id: 306,
   },
   {
     firstName: "שמעון",
@@ -2785,6 +3081,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%97%D7%96%D7%9F/en_d2a3abf96ff8a3b123cacc57523dbb52",
+    id: 307,
   },
   {
     firstName: "נג'ם",
@@ -2794,6 +3091,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בסיון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%92%D7%9D%20%D7%97%D7%96%D7%A8%D7%90%D7%9F/en_80c396980b60591c01fbe8733bbdf774",
+    id: 308,
   },
   {
     firstName: "מהדי",
@@ -2803,6 +3101,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בתשרי תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%94%D7%93%D7%99%20%D7%97%D7%98%D7%99%D7%91/en_8c5411eb40b95e27a76209553f3e155e",
+    id: 309,
   },
   {
     firstName: "יוסף",
@@ -2812,6 +3111,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%99-%D7%A6%D7%99%D7%95%D7%9F/en_7ef4b50f76c3eed61526c4b61fa152c1",
+    id: 310,
   },
   {
     firstName: "אברהם",
@@ -2821,6 +3121,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%97%D7%99%D7%93%D7%95/en_b12eed3c12b581d7a530bc1fe60cacfb",
+    id: 311,
   },
   {
     firstName: "רונן (רונני)",
@@ -2830,6 +3131,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בתשרי תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%97%D7%99%D7%95%D7%9F/en_0476ee6f77194d6c6472eb88b307a739",
+    id: 312,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -2839,6 +3141,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%99%D7%99%D7%9D/en_0cd56e00f3700a7d59ce9c6040304d9f",
+    id: 313,
   },
   {
     firstName: "שאול (שאולי)",
@@ -2848,6 +3151,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%90%D7%95%D7%9C%20%D7%97%D7%99%D7%9C%D7%91%D7%99%D7%A5/en_aaa056ee1815c55fccc55894113b868a",
+    id: 314,
   },
   {
     firstName: "שבתאי",
@@ -2857,6 +3161,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%97%D7%9B%D7%9E%D7%95%D7%9F/en_fd7708ed04f2f63706c6146de9e0631f",
+    id: 315,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -2866,6 +3171,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%97%D7%9C%D7%99%D7%91%D7%94/en_b632657feb5886135cb08ef47eb2a291",
+    id: 316,
   },
   {
     firstName: "אהוד-שמשון",
@@ -2875,6 +3181,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בסיון תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%95%D7%93-%D7%A9%D7%9E%D7%A9%D7%95%D7%9F%20%D7%97%D7%9C%D7%9E%D7%99%D7%A9/en_9212c5c04df3e605c59a68c3b672196a",
+    id: 317,
   },
   {
     firstName: "זהר",
@@ -2884,6 +3191,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז באייר תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%94%D7%A8%20%D7%97%D7%9C%D7%9E%D7%99%D7%A9/en_b356a958dfdf58adcafd56f1f97a285a",
+    id: 318,
   },
   {
     firstName: "רונן",
@@ -2893,6 +3201,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%97%D7%9C%D7%A4%D7%95%D7%9F/en_b286a58b9b8c1e4d2751a914504c6398",
+    id: 319,
   },
   {
     firstName: "חיים",
@@ -2902,6 +3211,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%97%D7%A0%D7%95%D7%9A/en_7baae630367c98d9b259bab43d316453",
+    id: 320,
   },
   {
     firstName: "דרור (דורי)",
@@ -2911,6 +3221,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח באב תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A8%D7%95%D7%A8%20%D7%97%D7%A0%D7%9F/en_ede84616507d740c1e5860a27d5fd46c",
+    id: 321,
   },
   {
     firstName: "עמית (מיצכה)",
@@ -2920,6 +3231,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בניסן תשנ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%99%D7%AA%20%D7%97%D7%A1%D7%93%D7%90%D7%99/en_4c05451b66bed521dd1f027e5618c247",
+    id: 322,
   },
   {
     firstName: "אשר",
@@ -2929,6 +3241,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A9%D7%A8%20%D7%97%D7%A1%D7%99%D7%9F/en_8182d43cbc7da8355c02d33aea6d8c92",
+    id: 323,
   },
   {
     firstName: "עופר",
@@ -2938,6 +3251,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג באלול תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%A4%D7%A8%20%D7%97%D7%A8%D7%95%D7%A9/en_54320823d85faa1cec6b283dbfb03775",
+    id: 324,
   },
   {
     firstName: "סאלח",
@@ -2947,6 +3261,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בניסן תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%90%D7%9C%D7%97%20%D7%98%D7%90%D7%A4%D7%A9/en_7fc14107dcd596439f83ea7f7a9eced4",
+    id: 325,
   },
   {
     firstName: "רז",
@@ -2956,6 +3271,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%96%20%D7%98%D7%91%D7%99/en_774c3cbbde95e28b21a6e57e5e05d331",
+    id: 326,
   },
   {
     firstName: "אריה",
@@ -2965,6 +3281,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בתמוז תשמ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94%20%D7%98%D7%95%D7%91%D7%95%D7%9C/en_520241937bc5100df6be4f109d6ff7fc",
+    id: 327,
   },
   {
     firstName: "לירז (רז)",
@@ -2974,6 +3291,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באדר תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%A8%D7%96%20%D7%98%D7%99%D7%98%D7%95/en_eeb9cca7a08c3c2782c487ade83dfcd0",
+    id: 328,
   },
   {
     firstName: "גיא",
@@ -2983,6 +3301,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%98%D7%9C/en_2fd56d947f942733309c6801224fbaef",
+    id: 329,
   },
   {
     firstName: "אילן טל",
@@ -2992,6 +3311,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בחשון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%98%D7%9C%20%D7%98%D7%90%D7%95%D7%A1%D7%99%D7%92/en_9bfcdf8e1862728693a57723ee5b3380",
+    id: 330,
   },
   {
     firstName: "איתן טל",
@@ -3001,6 +3321,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג בשבט תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%98%D7%9C%20%D7%98%D7%9E%D7%A7%D7%99%D7%9F/en_1ea8fcfcff49a103e945b35a5e1fc406",
+    id: 331,
   },
   {
     firstName: "תדהר",
@@ -3010,6 +3331,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בשבט תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%93%D7%94%D7%A8%20%D7%98%D7%9E%D7%A4%D7%9C%D7%94%D7%95%D7%A3/en_437c0db4eebfb4f2a8b5f4316634acf3",
+    id: 332,
   },
   {
     firstName: "רון",
@@ -3019,6 +3341,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בכסלו תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%98%D7%A0%D7%93%D7%99%D7%98%20%D7%A8%D7%95%D7%9F/en_d0f1b57971177ad1942614a3c27bcd2f",
+    id: 333,
   },
   {
     firstName: "אסף-יחזקאל",
@@ -3028,6 +3351,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%98%D7%A0%D7%A0%D7%91%D7%90%D7%95%D7%9D%20%D7%90%D7%A1%D7%A3/en_f1d1a0482734774260e53285ccfdffba",
+    id: 334,
   },
   {
     firstName: "אביב",
@@ -3037,6 +3361,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בשבט תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%91%20%D7%98%D7%A8%D7%95%D7%98%D7%A0%D7%A8/en_0adecda750652d925481b9d24d255a29",
+    id: 335,
   },
   {
     firstName: "שמעון",
@@ -3046,6 +3371,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%99%D7%94%D7%91%20%D7%A9%D7%95%D7%A1%D7%98%D7%A7/en_76b59c72c2b4341980574b74b355ac93",
+    id: 336,
   },
   {
     firstName: "נפתלי",
@@ -3055,6 +3381,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: " ז' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%99%D7%94%D7%91%20%D7%A9%D7%95%D7%A1%D7%98%D7%A7/en_76b59c72c2b4341980574b74b355ac93",
+    id: 337,
   },
   {
     firstName: "אמיר",
@@ -3064,6 +3391,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בתשרי תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%99%D7%95%D7%90%D7%9C%D7%99/en_03459265897913023553db498ff9545b",
+    id: 338,
   },
   {
     firstName: "ירון",
@@ -3073,6 +3401,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%95%D7%9F%20%D7%99%D7%95%D7%92%D7%91/en_796d38b0e5bc96a43adaaa73839a6593",
+    id: 339,
   },
   {
     firstName: "רוסלן",
@@ -3083,6 +3412,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באלול תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A1%D7%9C%D7%9F%20%D7%99%D7%95%D7%A1%D7%99%D7%A4%D7%95%D7%91/en_6e442d67a95db5f5190872a6a0c86920",
+    id: 340,
   },
   {
     firstName: "יחזקאל",
@@ -3092,6 +3422,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%97%D7%96%D7%A7%D7%90%D7%9C%20%D7%99%D7%97%D7%99%D7%90/en_edfbb414abf065dd4038b6985e8a9521",
+    id: 341,
   },
   {
     firstName: "אהרן",
@@ -3101,6 +3432,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בכסלו תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%A8%D7%9F%20%D7%99%D7%A0%D7%95%D7%91%D7%A1%D7%A7%D7%99/en_0f62cc21304fbd93165ec6771a08f8aa",
+    id: 342,
   },
   {
     firstName: "רונן (צ'פל)",
@@ -3110,6 +3442,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%99%D7%A4%D7%94/en_c03dde76d2c83eb04e9a6c86d89fe556",
+    id: 343,
   },
   {
     firstName: "ארז",
@@ -3119,6 +3452,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בחשון תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96%20%D7%99%D7%A6%D7%97%D7%A7/en_a01ca580ba69479d275af6115ffeed1f",
+    id: 344,
   },
   {
     firstName: "צור-צבי",
@@ -3128,6 +3462,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו באלול תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%95%D7%A8-%D7%A6%D7%91%D7%99%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C/en_0e6765d48b7a87b0d0423a5e23ee141b",
+    id: 345,
   },
   {
     firstName: "נדב",
@@ -3137,6 +3472,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%91%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99/en_8bff8846fdea12e1074dc97174244bc1",
+    id: 346,
   },
   {
     firstName: "מיכאל (מיקי)",
@@ -3146,6 +3482,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9B%D7%90%D7%9C%20%D7%9B%D7%A5/en_2b6def2466fe21cbeb6555ebf046a859",
+    id: 347,
   },
   {
     firstName: "ליאור-בנימין",
@@ -3155,6 +3492,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בתמוז תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8-%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%9B%D7%91%D7%99%D7%A8/en_ec938e55f3585f8d50b6b2488896df07",
+    id: 348,
   },
   {
     firstName: "הראל",
@@ -3164,6 +3502,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באדר תשנ"א',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%90%D7%9C%20%D7%9B%D7%91%D7%A8%D7%94/en_6edd270c8dd714a88793c9a9a813f26a",
+    id: 349,
   },
   {
     firstName: "אור",
@@ -3173,6 +3512,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בתמוז תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%20%D7%9B%D7%94%D7%9F/en_b99037f37b10e737680ebabc1d104100",
+    id: 350,
   },
   {
     firstName: "אייל-מיקי",
@@ -3182,6 +3522,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בכסלו תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%99%D7%9C-%D7%9E%D7%99%D7%A7%D7%99%20%D7%9B%D7%94%D7%9F/en_80ed48650fca4e5f8a76082cc6a7bb16",
+    id: 351,
   },
   {
     firstName: "אייל (בבי)",
@@ -3191,6 +3532,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח באב תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%99%D7%9C%20%D7%9B%D7%94%D7%9F/en_8210249f986a9390d1891157e7bcfff9",
+    id: 352,
   },
   {
     firstName: "אילן",
@@ -3200,6 +3542,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בשבט תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%9B%D7%94%D7%9F/en_27f03d17908b59f8a8a83460683bfd72",
+    id: 353,
   },
   {
     firstName: "דוד (דידי)",
@@ -3209,6 +3552,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%9B%D7%94%D7%9F/en_0e2a4140d08c7cbbb6439a4ab41a30b0",
+    id: 354,
   },
   {
     firstName: "דותן-יצחק",
@@ -3218,6 +3562,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%AA%D7%9F-%D7%99%D7%A6%D7%97%D7%A7%20%D7%9B%D7%94%D7%9F/en_719dc838d3bd26fc0553e20e0aab8f05",
+    id: 355,
   },
   {
     firstName: "טל",
@@ -3227,6 +3572,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בשבט תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%98%D7%9C%20%D7%9B%D7%94%D7%9F/en_486ed9733fbfec0d407ae7bf1225d255",
+    id: 356,
   },
   {
     firstName: "יהודה",
@@ -3236,6 +3582,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בכסלו תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%9B%D7%94%D7%9F/en_feb659e6b1026ede3cad2c8733fad33d",
+    id: 357,
   },
   {
     firstName: "יהודה (אודי)",
@@ -3245,6 +3592,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%9B%D7%94%D7%9F/en_2f93f2005918c9fe26c8dcdcca0cfdc8",
+    id: 358,
   },
   {
     firstName: "יוסף (ג'רארד)",
@@ -3254,6 +3602,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באלול תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%9B%D7%94%D7%9F/en_1e7240a99604f25786005ebb32973dc2",
+    id: 359,
   },
   {
     firstName: "יעקב",
@@ -3262,6 +3611,7 @@ const FALLEN_SOLDIERS = [
     date: "",
     hebrewDate: "",
     izkorLink: "",
+    id: 360,
   },
   {
     firstName: "ירמי",
@@ -3271,6 +3621,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%9E%D7%99%20%D7%9B%D7%94%D7%9F/en_c8c3c37a7fd38952f6f22388a01f821b",
+    id: 361,
   },
   {
     firstName: "מאיר (דובי)",
@@ -3280,6 +3631,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%9B%D7%94%D7%9F/en_7d956cec235409830566450ce4482236",
+    id: 362,
   },
   {
     firstName: "רוברט (רובי)",
@@ -3289,6 +3641,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%91%D7%A8%D7%98%20%D7%9B%D7%94%D7%9F/en_8e74df02e16cc1b619a1d1b21076a39b",
+    id: 363,
   },
   {
     firstName: "רונן",
@@ -3298,6 +3651,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באב תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%9B%D7%94%D7%9F/en_d544244f5aae765639c8b677f5d1f22a",
+    id: 364,
   },
   {
     firstName: "רמי",
@@ -3307,6 +3661,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9B%D7%94%D7%9F%20%D7%A8%D7%9E%D7%99/en_e7ed82df00c3d2f4459e9b08323a954f",
+    id: 365,
   },
   {
     firstName: "שחר",
@@ -3316,6 +3671,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בחשון תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8%20%D7%9B%D7%94%D7%9F/en_91eb3dbb2fba38cc1ebb0b6e7f52948b",
+    id: 366,
   },
   {
     firstName: "שלמה",
@@ -3325,6 +3681,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%9B%D7%94%D7%9F/en_b7b97d5c4736890593fe928b424236ca",
+    id: 367,
   },
   {
     firstName: "ששון",
@@ -3334,6 +3691,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באייר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%A9%D7%95%D7%9F%20%D7%9B%D7%94%D7%9F/en_9df4cd495c940ca192963f8b74377464",
+    id: 368,
   },
   {
     firstName: "תום",
@@ -3343,6 +3701,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9D%20%D7%9B%D7%99%D7%AA%D7%90%D7%99%D7%9F/en_807060d00188a57df8841a1d6922f616",
+    id: 369,
   },
   {
     firstName: "גדעון (גידי)",
@@ -3352,6 +3711,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בטבת תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%93%D7%A2%D7%95%D7%9F%20%D7%9B%D7%9C%D7%99%D7%A3/en_d60a3f63b409db1c55ce38ee05d3cf56",
+    id: 370,
   },
   {
     firstName: "מרדכי",
@@ -3361,6 +3721,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%9B%D7%9C%D7%99%D7%A4%D7%94/en_59415bff653c26ae55489dae36145362",
+    id: 371,
   },
   {
     firstName: "עמוס",
@@ -3370,6 +3731,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%95%D7%A1%20%D7%9B%D7%9C%D7%A4%D7%94/en_6b427f89a8fed3d65145a6ad5186757a",
+    id: 372,
   },
   {
     firstName: "אורן",
@@ -3379,6 +3741,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב באלול תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%9F%20%D7%9B%D7%9E%D7%99%D7%9C/en_6fbd6874ea112ffe77e58f51390d3836",
+    id: 373,
   },
   {
     firstName: "חיים",
@@ -3388,6 +3751,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בחשון תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%9B%D7%A0%D7%A4%D7%95/en_1628fbebac26ad271c1e4d28add1f962",
+    id: 374,
   },
   {
     firstName: "חן",
@@ -3397,6 +3761,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' באדר תשנ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%9F%20%D7%9B%D7%A0%D7%A8%D7%AA%D7%99/en_4911d2b7cfc0d1e73dbcc8b03aac62a5",
+    id: 375,
   },
   {
     firstName: "סאלח",
@@ -3406,6 +3771,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בתשרי תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%90%D7%9C%D7%97%20%D7%9B%D7%A2%D7%91%D7%99%D7%99%D7%94/en_70521b90fc0d57d634dcafe70a437df0",
+    id: 376,
   },
   {
     firstName: "רפי (פירוז)",
@@ -3415,6 +3781,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%A4%D7%99%20%D7%9B%D7%A9%D7%A8/en_f747c352ec7523cf8ede97a843b1366b",
+    id: 377,
   },
   {
     firstName: "אבי",
@@ -3424,6 +3791,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%20%D7%9C%D7%91/en_2212d4ca986a8bdd64735280d95e3d4d",
+    id: 378,
   },
   {
     firstName: "גל",
@@ -3433,6 +3801,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז באלול תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%20%D7%9C%D7%91-%D7%A8%D7%9F/en_d4c9f44398815495213bff236cdff1d1",
+    id: 379,
   },
   {
     firstName: "דב (דובי)",
@@ -3442,6 +3811,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%20%D7%9C%D7%91%D7%91%D7%99/en_dfe4fa886ec902b46a06a5ed996b69bc",
+    id: 380,
   },
   {
     firstName: "ישעיהו (אישי)",
@@ -3451,6 +3821,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בטבת תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A2%D7%99%D7%94%D7%95%20%D7%9C%D7%91%D7%99%D7%90/en_46a5c8cdcf94e4a3a91903dfe1a28c3d",
+    id: 381,
   },
   {
     firstName: "יריב",
@@ -3460,6 +3831,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%99%D7%91%20%D7%9C%D7%94%D7%91/en_c3d58882daa2658ff2ef00b888bf4801",
+    id: 382,
   },
   {
     firstName: "אבישי",
@@ -3468,9 +3840,9 @@ const FALLEN_SOLDIERS = [
     year: 1997,
     date: "04.02.1997",
     hebrewDate: 'כ"ח בשבט תשנ"ז',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A9%D7%99%20%D7%9C%D7%95%D7%99/en_171704cac9fd95bd4cbbca62930b092f",
+    id: 383,
   },
   {
     firstName: "אייל",
@@ -3480,6 +3852,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בתמוז תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%99%D7%A9%D7%99%20%D7%9C%D7%95%D7%99/en_171704cac9fd95bd4cbbca62930b092f",
+    id: 384,
   },
   {
     firstName: "דב",
@@ -3489,6 +3862,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%20%D7%9C%D7%95%D7%99/en_018899d6d6721956a21a19adb363d3ba",
+    id: 385,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -3498,6 +3872,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד בטבת תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%9C%D7%95%D7%99/en_e8f9fb35da18e6de6cbffef6063ffed0",
+    id: 386,
   },
   {
     firstName: "יצחק (איציק)",
@@ -3507,6 +3882,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בתמוז תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%9C%D7%95%D7%99/en_b650206f3103522710686e77788e2bf8",
+    id: 387,
   },
   {
     firstName: "ישי-דב",
@@ -3516,6 +3892,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בשבט תש\"ן",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%99-%D7%93%D7%91%20%D7%9C%D7%95%D7%99/en_cc6e04f93746df978ff40efb5808cbc9",
+    id: 388,
   },
   {
     firstName: "מישאל-אייל",
@@ -3525,6 +3902,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%A9%D7%90%D7%9C-%D7%90%D7%99%D7%99%D7%9C%20%D7%9C%D7%95%D7%99/en_864f3f334e52ad62e02182e6d22a8d2d",
+    id: 389,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -3534,6 +3912,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%9C%D7%95%D7%99/en_67716b7a1706d3a41b257b1247881b00",
+    id: 390,
   },
   {
     firstName: "שילה",
@@ -3543,6 +3922,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%99%D7%9C%D7%94%20%D7%9C%D7%95%D7%99/en_20e14f9b25e5978925d79458495c3207",
+    id: 391,
   },
   {
     firstName: "רם",
@@ -3552,6 +3932,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9D%20%D7%9C%D7%95%D7%99%D7%A0%D7%A1/en_c4e2199a5dbdcb16fe1c0607c000e779",
+    id: 392,
   },
   {
     firstName: "גל",
@@ -3561,6 +3942,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בשבט תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%20%D7%9C%D7%95%D7%99%D7%A0%D7%A1%D7%95%D7%9F/en_389cbaeb135f172bb9ee487c7f3c2061",
+    id: 393,
   },
   {
     firstName: "דוד (דודי)",
@@ -3570,6 +3952,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%9C%D7%96%D7%99%D7%9E%D7%99/en_5af28c117d49daa9efae63f411681e24",
+    id: 394,
   },
   {
     firstName: "מרדכי (מולו)",
@@ -3579,6 +3962,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%9C%D7%99%D7%91%D7%9C%D7%99%D7%9A/en_0aea6b5d83fbc16b482aea81854f8172",
+    id: 395,
   },
   {
     firstName: "אברהם (אבי)",
@@ -3588,6 +3972,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בסיון תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%9C%D7%99%D7%9E%D7%95%D7%90%D7%99/en_da40e497254374a1072a55cadf19bc4c",
+    id: 396,
   },
   {
     firstName: "גד (גדי)",
@@ -3597,6 +3982,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' באב תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%93%20%D7%9C%D7%99%D7%A4%D7%A1%D7%A7%D7%99/en_3c1b85f6b9706d67b0f1cf70492bae47",
+    id: 397,
   },
   {
     firstName: "פנחס (פיני)",
@@ -3606,6 +3992,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%A0%D7%97%D7%A1%20%D7%9C%D7%99%D7%A4%D7%A9%D7%99%D7%A5/en_9692906b7348b8e2f30083c9c6d4ec83",
+    id: 398,
   },
   {
     firstName: "יורם (ליקרמן)",
@@ -3615,6 +4002,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בשבט תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D%20%D7%9C%D7%99%D7%A8%D7%9F/en_1b26a4ccfbbe2324134ea4f040795559",
+    id: 399,
   },
   {
     firstName: "נדב",
@@ -3624,6 +4012,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%91%20%D7%9C%D7%99%D7%A9%D7%A6%D7%99%D7%A0%D7%A1%D7%A7%D7%99/en_43c25133240f64bf163f35f5be0b8f1c",
+    id: 400,
   },
   {
     firstName: "לירון",
@@ -3633,6 +4022,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באדר ב\' תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%A8%D7%95%D7%9F%20%D7%9C%D7%A0%D7%92/en_692fceee843f2948a92f39f77df356c4",
+    id: 401,
   },
   {
     firstName: "דביר",
@@ -3642,6 +4032,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%D7%99%D7%A8%20%D7%9C%D7%A0%D7%99%D7%A8/en_72eb82617655748a6d88081624bb5ed0",
+    id: 402,
   },
   {
     firstName: "אילן",
@@ -3651,6 +4042,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%9C%D7%A0%D7%A6%D7%99%D7%A6%D7%A7%D7%99/en_d8cb9b38c3bef860a1b33894040431a8",
+    id: 403,
   },
   {
     firstName: "אמיר",
@@ -3660,6 +4052,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באדר א' תש\"ס",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%9E%D7%90%D7%99%D7%A8/en_4eac39b321969b0863f1739ee669b9bd",
+    id: 404,
   },
   {
     firstName: "לזר",
@@ -3669,6 +4062,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%96%D7%A8%20%D7%9E%D7%90%D7%99%D7%A8/en_9c151b340ccce30a995a74641525730d",
+    id: 405,
   },
   {
     firstName: "חיים",
@@ -3678,6 +4072,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%D7%99%D7%9D%20%D7%9E%D7%93%D7%A8/en_9f2c324d3236c7b98f53b22b28409fa6",
+    id: 406,
   },
   {
     firstName: "יוסף",
@@ -3687,6 +4082,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בניסן תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%9E%D7%95%D7%99%D7%90%D7%9C/en_583646511677996cc07d3de48fc7e2b8",
+    id: 407,
   },
   {
     firstName: "דוד",
@@ -3696,6 +4092,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%9E%D7%95%D7%A2%D7%9C%D7%9D/en_63b20e92d589c5bb61fb933d8674b2e0",
+    id: 408,
   },
   {
     firstName: "משה",
@@ -3705,6 +4102,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%9E%D7%95%D7%A2%D7%9C%D7%9D/en_89b91cff9a2394453027c36d82079865",
+    id: 409,
   },
   {
     firstName: "חסין",
@@ -3714,6 +4112,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בסיון תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%A1%D7%99%D7%9F%20%D7%9E%D7%95%D7%A7%D7%98%D7%A8%D7%9F/en_12d17e493013b07ca891f52c285bc0f7",
+    id: 410,
   },
   {
     firstName: "אביב",
@@ -3723,6 +4122,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בתשרי תשנ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%A8%20%D7%90%D7%91%D7%99%D7%91/en_bb94ad9438bc4bd2b2c60763d7b48b4b",
+    id: 411,
   },
   {
     firstName: "אילן",
@@ -3732,6 +4132,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בניסן תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%9E%D7%95%D7%A8/en_bc4db113f1101c4ebfcd52edf893dc8d",
+    id: 412,
   },
   {
     firstName: "דביר-יעקב",
@@ -3741,6 +4142,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' בסיון תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%91%D7%99%D7%A8-%D7%99%D7%A2%D7%A7%D7%91%20%D7%9E%D7%95%D7%A8-%D7%97%D7%99%D7%99%D7%9D/en_06788ed7fb01ab19ee0a61bf52ced604",
+    id: 413,
   },
   {
     firstName: "יורם",
@@ -3750,6 +4152,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באייר תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D%20%D7%9E%D7%95%D7%A8%20%D7%99%D7%95%D7%A1%D7%A3/en_bd03ed9dae862503669d327c3541288b",
+    id: 414,
   },
   {
     firstName: "גמיל",
@@ -3759,6 +4162,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%A8%D7%93%20%D7%92%D7%9E%D7%99%D7%9C/en_9fa6c4f8e020b24a2f734fbf008ce73a",
+    id: 415,
   },
   {
     firstName: "דניאל-ישראל",
@@ -3768,6 +4172,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%9E%D7%95%D7%A9%D7%99%D7%A5/en_0985c4c8edf8d17f0d1e92a001439fd9",
+    id: 416,
   },
   {
     firstName: "גלעד",
@@ -3777,6 +4182,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%D7%A2%D7%93%20%D7%9E%D7%95%D7%A9%D7%9C/en_70a91fdeff6de035ca284db1820761ad",
+    id: 417,
   },
   {
     firstName: "רן",
@@ -3786,6 +4192,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9F%20%D7%9E%D7%96%D7%95%D7%9E%D7%9F/en_061e73361aacdf7afa24c00370a22702",
+    id: 418,
   },
   {
     firstName: "בועז",
@@ -3795,6 +4202,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בתשרי תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%95%D7%A2%D7%96%20%D7%9E%D7%96%D7%A8/en_e6723dae4ee298a3ce598b4b032ce6db",
+    id: 419,
   },
   {
     firstName: "אברהם",
@@ -3803,6 +4211,7 @@ const FALLEN_SOLDIERS = [
     date: "",
     hebrewDate: "",
     izkorLink: "",
+    id: 420,
   },
   {
     firstName: "יצחק (צחי)",
@@ -3812,6 +4221,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%9E%D7%96%D7%A8%D7%97%D7%99/en_88ecaa1f9f4a126b432878ed08034a66",
+    id: 421,
   },
   {
     firstName: "עדי",
@@ -3821,6 +4231,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%93%D7%99%20%D7%9E%D7%96%D7%A8%D7%97%D7%99/en_052199a2d264162f8d09e7277f1fbfa1",
+    id: 422,
   },
   {
     firstName: "ציון",
@@ -3830,6 +4241,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באייר תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%96%D7%A8%D7%97%D7%99%20%D7%A6%D7%99%D7%95%D7%9F/en_a2a40425b0e0f4efba44a3c1ee5b9e42",
+    id: 423,
   },
   {
     firstName: "אליהו",
@@ -3839,6 +4251,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בטבת תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%94%D7%95%20%D7%9E%D7%98%D7%9C%D7%95%D7%9F/en_f641f2d43adcf63de15ff8bd75a6453e",
+    id: 424,
   },
   {
     firstName: "אמיר",
@@ -3848,6 +4261,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בטבת תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%9E%D7%99-%D7%98%D7%9C/en_34365a04f136a3222f911ae245ce2924",
+    id: 425,
   },
   {
     firstName: "גל",
@@ -3857,6 +4271,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%20%D7%9E%D7%99%D7%96%D7%9C%D7%A1/en_89e0663bd8b7223af3b2266dd6409f7c",
+    id: 426,
   },
   {
     firstName: "גד",
@@ -3866,6 +4281,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%99%D7%A0%D7%A4%D7%9C%D7%93%20%D7%92%D7%93/en_221fba7de938af88ad271e28fa931da5",
+    id: 427,
   },
   {
     firstName: "ולדיסלב",
@@ -3875,6 +4291,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%9C%D7%93%D7%99%D7%A1%D7%9C%D7%91%20%D7%9E%D7%99%D7%9B%D7%90%D7%99%D7%9C%D7%95%D7%91/en_9bf64ad20721fcf4a5d108d1472d1624",
+    id: 428,
   },
   {
     firstName: "אפרים (אפי)",
@@ -3884,6 +4301,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A4%D7%A8%D7%99%D7%9D%20%D7%9E%D7%99%D7%9B%D7%90%D7%9C/en_df253b9a7921b23d1f7b0787c4a6837f",
+    id: 429,
   },
   {
     firstName: "אברהם (אבי)",
@@ -3893,6 +4311,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בתמוז תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%9E%D7%99%D7%9C%D7%A8/en_b96b2a90ea8c6ce03d132460f74e85a9",
+    id: 430,
   },
   {
     firstName: "דניאל (דני)",
@@ -3902,6 +4321,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%9E%D7%99%D7%9C%D7%A8/en_462c6d4cf0bdbb4541cd7d4c0e714f88",
+    id: 431,
   },
   {
     firstName: "שחר",
@@ -3911,6 +4331,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' באב תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8%20%D7%9E%D7%99%D7%A0%D7%A1/en_f932639e82876e3176ff5d0b909cd391",
+    id: 432,
   },
   {
     firstName: "זהר",
@@ -3920,6 +4341,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' בתשרי תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%94%D7%A8%20%D7%9E%D7%99%D7%A0%D7%A5/en_b76aedcc1c211d181132e73287e97f09",
+    id: 433,
   },
   {
     firstName: "עידן",
@@ -3929,6 +4351,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%99%D7%93%D7%9F%20%D7%9E%D7%99%D7%A0%D7%A7%D7%A8/en_e83925dd9a60c1af7a512904ff0b2226",
+    id: 434,
   },
   {
     firstName: "הלל",
@@ -3938,6 +4361,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%9C%D7%9C%20%D7%9E%D7%99%D7%A9%D7%99%D7%99%D7%91/en_3aad69d62ec9b3d293a46e7c3f5f66fc",
+    id: 435,
   },
   {
     firstName: "גלעד-משה",
@@ -3947,6 +4371,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%D7%A2%D7%93-%D7%9E%D7%A9%D7%94%20%D7%9E%D7%99%D7%A9%D7%99%D7%99%D7%A7%D7%A8/en_9ce8b8d08855ae1e8e2dc1a64f9e8265",
+    id: 436,
   },
   {
     firstName: "נדב-מנחם",
@@ -3956,6 +4381,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בתמוז תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%91-%D7%9E%D7%A0%D7%97%D7%9D%20%D7%9E%D7%9C%D7%95%D7%90/en_673a58ac5a58f2f0e3107bac0b7de041",
+    id: 437,
   },
   {
     firstName: "רונן-ויקטור",
@@ -3965,6 +4391,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח באדר א\' תשמ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F-%D7%95%D7%99%D7%A7%D7%98%D7%95%D7%A8%20%D7%9E%D7%9C%D7%9B%D7%94/en_54c404ee74349cba94cbc72d6e08fc63",
+    id: 438,
   },
   {
     firstName: "צחי",
@@ -3974,6 +4401,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בשבט תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%97%D7%99%20%D7%9E%D7%9C%D7%9B%D7%94%20%D7%92%D7%A8%D7%99%D7%A0%D7%91%D7%A8%D7%92/en_80fdd0115218eeb8cdb9d6a29dbd4d53",
+    id: 439,
   },
   {
     firstName: "שבתאי",
@@ -3983,6 +4411,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%91%D7%AA%D7%90%D7%99%20%D7%9E%D7%9C%D7%9B%D7%99/en_c788b96ddc6d280c216c755c37144854",
+    id: 440,
   },
   {
     firstName: "דני",
@@ -3992,6 +4421,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%20%D7%9E%D7%9C%D7%9E%D7%93/en_51f986a40c74e9b0f4691f4965726904",
+    id: 441,
   },
   {
     firstName: "יעקב (קובי)",
@@ -4001,6 +4431,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91%20%D7%9E%D7%9C%D7%9E%D7%93/en_888fcd35363106518208509dc1c95891",
+    id: 442,
   },
   {
     firstName: "מנדל (מישה)",
@@ -4010,6 +4441,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%93%D7%9C%20%D7%9E%D7%9C%D7%9E%D7%93/en_c8be69d9ef175a05ecab4950aa220e43",
+    id: 443,
   },
   {
     firstName: "ודים",
@@ -4019,6 +4451,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%93%D7%99%D7%9D%20%D7%9E%D7%9C%D7%A0%D7%99%D7%A7/en_8ea1aef97996f3ed38c8366cf77f71d3",
+    id: 444,
   },
   {
     firstName: "אורן-אברהם",
@@ -4028,6 +4461,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' באב תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%9F-%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%9E%D7%9C%D7%A6%D7%A8/en_2a553d22c095d478f3c116878b1b9354",
+    id: 445,
   },
   {
     firstName: "אריה",
@@ -4037,6 +4471,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%94%20%D7%9E%D7%9E%D7%95/en_6ca0ab0bfca62817105336cc7e58fa36",
+    id: 446,
   },
   {
     firstName: "איתן-יעקב",
@@ -4046,6 +4481,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F-%D7%99%D7%A2%D7%A7%D7%91%20%D7%9E%D7%9E%D7%9F/en_87ee2afbb7693bbf091c2a00ccee20d7",
+    id: 447,
   },
   {
     firstName: "גיורא",
@@ -4055,6 +4491,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%95%D7%A8%D7%90%20%D7%9E%D7%9E%D7%9F/en_a73bb1e82122474a340f2c03c9695acb",
+    id: 448,
   },
   {
     firstName: "שמעון",
@@ -4064,6 +4501,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' בניסן תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%9E%D7%A0%D7%93%D7%99%D7%9C/en_88466f96227531af322ebd6a7ba0aee3",
+    id: 449,
   },
   {
     firstName: "סלאח",
@@ -4073,6 +4511,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%90%D7%9C%D7%97%20%D7%9E%D7%A2%D7%93%D7%99/en_1f4725dfe23f6a1bf106043efc1f2d94",
+    id: 450,
   },
   {
     firstName: "אורי",
@@ -4082,6 +4521,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתמוז תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%9E%D7%A2%D7%95%D7%96/en_2e0d44c0e8be36e152aa36cb2a5b59c4",
+    id: 451,
   },
   {
     firstName: "ישראל",
@@ -4091,6 +4531,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באייר תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C%20%D7%9E%D7%A2%D7%98%D7%95%D7%A3/en_9a39aeced46a711ab25f12d5a4537d48",
+    id: 452,
   },
   {
     firstName: "מרדכי הראל",
@@ -4100,6 +4541,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%94%D7%A8%D7%90%D7%9C%20%D7%9E%D7%A2%D7%9C%D7%95%D7%9E%D7%99%D7%94/en_e8059f56e379b30b5577b851bb239c39",
+    id: 453,
   },
   {
     firstName: "יהודה",
@@ -4109,6 +4551,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%9E%D7%A6%D7%92%D7%A8/en_200c0d3ef2362d1c6d085b4377a1dad8",
+    id: 454,
   },
   {
     firstName: "צבי-יהודה (צביקה)",
@@ -4118,6 +4561,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באייר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%9E%D7%A7%D7%9C%D7%99%D7%A1/en_ea63d03d409261ddbbd4728664180689",
+    id: 455,
   },
   {
     firstName: "אלון",
@@ -4127,6 +4571,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%95%D7%9F%20%D7%9E%D7%A8%D7%95%D7%9F/en_5fa2c465f83ab2da43202a582826b1de",
+    id: 456,
   },
   {
     firstName: "יוסף-יהודה (ספי)",
@@ -4136,6 +4581,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בטבת תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%9E%D7%A8%D7%9E%D7%9C%D7%A9%D7%98%D7%99%D7%99%D7%9F/en_3e9f73105e5a0db4f3736d9f7ae0d929",
+    id: 457,
   },
   {
     firstName: "אליהו (אלי)",
@@ -4145,6 +4591,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%94%D7%95%20%D7%9E%D7%A8%D7%A1%D7%99%D7%90%D7%A0%D7%95/en_198e578df5a0ac8f85f1aec62a09a6a7",
+    id: 458,
   },
   {
     firstName: "אברהם",
@@ -4153,6 +4600,7 @@ const FALLEN_SOLDIERS = [
     date: "",
     hebrewDate: "",
     izkorLink: "",
+    id: 459,
   },
   {
     firstName: "דרור",
@@ -4162,6 +4610,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בניסן תשמ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A8%D7%95%D7%A8%20%D7%9E%D7%A9%D7%94/en_89f93a661ae0b0d91038871f5c552ba6",
+    id: 460,
   },
   {
     firstName: "יורם",
@@ -4171,6 +4620,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D%20%D7%9E%D7%A9%D7%94/en_37e92fc36e97b69e831d313e6470f341",
+    id: 461,
   },
   {
     firstName: "עמאד",
@@ -4180,6 +4630,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%90%D7%93%20%D7%A0%D7%91%D7%95%D7%90%D7%A0%D7%99/en_73fea43c61db76e1508457fb167366b1",
+    id: 462,
   },
   {
     firstName: "משה-מולו",
@@ -4189,6 +4640,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באייר תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%9C%D7%95-%D7%9E%D7%A9%D7%94%20%D7%A0%D7%92%D7%98%D7%95/en_d27dcb85eb5054fc3f348fdc80177a19",
+    id: 463,
   },
   {
     firstName: "מעוז",
@@ -4198,6 +4650,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A2%D7%95%D7%96%20%D7%A0%D7%92%D7%A8/en_d8c88a8f79caa99317a2982c0d771d24",
+    id: 464,
   },
   {
     firstName: "שלמה",
@@ -4207,6 +4660,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%A0%D7%92%D7%A8/en_b3d7ef9c209d718f69e720cf42e65a3d",
+    id: 465,
   },
   {
     firstName: "בנימין (בני)",
@@ -4216,6 +4670,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A0%D7%94%D7%95%D7%9F/en_0883d5cea9b2b20331372f382b7b55ce",
+    id: 466,
   },
   {
     firstName: "אהד-ניר",
@@ -4225,6 +4680,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בכסלו תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%94%D7%93-%D7%A0%D7%99%D7%A8%20%D7%A0%D7%97%D7%9E%D7%99%D7%90%D7%A1/en_f666d68e916e8956e76360f9b71799e8",
+    id: 467,
   },
   {
     firstName: "ליאור",
@@ -4234,6 +4690,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בשבט תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%A0%D7%99%D7%91/en_2ee90da08e0f75b6b6125127d4965e31",
+    id: 468,
   },
   {
     firstName: "אוהד (דדי)",
@@ -4243,6 +4700,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בתשרי תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%94%D7%93%20%D7%A0%D7%99%D7%A1%D7%99%D7%9D/en_07b27622d9647a8e5bcebe0095da5666",
+    id: 469,
   },
   {
     firstName: "יובל",
@@ -4252,6 +4710,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באייר תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%91%D7%9C%20%D7%A0%D7%99%D7%A8/en_e38c21b4abb67e22642066edc4f14e92",
+    id: 470,
   },
   {
     firstName: "מוחמד",
@@ -4261,6 +4720,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93%20%D7%A0%D7%A4%D7%90%D7%A2/en_8430f24dd3d7c448a9116b5f60fd6eb0",
+    id: 471,
   },
   {
     firstName: "גיא",
@@ -4270,6 +4730,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%A0%D7%AA%D7%A0%D7%90%D7%9C/en_13ea715847fefae2ce1b4a0dbeaeedca",
+    id: 472,
   },
   {
     firstName: "מרזוק",
@@ -4279,6 +4740,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%96%D7%95%D7%A7%20%D7%A1%D7%90%D7%91%D7%A7/en_bf0168be944cbc806d9c0128d75e6735",
+    id: 473,
   },
   {
     firstName: "משה (שיקו)",
@@ -4288,6 +4750,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%A1%D7%91%D7%9F/en_0cb35f62b8f5833c03e9faa8ae1c3de2",
+    id: 474,
   },
   {
     firstName: "צפריר (צפי)",
@@ -4297,6 +4760,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%A4%D7%A8%D7%99%D7%A8%20%D7%A1%D7%92%D7%9C/en_2aedb77bb3c5c135717af1e11a15202b",
+    id: 475,
   },
   {
     firstName: "ניב",
@@ -4306,6 +4770,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%91%20%D7%A1%D7%93%D7%9F/en_9f9f2f04bedda6217c26db0b1c956dc1יש",
+    id: 476,
   },
   {
     firstName: "ישראל-משולם",
@@ -4315,6 +4780,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח באדר א\' תשמ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%A8%D7%90%D7%9C-%D7%9E%D7%A9%D7%95%D7%9C%D7%9D%20%D7%A1%D7%93%D7%9F%20%D7%A0%D7%A4%D7%97%D7%90/en_b19714e151f94eb367b717696d301624",
+    id: 477,
   },
   {
     firstName: "גדי",
@@ -4324,6 +4790,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באב תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%93%D7%99%20%D7%A1%D7%95%D7%90%D7%93/en_af9335630b677cc7532e189e0b5b580c",
+    id: 478,
   },
   {
     firstName: "דיאב",
@@ -4333,6 +4800,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' בתשרי תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%99%D7%90%D7%91%20%D7%A1%D7%95%D7%90%D7%A2%D7%93/en_a1a226b71eed4aca59a5d45e023e8d07",
+    id: 479,
   },
   {
     firstName: "גיא",
@@ -4342,6 +4810,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בטבת תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%90%20%D7%A1%D7%95%D7%93%D7%90%D7%99/en_52187a3df56ddb9c8bae3c52eaa44408",
+    id: 480,
   },
   {
     firstName: "יצחק",
@@ -4351,6 +4820,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%A1%D7%95%D7%99%D7%A1%D7%94/en_3dcd3cd4a6acae6a843a66c43125759d",
+    id: 481,
   },
   {
     firstName: "שמעון",
@@ -4360,6 +4830,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר א\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%9F%20%D7%A1%D7%95%D7%A1%D7%9F/en_b92ef59150de57fd3ea63efd99bab92a",
+    id: 482,
   },
   {
     firstName: "יורם",
@@ -4367,9 +4838,9 @@ const FALLEN_SOLDIERS = [
     age: 18,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A8%D7%9D%20%D7%A1%D7%95%D7%A4%D7%99/en_0fef037ccd24ab235e5d3da1e829d43d",
+    id: 483,
   },
   {
     firstName: "רונן",
@@ -4379,6 +4850,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד בחשון תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%A1%D7%95%D7%A4%D7%A8/en_6b270e6f30ff59516df03169326a3c9d",
+    id: 484,
   },
   {
     firstName: "צבי (צביקה)",
@@ -4388,6 +4860,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99%20%D7%A1%D7%98%D7%A0%D7%A7%D7%95%D7%91/en_984c10918e64ac3110a6650bc4e59aab",
+    id: 485,
   },
   {
     firstName: "אסף-יעקב",
@@ -4397,6 +4870,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3-%D7%99%D7%A2%D7%A7%D7%91%20%D7%A1%D7%99%D7%91%D7%95%D7%A0%D7%99/en_1c0316973cd90112c6509ce50888fde1",
+    id: 486,
   },
   {
     firstName: "יוסף",
@@ -4404,9 +4878,9 @@ const FALLEN_SOLDIERS = [
     age: 20,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%A1%D7%99%D7%9C%D7%95%D7%A7/en_c4ec90ef5f513e8738abd9fe930e4ab7",
+    id: 487,
   },
   {
     firstName: "עמיר",
@@ -4416,6 +4890,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בתמוז תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%99%D7%A8%20%D7%A1%D7%99%D7%A0%D7%99/en_b9ed05885c813e7b01d20eb96694f04c",
+    id: 488,
   },
   {
     firstName: "ריאד",
@@ -4425,6 +4900,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באב תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%99%D7%90%D7%93%20%D7%A1%D7%99%D7%A3/en_e352d9c25d5a1dffea4f53aff3b3bca8",
+    id: 489,
   },
   {
     firstName: "שמשון",
@@ -4434,6 +4910,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A9%D7%95%D7%9F%20%D7%A1%D7%9C%D7%99%D7%9E%D7%99/en_483e017f046ec36b65444f874dac5be8",
+    id: 490,
   },
   {
     firstName: "יהודה",
@@ -4443,6 +4920,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בסיון תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%A1%D7%9C%D7%9D/en_a545fa94960de2cec20e76c0cef2b333",
+    id: 491,
   },
   {
     firstName: "משה",
@@ -4452,6 +4930,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בטבת תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%A1%D7%9C%D7%A2/en_9f37bd5ea9d6feea5b30797830f536a4",
+    id: 492,
   },
   {
     firstName: "עמית-ששון",
@@ -4461,6 +4940,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%99%D7%AA-%D7%A9%D7%A9%D7%95%D7%9F%20%D7%A1%D7%9C%D7%A2/en_6a7e61d370367c2ff36e2eb6c2fc19b9",
+    id: 493,
   },
   {
     firstName: "אליעזר (אלי)",
@@ -4468,9 +4948,9 @@ const FALLEN_SOLDIERS = [
     age: 30,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8%20%D7%A1%D7%9C%D7%A4%D7%98%D7%A8/en_4d61fa243d20900ca64cfe6fa2fed79f",
+    id: 494,
   },
   {
     firstName: "אורי",
@@ -4480,6 +4960,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ז באב תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%20%D7%A1%D7%9E%D7%95%D7%90%D7%9C%D7%95%D7%91/en_3df523c4f28298b3a8f848813dd130e8",
+    id: 495,
   },
   {
     firstName: "נביל",
@@ -4489,6 +4970,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%91%D7%99%D7%9C%20%D7%A1%D7%9E%D7%95%D7%A8/en_4fa14c9517b61fbc0f6f03cb6f92ee78",
+    id: 496,
   },
   {
     firstName: "אבנר",
@@ -4498,6 +4980,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A0%D7%A8%20%D7%A1%D7%A0%D7%97%D7%90%D7%A0%D7%99/en_c0cf2259471e77715223e4af30f7fe4d",
+    id: 497,
   },
   {
     firstName: "פואד",
@@ -4507,6 +4990,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%95%D7%90%D7%93%20%D7%A1%D7%A2%D7%93/en_b143624a713d37cfbe8e54c818a1f798",
+    id: 498,
   },
   {
     firstName: "מרדכי",
@@ -4516,6 +5000,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בכסלו תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A1%D7%A2%D7%99%D7%93%D7%99%D7%90%D7%9F/en_f9bde70d1f4ac9a3d9704d8896e99515",
+    id: 499,
   },
   {
     firstName: "יואב",
@@ -4525,6 +5010,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באלול תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%91%20%D7%A1%D7%A7%D7%9C/en_91f9c1ef36cda402caecd7957770b787",
+    id: 500,
   },
   {
     firstName: "וסאם",
@@ -4534,6 +5020,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%A1%D7%90%D7%9D%20%D7%A1%D7%A8%D7%97%D7%90%D7%9F/en_9922050f72ffc7ffde20342017c34dd6",
+    id: 501,
   },
   {
     firstName: "חוסין-עמיר",
@@ -4543,6 +5030,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%95%D7%A1%D7%99%D7%9F-%D7%A2%D7%9E%D7%99%D7%A8%20%D7%A2%D7%90%D7%9E%D7%A8/en_8a46af7cd4d5b5cf78f1cc485c2dcdb4",
+    id: 502,
   },
   {
     firstName: "כרים",
@@ -4552,6 +5040,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בכסלו תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9B%D7%A8%D7%99%D7%9D%20%D7%A2%D7%90%D7%9E%D7%A8/en_1ed4f7d8ca60f9fb8713457deab4d5d4",
+    id: 503,
   },
   {
     firstName: "ריאד",
@@ -4561,6 +5050,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%99%D7%90%D7%93%20%D7%A2%D7%90%D7%9E%D7%A8/en_5c518c92412bd7a4eb4668c1fb80901d",
+    id: 504,
   },
   {
     firstName: "זהר-סבח",
@@ -4570,6 +5060,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בתמוז תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%96%D7%94%D7%A8-%D7%A1%D7%91%D7%97%20%D7%A2%D7%91%D7%93%D7%94/en_69df9f8304eaeed919dfb4ad3f1d6b1f",
+    id: 505,
   },
   {
     firstName: "ניר",
@@ -4579,6 +5070,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בשבט תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8%20%D7%A2%D7%91%D7%A8%D7%95%D7%9F/en_5708adef95b3271342e41fcb3ed71564",
+    id: 506,
   },
   {
     firstName: "ישיש",
@@ -4588,6 +5080,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%82%D7%99%D7%A9%D7%82%20%D7%A2%D7%93%D7%9F/en_31cd696e71b4963d4d532f717d687553",
+    id: 507,
   },
   {
     firstName: "אברהם אבי",
@@ -4597,6 +5090,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בתמוז תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D%20%D7%A2%D7%95%D7%91%D7%93/en_011567c3fbc750a0faf0a80b49ea1d7b",
+    id: 508,
   },
   {
     firstName: "אריאל",
@@ -4606,6 +5100,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בטבת תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%99%D7%90%D7%9C%20%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%94/en_f807c9a12f254b55063f0b30927cff76",
+    id: 509,
   },
   {
     firstName: "אמיל",
@@ -4615,6 +5110,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%9C%20%D7%A2%D7%95%D7%95%D7%99%D7%93%D7%94/en_cd7a4ab286ba2ecca125c7d3e39f53ea",
+    id: 510,
   },
   {
     firstName: "שקד",
@@ -4624,6 +5120,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט בניסן תש"ס',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%A7%D7%93%20%D7%A2%D7%95%D7%96%D7%A8%D7%99/en_95861947c23918613ef1779cc6182ded",
+    id: 511,
   },
   {
     firstName: "חמדי",
@@ -4633,6 +5130,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%9E%D7%93%D7%99%20%D7%A2%D7%95%D7%A7%D7%9C%D7%94/en_7c969a84e6cb6d8868a4faf49b09d899",
+    id: 512,
   },
   {
     firstName: "רוני",
@@ -4642,6 +5140,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%99%20%D7%A2%D7%96%D7%A8%D7%90/en_98ae279a7f7198169a18b2be29f710ba",
+    id: 513,
   },
   {
     firstName: "שרון",
@@ -4651,6 +5150,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באדר תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%A8%D7%95%D7%9F%20%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C/en_0b2ab5bdb4a8142d48dd6b7be1ba50bf",
+    id: 514,
   },
   {
     firstName: "מוחמד",
@@ -4660,6 +5160,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93%20%D7%A2%D7%99%D7%A1%D7%90%D7%AA/en_896f3a6a2d0f7e6abfaa492e537ab82d",
+    id: 515,
   },
   {
     firstName: "יהונתן (יוני)",
@@ -4669,6 +5170,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%A0%D7%AA%D7%9F%20%D7%A2%D7%9E%D7%93%D7%99/en_5a37e7fe3c9e161bb0f40855242a74bf",
+    id: 516,
   },
   {
     firstName: "דניאל (דני)",
@@ -4678,6 +5180,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באדר א' תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%A2%D7%9E%D7%A8/en_b6a6f56b154152d578a4a7fea4bb14d0",
+    id: 517,
   },
   {
     firstName: "יהודה",
@@ -4687,6 +5190,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%A2%D7%9E%D7%A8/en_0c449da2ec402af00b644b2f435234d9",
+    id: 518,
   },
   {
     firstName: "יותם",
@@ -4696,6 +5200,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%AA%D7%9D%20%D7%A2%D7%A0%D7%91%D7%A8/en_7a8e88e75d2aea2a4bbf0344a10a8618",
+    id: 519,
   },
   {
     firstName: "נדים",
@@ -4705,6 +5210,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%99%D7%9D%20%D7%A2%D7%A0%D7%91%D7%A8/en_919e3bb1523c2932e77b63dbddcf0d51",
+    id: 520,
   },
   {
     firstName: "רם",
@@ -4714,6 +5220,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז באדר א\' תשנ"ב',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9D%20%D7%A2%D7%A0%D7%91%D7%A8/en_016d3a3a0d1236df1a1a85f9dc5774d8",
+    id: 521,
   },
   {
     firstName: "נועם",
@@ -4723,6 +5230,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%A2%D7%9D%20%D7%A2%D7%A6%D7%99%D7%95%D7%A0%D7%99/en_2a80d815bbc7eeff317a0303b9499844",
+    id: 522,
   },
   {
     firstName: "שי (שייקה)",
@@ -4732,6 +5240,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' באב תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%99%20%D7%A2%D7%A7%D7%99%D7%A8%D7%91/en_96e5911ee07358e74cd554f50319df4f",
+    id: 523,
   },
   {
     firstName: "גמאל",
@@ -4741,6 +5250,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9E%D7%90%D7%9C%20%D7%A4%D7%90%D7%A8%D7%A1/en_25308441198d3ba1d69dbccbffcfeb8c",
+    id: 524,
   },
   {
     firstName: "נאזם",
@@ -4750,6 +5260,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%90%D7%96%D7%9D%20%D7%A4%D7%90%D7%A8%D7%A1/en_be9b40b559eb15db01bea0b5cb2f3ed9",
+    id: 525,
   },
   {
     firstName: "סלמאן",
@@ -4759,6 +5270,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%9C%D7%9E%D7%90%D7%9F%20%D7%A4%D7%90%D7%A8%D7%A1/en_acbdc1688cdc940819f28361ea71e5f3",
+    id: 526,
   },
   {
     firstName: "רביח",
@@ -4768,6 +5280,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%91%D7%99%D7%97%20%D7%A4%D7%90%D7%A8%D7%A1/en_3f478916982588f710b5e8f9fc890da7",
+    id: 527,
   },
   {
     firstName: "מוחמד-אלהייב",
@@ -4777,6 +5290,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%95%D7%97%D7%9E%D7%93-%D7%90%D7%9C%D7%94%D7%99%D7%99%D7%91%20%D7%A4%D7%95%D7%90%D7%96/en_915b83ded37cbab4e5e25cfafed41878",
+    id: 528,
   },
   {
     firstName: "צביקה",
@@ -4786,6 +5300,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%91%D7%99%D7%A7%D7%94%20%D7%A4%D7%95%D7%92%D7%9C/en_444a17253e85694818acc114dc32b90f",
+    id: 529,
   },
   {
     firstName: "גדעון",
@@ -4795,6 +5310,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%93%D7%A2%D7%95%D7%9F%20%D7%A4%D7%95%D7%96%D7%A0%D7%A8/en_d6890cc209594c4456ba2ee71d5e4da4",
+    id: 530,
   },
   {
     firstName: "שלמה (שלומי)",
@@ -4804,6 +5320,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%9E%D7%94%20%D7%A4%D7%99%D7%96%D7%95%D7%90%D7%AA%D7%99/en_a362e5bdf0c2a6f90bc35e8728baf0c3",
+    id: 531,
   },
   {
     firstName: "דן (דנסי)",
@@ -4813,6 +5330,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%9F%20%D7%A4%D7%99%D7%9C%D7%99%D7%A4/en_a68d2a04193624f6590f3604608b4427",
+    id: 532,
   },
   {
     firstName: "יוסף (יוסי)",
@@ -4822,6 +5340,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באדר א' תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%A3%20%D7%A4%D7%99%D7%A0%D7%A7/en_b1c44a9094fad03e434f94a56dffacf9",
+    id: 533,
   },
   {
     firstName: "אברהם-אבא (אבי)",
@@ -4831,6 +5350,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D-%D7%90%D7%91%D7%90%20%D7%A4%D7%99%D7%A9%D7%A8/en_143f5b4e23eb07e4a18b0250fe9616ad",
+    id: 534,
   },
   {
     firstName: "דוד",
@@ -4840,6 +5360,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו באדר ב\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%95%D7%93%20%D7%A4%D7%9C%D7%93%20%D7%97%D7%93%D7%93/en_b85760ba79a9bab2ad1ccb29f558db24",
+    id: 535,
   },
   {
     firstName: "מנחם (מני)",
@@ -4849,6 +5370,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%97%D7%9D%20%D7%A4%D7%9C%D7%93%D7%9E%D7%9F/en_9d4fc3977dbeabe33ff564469e4219a8",
+    id: 536,
   },
   {
     firstName: "משה",
@@ -4858,6 +5380,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%A4%D7%A0%D7%93%D7%95/en_ab92b395aea1f4e22eed066a94940457",
+    id: 537,
   },
   {
     firstName: "לירון",
@@ -4867,6 +5390,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%A8%D7%95%D7%9F%20%D7%A4%D7%A0%D7%99%D7%A0%D7%99/en_a1dcbcdde0a463508f5fb8c613d7be58",
+    id: 538,
   },
   {
     firstName: "ויטלי",
@@ -4876,6 +5400,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%A1%D7%97%D7%95%D7%91%20%20%D7%95%D7%99%D7%98%D7%9C%D7%99%20/en_9259cf98b84047f1190c9de784cb1605",
+    id: 539,
   },
   {
     firstName: "שותא",
@@ -4885,6 +5410,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%95%D7%AA%D7%90%20%D7%A4%D7%A4%D7%99%D7%A1%D7%9E%D7%99%D7%93%D7%95%D7%91/en_399d842b6faa02657ff389262583f9c2",
+    id: 540,
   },
   {
     firstName: "אלק",
@@ -4894,6 +5420,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%A7%20%D7%A4%D7%A8%D7%92%D7%9E%D7%A0%D7%98/en_2929679b79683710af2f150a8fa53be3",
+    id: 541,
   },
   {
     firstName: "רז",
@@ -4903,6 +5430,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%96%20%D7%A4%D7%A8%D7%95%D7%9E%D7%95%D7%91%D7%99%D7%A5/en_2944f34e109efa1ce73b1a3e1e02fe00",
+    id: 542,
   },
   {
     firstName: "אורי-שרגא",
@@ -4912,6 +5440,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בניסן תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99-%D7%A9%D7%A8%D7%92%D7%90%20%D7%A4%D7%A8%D7%99%D7%93%D7%9E%D7%9F/en_ef4cdc9ccb9eaf741201d6241bdee048",
+    id: 543,
   },
   {
     firstName: "מגן",
@@ -4921,6 +5450,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ו בתשרי תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%92%D7%9F%20%D7%A4%D7%A8%D7%99%D7%93%D7%9E%D7%9F/en_d6aa0f4bbd03f33bebc51dd0e75f6144",
+    id: 544,
   },
   {
     firstName: "גבריאל (גבי)",
@@ -4930,6 +5460,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' באדר תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C%20%D7%A4%D7%A8%D7%9E%D7%95%D7%98%D7%99/en_cfdc285838e93a2689aa571ea7f6a58a",
+    id: 545,
   },
   {
     firstName: "הרן-אליעזר",
@@ -4939,6 +5470,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%9F-%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8%20%D7%A4%D7%A8%D7%A0%D7%A1/en_c9b5844d6b6b73405ba2b355ee30c51b",
+    id: 546,
   },
   {
     firstName: "צור",
@@ -4948,6 +5480,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' בתשרי תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%95%D7%A8%20%D7%A4%D7%A8%D7%A0%D7%A1/en_80826bde85be36f2a7c35028033a1c1b",
+    id: 547,
   },
   {
     firstName: "אוריאל",
@@ -4957,6 +5490,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בכסלו תשנ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%99%D7%90%D7%9C%20%D7%A4%D7%A8%D7%A5/en_9311332ca81acef28a7b72d240cf7ac2",
+    id: 548,
   },
   {
     firstName: "ארמונד",
@@ -4966,6 +5500,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' באלול תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%9E%D7%95%D7%A0%D7%93%20%D7%A4%D7%A8%D7%A5/en_1628b178efbafa5c33f41cede338d098",
+    id: 549,
   },
   {
     firstName: "ערן-חי",
@@ -4975,6 +5510,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F-%D7%97%D7%99%20%D7%A4%D7%A8%D7%A5/en_5360e0476d5177159097af2f24206a7a",
+    id: 550,
   },
   {
     firstName: "יפתח",
@@ -4984,6 +5520,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בניסן תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A4%D7%AA%D7%97%20%D7%A4%D7%A9%D7%97%D7%95%D7%A8/en_d985ab0214f2a8482bf654848cfc5f7d",
+    id: 551,
   },
   {
     firstName: "ארן-ערן",
@@ -4993,6 +5530,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג בכסלו תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%9F-%D7%A2%D7%A8%D7%9F%20%D7%A6%D7%91%D7%90%D7%92/en_fb79adfc52e9ab8da5169b514549ad85",
+    id: 552,
   },
   {
     firstName: "ירון",
@@ -5002,6 +5540,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%95%D7%9F%20%D7%A6%D7%95%D7%A4%D7%99%D7%95%D7%A3%20%D7%94%D7%9B%D7%94%D7%9F/en_c393ab38586e1726529c9160d2d46c5d",
+    id: 553,
   },
   {
     firstName: "אלון",
@@ -5011,6 +5550,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בתשרי תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%95%D7%9F%20%D7%A6%D7%95%D7%A8/en_9ebf3246719586ffbf0aefb89d554f2c",
+    id: 554,
   },
   {
     firstName: "יונתן",
@@ -5020,6 +5560,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A0%D7%AA%D7%9F%20%D7%A6%D7%99%D7%A8%D7%A7%D7%9C/en_6b20e32cc6f3c7d6eef33c0e2b05139a",
+    id: 555,
   },
   {
     firstName: "יאיר",
@@ -5029,6 +5570,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בשבט תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%90%D7%99%D7%A8%20%D7%A6%D7%A4%D7%A8%D7%99%D7%A8/en_0489c0af067b1603dfca7feb1d0763c9",
+    id: 556,
   },
   {
     firstName: "נפתלי",
@@ -5036,9 +5578,9 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%A4%D7%AA%D7%9C%D7%99%20%D7%A6%D7%A8%D7%99%D7%A7%D7%A8/en_0ec00811ce4be50ca86204b2a3a486c8",
+    id: 557,
   },
   {
     firstName: "אמנון",
@@ -5048,6 +5590,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בכסלו תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%A0%D7%95%D7%9F%20%D7%A7%D7%93%D7%9E%D7%95%D7%9F/en_5b1c1479ca98b237997be5db0235f33b",
+    id: 558,
   },
   {
     firstName: "הדר",
@@ -5057,6 +5600,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בטבת תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%93%D7%A8%20%D7%A7%D7%94%D7%AA%D7%99/en_eed99e234962aa9c41cb9469fd783664",
+    id: 559,
   },
   {
     firstName: "נדב",
@@ -5066,6 +5610,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%93%D7%91%20%D7%A7%D7%95%D7%91%D7%A5/en_07ca21d4406f7c4be462892940b41651",
+    id: 560,
   },
   {
     firstName: "בן ציון",
@@ -5075,6 +5620,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%9F%20%D7%A6%D7%99%D7%95%D7%9F%20%D7%A7%D7%95%D7%91%D7%A8%D7%99%D7%92%D7%A8%D7%95/en_934b83ed9bfe7c41f6feb1c64dcef1d0",
+    id: 561,
   },
   {
     firstName: "יעקב-פביאן",
@@ -5084,6 +5630,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ז' בתשרי תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A2%D7%A7%D7%91-%D7%A4%D7%91%D7%99%D7%90%D7%9F%20%D7%A7%D7%95%D7%96%D7%9E%D7%94/en_b179c8aa7fa16af0dec835dc6fe182ce",
+    id: 562,
   },
   {
     firstName: "גיל",
@@ -5093,6 +5640,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באדר א\' תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%9C%20%D7%A7%D7%95%D7%98%D7%9C%D7%A8/en_aa2978032996d68bcf1d163afeafaa79",
+    id: 563,
   },
   {
     firstName: "הנרי",
@@ -5102,6 +5650,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A0%D7%A8%D7%99%20%D7%A7%D7%95%D7%A8%D7%A5/en_68f8a331864c9a3df99da03788d9b062",
+    id: 564,
   },
   {
     firstName: "רוני-יהודה",
@@ -5111,6 +5660,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ו' באב תשנ\"א",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%99-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%A7%D7%95%D7%A8%D7%A7%D7%95%D7%A1/en_78d785346275ad6ebd0b4c06197ef617",
+    id: 565,
   },
   {
     firstName: "יוסי",
@@ -5120,6 +5670,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%A1%D7%99%20%D7%A7%D7%95%D7%A8%D7%A7%D7%99%D7%9F/en_4b02853b7690960493dfd0423939a4e7",
+    id: 566,
   },
   {
     firstName: "פאדי",
@@ -5129,6 +5680,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%90%D7%93%D7%99%20%D7%A7%D7%96%D7%90%D7%9E%D7%9C/en_cbcaa2fe19bc49be725ea8d2152d4202",
+    id: 567,
   },
   {
     firstName: "פריד",
@@ -5138,6 +5690,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%A8%D7%99%D7%93%20%D7%A7%D7%96%D7%90%D7%9E%D7%9C/en_0bfb9d814e7e2cf4725684f6d7ff7e95",
+    id: 568,
   },
   {
     firstName: "תומר קידר",
@@ -5147,6 +5700,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9E%D7%A8%20%D7%A7%D7%99%D7%93%D7%A8%20%D7%A6%D7%99%D7%96'%D7%99%D7%A7/en_39c521879840de4df459bfb5101660c8",
+    id: 569,
   },
   {
     firstName: "עלי",
@@ -5156,6 +5710,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בחשון תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9C%D7%99%20%D7%A7%D7%99%D7%A1/en_a1323034976e24e41527fa164c43a977",
+    id: 570,
   },
   {
     firstName: "שחר-יעקב",
@@ -5165,6 +5720,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8-%D7%99%D7%A2%D7%A7%D7%91%20%D7%A7%D7%99%D7%A1%D7%95%D7%A1/en_c9a39499ce3d862b7e6f43862c0c8cf4",
+    id: 571,
   },
   {
     firstName: "חי",
@@ -5174,6 +5730,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בשבט תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%97%D7%99%20%D7%A7%D7%9C%D7%95%D7%9E%D7%99%D7%98%D7%99/en_c6d5929f586cabd7454dcce9f93d2b89",
+    id: 572,
   },
   {
     firstName: "אלמוג",
@@ -5183,6 +5740,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בחשון תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%9E%D7%95%D7%92%20%D7%A7%D7%9C%D7%99%D7%99%D7%9F/en_f5aa66dd1c5a7db586228d4f519a062a",
+    id: 573,
   },
   {
     firstName: "יואל (חוליו)",
@@ -5192,6 +5750,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%9C%20%D7%A7%D7%9C%D7%9B%D7%9E%D7%9F/en_c83deb45943b4fa7883fb373b2eec266",
+    id: 574,
   },
   {
     firstName: "רועי",
@@ -5201,6 +5760,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בסיון תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A2%D7%99%20%D7%A7%D7%9C%D7%A8/en_7cc435b92999cd844a9e6c7f93d60ba9",
+    id: 575,
   },
   {
     firstName: "רונן",
@@ -5210,6 +5770,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח בניסן תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%A7%D7%9E%D7%97%D7%99%20%D7%93%D7%95%D7%96%D7%99/en_9d2e9305cbb99917246c745624afce66",
+    id: 576,
   },
   {
     firstName: "שומטו",
@@ -5219,6 +5780,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ט באב תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%95%D7%9E%D7%98%D7%95%20%D7%A7%D7%A1%D7%94%D7%95%D7%9F/en_ef7597011f50e15b4b17ac7927e9a997",
+    id: 577,
   },
   {
     firstName: "אמיר",
@@ -5228,6 +5790,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באייר תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%A7%D7%A8%D7%90/en_cc8ee9856efd39b78e87220ff64acff0",
+    id: 578,
   },
   {
     firstName: "גבריאל (גבי)",
@@ -5237,6 +5800,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בתשרי תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%91%D7%A8%D7%99%D7%90%D7%9C%20%D7%A7%D7%A8%D7%95%D7%90%D7%A0%D7%99/en_ae8f4cfc8af74a4f816219e60f770389",
+    id: 579,
   },
   {
     firstName: "תם",
@@ -5246,6 +5810,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%9D%20%D7%A7%D7%A8%D7%99%D7%9F/en_1598e323c08a1645d255de8e3e26d84b",
+    id: 580,
   },
   {
     firstName: "סעיד",
@@ -5255,6 +5820,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A2%D7%99%D7%93%20%D7%A7%D7%A9%D7%A7%D7%95%D7%A9/en_ba8bd9a05103c2090e5d3d14b0243b5e",
+    id: 581,
   },
   {
     firstName: "רונן",
@@ -5264,6 +5830,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' באלול תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F%20%D7%A8%D7%90%D7%95%D7%91%D7%9F/en_064de26006c262f7113b2195eeafa53e",
+    id: 582,
   },
   {
     firstName: "אילן",
@@ -5273,6 +5840,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בטבת תשנ"א',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%A8%D7%91%D7%90/en_0e750ab200e6874aa611400e3cc5110c",
+    id: 583,
   },
   {
     firstName: "בעז",
@@ -5282,6 +5850,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באייר תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A2%D7%96%20%D7%A8%D7%91%D7%99%D7%93/en_ed49ab2df57dfd48b0656706a7ba6fc6",
+    id: 584,
   },
   {
     firstName: "אידור",
@@ -5291,6 +5860,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בכסלו תשמ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%91%D7%99%D7%A0%D7%95%D7%91%D7%99%D7%A5%20%D7%90%D7%99%D7%93%D7%95%D7%A8/en_ae8db2a44a71b5c3f0754d176ec20496",
+    id: 585,
   },
   {
     firstName: "ויטאלי",
@@ -5300,6 +5870,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%95%D7%99%D7%98%D7%90%D7%9C%D7%99%20%D7%A8%D7%93%D7%99%D7%A0%D7%A1%D7%A7%D7%99/en_30b4dd496af108b7a742e7c9a125d598",
+    id: 586,
   },
   {
     firstName: "ארנון",
@@ -5307,9 +5878,9 @@ const FALLEN_SOLDIERS = [
     age: 37,
     date: "11.11.1982",
     hebrewDate: 'כ"ה בחשון תשמ"ג',
-
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%A0%D7%95%D7%9F%20%D7%A8%D7%93%D7%99%D7%A2/en_42746cf07c60e75d8b4b91e7a094680c",
+    id: 587,
   },
   {
     firstName: "יניב",
@@ -5319,6 +5890,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A0%D7%99%D7%91%20%D7%A8%D7%95%D7%90%D7%99%D7%9E%D7%99/en_3b9727c105d4a1035d88322f9d7d002f",
+    id: 588,
   },
   {
     firstName: "גל",
@@ -5328,6 +5900,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%20%D7%A8%D7%95%D7%93%D7%95%D7%91%D7%A1%D7%A7%D7%99/en_b8b19d0ee9169da13c66f7c2bac41d01",
+    id: 589,
   },
   {
     firstName: "מרדכי (מקסי)",
@@ -5337,6 +5910,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A8%D7%95%D7%96%D7%A0%D7%91%D7%A8%D7%92/en_22b6e234c9462fe84f715285d8af6f46",
+    id: 590,
   },
   {
     firstName: "שחר",
@@ -5346,6 +5920,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8%20%D7%A8%D7%95%D7%96%D7%A0%D7%91%D7%A8%D7%92/en_d61bd90ec47b7d5e7dc8f0ac9d80dbb3",
+    id: 591,
   },
   {
     firstName: "גיל",
@@ -5355,6 +5930,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בסיון תשנ\"ב",
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%9C%20%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C/en_ade866129ae6143486a4bd664023dfe6",
+    id: 592,
   },
   {
     firstName: "נתנאל (נתי)",
@@ -5364,6 +5940,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בטבת תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%AA%D7%A0%D7%90%D7%9C%20%D7%A8%D7%95%D7%96%D7%A0%D7%98%D7%9C/en_a2d48a559663f85e4ef8eb5caee15936",
+    id: 593,
   },
   {
     firstName: "אסף",
@@ -5373,6 +5950,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ל' בשבט תשנ\"ח",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%A8%D7%95%D7%96%D7%A0%D7%A4%D7%9C%D7%93/en_db9203a0e0e19374610ce7bdc1b41547",
+    id: 594,
   },
   {
     firstName: "הלל-דוד",
@@ -5382,6 +5960,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בסיון תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%9C%D7%9C-%D7%93%D7%95%D7%93%20%D7%A8%D7%95%D7%96%D7%A0%D7%A8/en_435b71a37bc696328595724ad953d67e",
+    id: 595,
   },
   {
     firstName: "אלעד",
@@ -5391,6 +5970,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט באב תשנ"א',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%A2%D7%93%20%D7%A8%D7%95%D7%98%D7%94%D7%95%D7%9C%D7%A5/en_30f4207fffb0ea93df22b555d43c1500",
+    id: 596,
   },
   {
     firstName: "אסף",
@@ -5400,6 +5980,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%A8%D7%95%D7%98%D7%A0%D7%91%D7%A8%D7%92/en_5827df3abafee600c83acd64f64ed586",
+    id: 597,
   },
   {
     firstName: "רם (רמו)",
@@ -5409,6 +5990,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בתמוז תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%9D%20%D7%A8%D7%95%D7%98%D7%A0%D7%91%D7%A8%D7%92/en_5a7e157b0afe7045261832b74ac336bc",
+    id: 598,
   },
   {
     firstName: "אילן",
@@ -5418,6 +6000,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב באדר תשנ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%9C%D7%9F%20%D7%A8%D7%95%D7%A2%D7%94/en_1a459084643ee08927ada7c79a0522aa",
+    id: 599,
   },
   {
     firstName: "טל",
@@ -5427,6 +6010,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בטבת תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%98%D7%9C%20%D7%A8%D7%96/en_113dcf457801a75e6b83cdd1d69f638c",
+    id: 600,
   },
   {
     firstName: "האשם",
@@ -5436,6 +6020,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בסיון תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%90%D7%A9%D7%9D%20%D7%A8%D7%97%D7%90%D7%9C/en_a79a91f62f7cfe18bf51ce2aa2dfd518",
+    id: 601,
   },
   {
     firstName: "כאמל",
@@ -5445,6 +6030,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9B%D7%90%D7%9E%D7%9C%20%D7%A8%D7%97%D7%90%D7%9C/en_d772f8ffaf3976a3852d3db0c49ab070",
+    id: 602,
   },
   {
     firstName: "מאג'ד (אבו חאלד)",
@@ -5454,6 +6040,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ב' באלול תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%92%D7%93%20%D7%A8%D7%97%D7%90%D7%9C/en_ff3cc5e75e01d36d58e56718d22552e1",
+    id: 603,
   },
   {
     firstName: "מנצור",
@@ -5463,6 +6050,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בתמוז תשמ\"ו",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%A6%D7%95%D7%A8%20%D7%A8%D7%97%D7%90%D7%9C/en_98dbf81811fbb7ace74bd0a6ea6568e1",
+    id: 604,
   },
   {
     firstName: "יצחק",
@@ -5472,6 +6060,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד בטבת תש"ן',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7%20%D7%A8%D7%97%D7%99%D7%9E%D7%95%D7%91/en_11253496f3729ea9bcac9ac23864db93",
+    id: 605,
   },
   {
     firstName: "דני (ביג'ן)",
@@ -5481,6 +6070,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%20%D7%A8%D7%97%D7%9E%D7%A0%D7%95/en_d56478590562a08e4fdbca6cdde6f61a",
+    id: 606,
   },
   {
     firstName: "משה (מוריס)",
@@ -5490,6 +6080,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בסיון תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%A8%D7%97%D7%9E%D7%A0%D7%99/en_ea38608eb371f42943eb8e742a3ec6bd",
+    id: 607,
   },
   {
     firstName: "יובל",
@@ -5499,6 +6090,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' באייר תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%91%D7%9C%20%D7%A8%D7%98%D7%99%D7%92/en_32f9059cd18c3d4a5f6f9379cd3da524",
+    id: 608,
   },
   {
     firstName: "דניאל (דני)",
@@ -5508,6 +6100,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בתמוז תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%A8%D7%99%D7%99/en_1e29a1740b24c6ba84b0ef9cc2124275",
+    id: 609,
   },
   {
     firstName: "מנחם (מלמל)",
@@ -5517,6 +6110,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' באייר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A0%D7%97%D7%9D%20%D7%A8%D7%99%D7%99%D7%9A/en_663f7b07bc74a2759470ebdf7b909206",
+    id: 610,
   },
   {
     firstName: "רפי",
@@ -5526,6 +6120,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באדר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%A4%D7%99%20%D7%A8%D7%99%D7%99%D7%9B%D7%A8%D7%98/en_741e08615d4d469e26534232e322b5b0",
+    id: 611,
   },
   {
     firstName: "עמוס",
@@ -5535,6 +6130,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%9E%D7%95%D7%A1%20%D7%A8%D7%99%D7%9E%D7%95%D7%9F/en_57c55661fe78df23d2f45da365afd348",
+    id: 612,
   },
   {
     firstName: "ליאור",
@@ -5544,6 +6140,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%A8%D7%9E%D7%95%D7%9F/en_aaa9e6491d830d93eeffbaf3adbf6c5c",
+    id: 613,
   },
   {
     firstName: "שחר",
@@ -5553,6 +6150,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בתמוז תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%97%D7%A8%20%D7%A8%D7%A4%D7%90%D7%9C%D7%99/en_0045c8ca7cb19e70e47c24cb263ff383",
+    id: 614,
   },
   {
     firstName: "ניקולאי",
@@ -5562,6 +6160,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בשבט תשנ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A7%D7%95%D7%9C%D7%90%D7%99%20%D7%A8%D7%A4%D7%95%D7%A4%D7%95%D7%A8%D7%98/en_86c7d3d9c8f1093d279a6aee6a824207",
+    id: 615,
   },
   {
     firstName: "פיטר-פנחס",
@@ -5571,6 +6170,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בניסן תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A4%D7%99%D7%98%D7%A8-%D7%A4%D7%A0%D7%97%D7%A1%20%D7%A8%D7%A4%D7%95%D7%A4%D7%95%D7%A8%D7%98/en_5fddd578fc994f7b0dcefa26b324e4e4",
+    id: 616,
   },
   {
     firstName: "גלעד",
@@ -5580,6 +6180,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%9C%D7%A2%D7%93%20%D7%A9%D7%90%D7%95%D7%9C/en_aef66c57c84ebe578b2116226d783a97",
+    id: 617,
   },
   {
     firstName: "יותם",
@@ -5589,6 +6190,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ח באדר א\' תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%AA%D7%9D%20%D7%A9%D7%90%D7%95%D7%9C%D7%99%20%D7%91%D7%95%D7%9E%D7%91%D7%95%D7%9F/en_b189abd285fcfe57492c88674b0b5966",
+    id: 618,
   },
   {
     firstName: "ירון שביט",
@@ -5598,6 +6200,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A8%D7%95%D7%9F%20%D7%A9%D7%91%D7%99%D7%98%20%D7%A8%D7%A7%D7%A8/en_54cce6293056af5d7519aa980e705c83",
+    id: 619,
   },
   {
     firstName: "נביל",
@@ -5607,6 +6210,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%91%D7%99%D7%9C%20%D7%A9%D7%91%D7%A1%D7%95/en_70f882dc5fa0adc0b5cef31f7c34d019",
+    id: 620,
   },
   {
     firstName: "ליאור",
@@ -5616,6 +6220,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א באדר א\' תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%A9%D7%91%D7%AA%D7%90%D7%99/en_90540249a6ae36eba54797d28cccc647",
+    id: 621,
   },
   {
     firstName: "צפריר",
@@ -5625,6 +6230,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%A4%D7%A8%D7%99%D7%A8%20%D7%A9%D7%95%D7%91%D7%9C/en_ee8eb5d2aa06cf46ab0feb32d8b84a98",
+    id: 622,
   },
   {
     firstName: "ערן",
@@ -5634,6 +6240,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%A9%D7%95%D7%94%D7%9D/en_0854b3d8f8e5541b8cf72d59fba74f45",
+    id: 623,
   },
   {
     firstName: "אושרי",
@@ -5643,6 +6250,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באב תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A9%D7%A8%D7%99%20%D7%A9%D7%95%D7%95%D7%A8%D7%A5/en_1ba9cfc05bbcba78d4ecf9f177420167",
+    id: 624,
   },
   {
     firstName: "רועי",
@@ -5652,6 +6260,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באב תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A2%D7%99%20%D7%A9%D7%95%D7%A7%D7%A8%D7%95%D7%9F/en_ffb7dc46825d0386bc262ed1a66435ee",
+    id: 625,
   },
   {
     firstName: "יקיר",
@@ -5661,6 +6270,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בניסן תשנ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A7%D7%99%D7%A8%20%D7%A9%D7%95%D7%A9%D7%99/en_6d579fdfb4d1ac637c5798f215ed9b54",
+    id: 626,
   },
   {
     firstName: "גאלב",
@@ -5670,6 +6280,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ד באב תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%90%D7%9C%D7%91%20%D7%A9%D7%97%D7%99%D7%99%D7%93%D7%9D/en_5705963c521af62c09840ad842805f12",
+    id: 627,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -5679,6 +6290,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בחשון תשמ"ט',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A9%D7%98%D7%99%D7%99%D7%A8/en_38ee80fa14fcdfae91d5506bf94d57e2",
+    id: 628,
   },
   {
     firstName: "מיכאל",
@@ -5688,6 +6300,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' בחשון תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%99%D7%9B%D7%90%D7%9C%20%D7%A9%D7%98%D7%99%D7%A0%D7%9C%D7%95%D7%A3/en_ebd8d4960548c33134ffef12ed28811c",
+    id: 629,
   },
   {
     firstName: "עמרם",
@@ -5697,6 +6310,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%98%D7%A8%D7%99%D7%AA%20%D7%A2%D7%9E%D7%A8%D7%9D/en_61327da99153a43aa34a724818b52fec",
+    id: 630,
   },
   {
     firstName: "ברוך",
@@ -5706,6 +6320,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באייר תשמ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%91%D7%A8%D7%95%D7%9A%20%D7%A9%D7%98%D7%A8%D7%9F/en_97647e01fd4ba22640ca3ec2b298b7d3",
+    id: 631,
   },
   {
     firstName: "ארז",
@@ -5716,6 +6331,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A8%D7%96%20%D7%A9%D7%98%D7%A8%D7%A7/en_f3a1440b0e368cd045ff063ff84dd1b2",
+    id: 632,
   },
   {
     firstName: "איתמר",
@@ -5725,6 +6341,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9E%D7%A8%20%D7%A9%D7%99/en_71535ab89e8cd352442830811c4c21ec",
+    id: 633,
   },
   {
     firstName: "איתי",
@@ -5734,6 +6351,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' באלול תשמ\"ט",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%99%20%D7%A9%D7%99%D7%91%D7%A7/en_ee30f0d2280ea54095e6747caf4dd7ce",
+    id: 634,
   },
   {
     firstName: "אמיר (ג'ימי)",
@@ -5743,6 +6361,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "א' בשבט תשנ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9E%D7%99%D7%A8%20%D7%A9%D7%99%D7%99%D7%9A/en_55304f2eae4e1cfef19eed7c5b09fe0c",
+    id: 635,
   },
   {
     firstName: "תומר",
@@ -5752,6 +6371,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ג באלול תשנ"א',
     izkorLink:
       "https://www.izkor.gov.il/%D7%AA%D7%95%D7%9E%D7%A8%20%D7%A9%D7%99%D7%99%D7%97%D7%99/en_8f649cf6cb1bd014de0402eef4952dfd",
+    id: 636,
   },
   {
     firstName: "אברהם-ניסן (אבי)",
@@ -5761,6 +6381,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בסיון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%91%D7%A8%D7%94%D7%9D-%D7%A0%D7%99%D7%A1%D7%9F%20%D7%A9%D7%9B%D7%98%D7%A8/en_13ab9cc34d779bc5cfac47a24c6e3137",
+    id: 637,
   },
   {
     firstName: "ישי",
@@ -5770,6 +6391,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A9%D7%99%20%D7%A9%D7%9B%D7%98%D7%A8/en_44f163ce0ed8a54cbb6dddd1753e859c",
+    id: 638,
   },
   {
     firstName: "יובל",
@@ -5779,6 +6401,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ד' באב תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%91%D7%9C%20%D7%A9%D7%9C%D7%95/en_16a90da3f2092f6ad81b3a2111ddd252",
+    id: 639,
   },
   {
     firstName: "עומר",
@@ -5788,6 +6411,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%95%D7%9E%D7%A8%20%D7%A9%D7%9C%D7%99%D7%98%20%D7%A1%D7%92%D7%9C/en_f5bdb0a565ee8241202e5c4c16dba618",
+    id: 640,
   },
   {
     firstName: "ראובן",
@@ -5797,6 +6421,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "י' בסיון תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%90%D7%95%D7%91%D7%9F%20%D7%A9%D7%9C%D7%9C%D7%90%D7%A9%D7%95%D7%99%D7%9C%D7%99/en_c1b793b138368f3b8be3529f999cc61f",
+    id: 641,
   },
   {
     firstName: "יפתח",
@@ -5806,6 +6431,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A4%D7%AA%D7%97%20%D7%A9%D7%9C%D7%A4%D7%95%D7%91%D7%A8%D7%A1%D7%A7%D7%99/en_47e3405bb3ee44797221a5181c49c3ee",
+    id: 642,
   },
   {
     firstName: "משה",
@@ -5815,6 +6441,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A9%D7%94%20%D7%A9%D7%9E%D7%95%D7%97%D7%94/en_ac7bd91cdd29c5520e91666fd393bda2",
+    id: 643,
   },
   {
     firstName: "מאיר",
@@ -5824,6 +6451,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%A9%D7%9E%D7%95%D7%9C/en_bfbe862255d18649af09f43e2da73421",
+    id: 644,
   },
   {
     firstName: "אייל",
@@ -5833,6 +6461,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א בתשרי תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%99%D7%99%D7%9C%20%D7%A9%D7%9E%D7%97/en_abdac15568d4b9aa9154a0347ca5af92",
+    id: 645,
   },
   {
     firstName: "נועם",
@@ -5842,6 +6471,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"א בתמוז תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%95%D7%A2%D7%9D%20%D7%A9%D7%9E%D7%97%D7%94/en_3a9ebf83e2bd7e9599f1777fbeab99d7",
+    id: 646,
   },
   {
     firstName: "מאיר",
@@ -5851,6 +6481,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%90%D7%99%D7%A8%20%D7%A9%D7%9E%D7%99/en_b749ebc26e4f8734ff841f094df319e0",
+    id: 647,
   },
   {
     firstName: "יניב",
@@ -5860,6 +6491,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באלול תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A0%D7%99%D7%91%20%D7%A9%D7%9E%D7%99%D7%90%D7%9C/en_1f5777b8c70629ccd8abf83b7fac993f",
+    id: 648,
   },
   {
     firstName: "שלום (שלוה)",
@@ -5869,6 +6501,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בחשון תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A9%D7%9E%D7%99%D7%9C%D7%A9%D7%95%D7%99%D7%9C%D7%99/en_e15149390b9b7a3b6073925004e2a690",
+    id: 649,
   },
   {
     firstName: "ערן",
@@ -5878,6 +6511,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' באייר תשנ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A2%D7%A8%D7%9F%20%D7%A9%D7%9E%D7%99%D7%A8/en_d75a1ae1e84e07e3406368e75610097d",
+    id: 650,
   },
   {
     firstName: "ידג",
@@ -5887,6 +6521,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באב תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%93%D7%92%20%D7%A9%D7%9E%D7%A2%D7%95%D7%9F/en_cdb1dbcafbdf24a66f767a125c74ea2a",
+    id: 651,
   },
   {
     firstName: "איל",
@@ -5896,6 +6531,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז באלול תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A9%D7%9E%D7%A2%D7%95%D7%A0%D7%99%20%D7%90%D7%99%D7%9C/en_fc3da7b0a1c07a1aa4fa70816e48fd1b",
+    id: 652,
   },
   {
     firstName: "אלכסנדר (אליק)",
@@ -5905,6 +6541,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ז באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8%20%D7%A9%D7%A0%D7%99%D7%99%D7%93%D7%A8%D7%9E%D7%9F/en_571d1757445ae96a47700fdbae0777e9",
+    id: 653,
   },
   {
     firstName: "נתאי",
@@ -5914,6 +6551,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ד באלול תשנ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%AA%D7%90%D7%99%20%D7%A9%D7%A4%D7%98%D7%A1/en_97d871fdd2189f3f666934d7865164ad",
+    id: 654,
   },
   {
     firstName: "יואב",
@@ -5923,6 +6561,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ג בסיון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%91%20%D7%A9%D7%A4%D7%99%D7%92%D7%9C/en_b5df6a70855def10fef2cf0d0b4740cd",
+    id: 655,
   },
   {
     firstName: "יצחק-יצחקי",
@@ -5932,6 +6571,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ב בסיון תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A6%D7%97%D7%A7-%D7%99%D7%A6%D7%97%D7%A7%D7%99%20%D7%A9%D7%A4%D7%99%D7%A8%D7%90/en_84bc7f97545a6f4642161ac1d79059aa",
+    id: 656,
   },
   {
     firstName: "אורן",
@@ -5941,6 +6581,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%95%D7%A8%D7%9F%20%D7%A9%D7%A4%D7%A8/en_28353f40d2904f0fead8ac0bcdf3aeb1",
+    id: 657,
   },
   {
     firstName: "אליעזר (אלי)",
@@ -5950,6 +6591,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'ט"ז בשבט תשמ"ח',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8%20%D7%A9%D7%A4%D7%A8/en_f82c33908b64b00cb09dd5a4d53e34bf",
+    id: 658,
   },
   {
     firstName: "מרדכי",
@@ -5959,6 +6601,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה באדר א\' תשמ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A9%D7%A7%D7%93%D7%99/en_8a7ee0f4b36d033061b757e391e7142c",
+    id: 659,
   },
   {
     firstName: "רתם",
@@ -5968,6 +6611,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ב בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%AA%D7%9D%20%D7%A9%D7%A8%D7%91%D7%99%D7%98/en_497c9212a69e8c213fe74b028d585a7f",
+    id: 660,
   },
   {
     firstName: "יואב",
@@ -5977,6 +6621,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' בניסן תשמ\"ז",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%95%D7%90%D7%91%20%D7%A9%D7%A8%D7%95%D7%9F/en_c5b4006585251d036b40f61aad6e69df",
+    id: 661,
   },
   {
     firstName: "צפריר (צפי)",
@@ -5986,6 +6631,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A6%D7%A4%D7%A8%D7%99%D7%A8%20%D7%A9%D7%A8%D7%95%D7%A0%D7%99%20%D7%A9%D7%A2%D7%A8/en_5197eb03073ae1d482b451cba18749d7",
+    id: 662,
   },
   {
     firstName: "ניר-מרדכי",
@@ -5995,6 +6641,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%A8-%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A9%D7%A8%D7%99%D7%99%D7%91%D7%9E%D7%9F/en_ac806f2538c5ff4b7f8e084e1d4f7b6f",
+    id: 663,
   },
   {
     firstName: "הראל",
@@ -6004,6 +6651,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ו בכסלו תשנ"ד',
     izkorLink:
       "https://www.izkor.gov.il/%D7%94%D7%A8%D7%90%D7%9C%20%D7%A9%D7%A8%D7%9D/en_23047134bf471d412acee131f88806c0",
+    id: 664,
   },
   {
     firstName: "גיל (גילי)",
@@ -6013,6 +6661,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח בשבט תשנ"ז',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%9C%20%D7%A9%D7%A8%D7%A2%D7%91%D7%99/en_b99b48b9e2150e0286a4d634d9138d1a",
+    id: 665,
   },
   {
     firstName: "נחמיה",
@@ -6022,6 +6671,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ח' בתשרי תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%97%D7%9E%D7%99%D7%94%20%D7%A9%D7%A8%D7%A2%D7%91%D7%99/en_6b82d0ffcdb41a5f7e4547b91554daec",
+    id: 666,
   },
   {
     firstName: "גיל-מרדכי (גילי)",
@@ -6031,6 +6681,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ח באדר תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%92%D7%99%D7%9C-%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%A9%D7%A8%D7%A3/en_8d2ea7db67b739f58b3a47b795837e40",
+    id: 667,
   },
   {
     firstName: "סעיד",
@@ -6040,6 +6691,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"ה בחשון תשמ"ג',
     izkorLink:
       "https://www.izkor.gov.il/%D7%A1%D7%A2%D7%99%D7%93%20%D7%A9%D7%A8%D7%A3/en_fab69dbf95b3e6b0b39e1f79f3cb1383",
+    id: 668,
   },
   {
     firstName: "נתן",
@@ -6049,6 +6701,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "כ' באדר א' תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%AA%D7%9F%20%D7%A9%D7%A8%D7%A4%D7%99/en_2fdcbe5b3dc1db01da31599ae522f78a",
+    id: 669,
   },
   {
     firstName: "יניב",
@@ -6058,6 +6711,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ה' בתמוז תשנ\"ה",
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%A0%D7%99%D7%91%20%D7%A9%D7%A9%D7%95%D7%9F/en_780f24250a1f59e2a896a4f2d4446ddd",
+    id: 670,
   },
   {
     firstName: "מרדכי (מוטי)",
@@ -6067,6 +6721,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ג' באדר תשמ\"ג",
     izkorLink:
       "https://www.izkor.gov.il/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%AA%D7%93%D7%9E%D7%95%D7%A8/en_a169a0a07db6f61c3b254ce01728a4a2",
+    id: 671,
   },
   {
     firstName: "יהודה-ליאון",
@@ -6076,6 +6731,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'י"ט בשבט תשמ"ה',
     izkorLink:
       "https://www.izkor.gov.il/%D7%99%D7%94%D7%95%D7%93%D7%94-%D7%9C%D7%99%D7%90%D7%95%D7%9F%20%D7%AA%D7%95%D7%91%D7%9C/en_3595e35cb66a8a3a476ca5d30fac368c",
+    id: 672,
   },
   {
     firstName: "אסלאן",
@@ -6085,6 +6741,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: 'כ"א באב תשנ"ו',
     izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%9C%D7%90%D7%9F%20%D7%AA%D7%97%D7%90%D7%95%D7%97%D7%95/en_3d17ac8d8013b2036d69a3b7ea200b63",
+    id: 673,
   },
   {
     firstName: "ראגב חסאן",
@@ -6094,6 +6751,7 @@ const FALLEN_SOLDIERS = [
     hebrewDate: "ט' בכסלו תשמ\"ד",
     izkorLink:
       "https://www.izkor.gov.il/%D7%A8%D7%90%D7%92%D7%91%20%D7%97%D7%A1%D7%90%D7%9F%20%D7%AA%D7%97%D7%90%D7%95%D7%A7%D7%99/en_e0463569f6e17ecba17db14da61b5bb4",
+    id: 674,
   },
 ];
 export default FALLEN_SOLDIERS;
