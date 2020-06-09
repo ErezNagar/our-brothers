@@ -50,6 +50,44 @@ a {
   margin: 5vh 0;
   font-size: 1.25em;
 }
+.sort-container {
+  direction: rtl;
+  font-size: calc(10px + 1vmin);
+  margin: 5vh 0 7vh;
+}
+.sort-title {
+  margin-bottom: 1vh;
+}
+.sort-option {
+  display: inline-flex;
+  margin: 0 0.25em;
+}
+.button-sort {
+  font-size: 1em;
+  font-family: inherit;
+  display: inline-block;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 1px solid #282c34;
+}
+.button-sort:hover {
+  background-color: #282c34;
+  color: white;
+  transition: background-color 250ms, color 250ms;
+}
+.button-sort.active {
+  color: white;
+  background-color: #282c34;
+}
 .listContainer {
   font-size: calc(1.2em + 0.6vw);
   margin: 6vh 2vw 10vh;

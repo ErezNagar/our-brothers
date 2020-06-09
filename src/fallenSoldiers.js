@@ -75,7 +75,7 @@ const FALLEN_SOLDIERS = [
     age: 20,
     date: "19.08.1993",
     hebrewDate: "ב' באלול תשנ\"ג",
-    izkor:
+    izkorLink:
       "https://www.izkor.gov.il/%D7%90%D7%A1%D7%A3%20%D7%90%D7%91%D7%A0%D7%99/en_9095aa02796cc110b6240210fcc5f9b0",
     id: 7,
   },
@@ -636,7 +636,7 @@ const FALLEN_SOLDIERS = [
     age: 19,
     date: "25.10.1992",
     hebrewDate: 'כ"ח בתשרי תשנ"ג',
-    izkor:
+    izkorLink:
       "https://www.izkor.gov.il/%D7%A0%D7%99%D7%91%20%D7%90%D7%9E%D7%95%D7%99%D7%90%D7%9C/en_f31732dd731647ec7b6f54bb8f25f637",
     id: 63,
   },
