@@ -77,6 +77,19 @@ h1 {
   font-size: calc(1em + 0.5vmin);
 }
 
+.press-item-links {
+  margin-top: 0.5em;
+  font-size: calc(1em + 0.5vmin);
+}
+
+.press-item-link-wrapper {
+  margin: 0 0.5em;
+}
+
+.press-item-link {
+  text-decoration: underline;
+}
+
 .press-item-footer {
   color: white;
   background-color: #282c34;

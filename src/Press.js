@@ -8,7 +8,7 @@ new ClipboardJS(".press-item-share");
 const PressItem = ({ item }) => (
   <article className="press-item-container" id={`press${item.id}`}>
     <div className="press-item-container-padding">
-      <a href={`/#/press#press${item.id}`}>
+      <a href={`/#/press#press${item.id}`} rel="noopener noreferrer">
         <header className="press-item-header">
           <h1>{item.title}</h1>
         </header>
@@ -16,9 +16,30 @@ const PressItem = ({ item }) => (
       {item.description && (
         <div className="press-item-description">{item.description}</div>
       )}
-
       <div className="press-item-date">{item.date}</div>
       <p className="press-item-body">{item.body}</p>
+      <div className="press-item-links">
+        {item.links.length === 1
+          ? "קישור: "
+          : item.links.length > 1
+          ? "קישורים: "
+          : ""}
+        {item.links.map((linkItem, i) => (
+          <span
+            className="press-item-link-wrapper"
+            key={`${linkItem.source}${i}`}
+          >
+            <a
+              href={linkItem.link}
+              target="_blank"
+              className="press-item-link"
+              rel="noopener noreferrer"
+            >
+              {linkItem.source}
+            </a>
+          </span>
+        ))}
+      </div>
     </div>
     <footer className="press-item-footer">
       <div className="press-item-container-padding flex">
@@ -57,6 +78,16 @@ const PressTwitterItem = ({ item }) => (
         className="press-item-body"
         dangerouslySetInnerHTML={{ __html: item.body }}
       ></p>
+      <div className="press-item-links">
+        <a
+          href={item.link}
+          target="_blank"
+          className="press-item-link"
+          rel="noopener noreferrer"
+        >
+          {"קישור לציוץ"}
+        </a>
+      </div>
     </div>
     <footer className="press-item-footer">
       <div className="press-item-container-padding flex">
@@ -72,12 +103,7 @@ PressTwitterItem.propTypes = {
     id: PropTypes.number.isRequired,
     date: PropTypes.string.isRequired,
     body: PropTypes.string.isRequired,
-    link: PropTypes.arrayOf(
-      PropTypes.shape({
-        source: PropTypes.string.isRequired,
-        link: PropTypes.string.isRequired,
-      })
-    ),
+    link: PropTypes.string.isRequired,
   }).isRequired,
 };
 
