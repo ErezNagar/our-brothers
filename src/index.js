@@ -2,22 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import Press from "./Press";
+import PressPage from "./Press";
 import * as serviceWorker from "./serviceWorker";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  HashRouter,
-} from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       {/* basename={"/"} */}
       <Route exact path="/" component={App} />
-      <Route path="/press" component={Press} />
+      <Route path="/press" component={PressPage} />
     </HashRouter>
     {/* <Router>
       <Switch>

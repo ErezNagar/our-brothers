@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import "./App.css";
 import izkorLogo from "./izkor.png";
 import FALLEN_SOLDIERS from "./fallenSoldiers";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Press from "./Press";
 
 const SortButton = ({ text, onClick, isActive }) => (
   <button
