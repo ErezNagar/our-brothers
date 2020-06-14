@@ -3,24 +3,16 @@ import PropTypes from "prop-types";
 import PRESS_LIST from "./pressList";
 import "./pressPage.css";
 import ClipboardJS from "clipboard";
-// import { HashLink as Link } from "react-router-hash-link";
-
-/*
-TODO:
-remove hashlink package if not used, add to twitter type press item
-*/
 new ClipboardJS(".press-item-share");
 
 const PressItem = ({ item }) => (
   <article className="press-item-container" id={`press${item.id}`}>
     <div className="press-item-container-padding">
-      {/* <Link smooth to={`/press#press${item.id}`}> */}
       <a href={`/#/press#press${item.id}`}>
         <header className="press-item-header">
           <h1>{item.title}</h1>
         </header>
       </a>
-      {/* </Link> */}
       {item.description && (
         <div className="press-item-description">{item.description}</div>
       )}
@@ -90,7 +82,6 @@ PressTwitterItem.propTypes = {
 };
 
 class PressPage extends React.Component {
-  // const PressPage = () => (
   componentDidMount() {
     // Decode entities in the URL
     // Sometimes a URL like #/foo#bar will be encoded as #/foo%23bar
