@@ -9,20 +9,9 @@ import { Route, HashRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
-      {/* basename={"/"} */}
       <Route exact path="/" component={App} />
       <Route path="/press" component={PressPage} />
     </HashRouter>
-    {/* <Router>
-      <Switch>
-        <Route path="/press">
-          <Press />
-        </Route>
-        <Route path="/">
-          <App />
-        </Route>
-      </Switch>
-    </Router> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
