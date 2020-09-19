@@ -1123,7 +1123,7 @@ const FALLEN_SOLDIERS = [
   },
   {
     firstName: "גיא-יוסף",
-    lastName: "דב",
+    lastName: "בן-דב",
     age: 21,
     date: "10.07.1986",
     hebrewDate: "ג' בתמוז תשמ\"ו",
