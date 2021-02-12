@@ -1088,7 +1088,7 @@ const FALLEN_SOLDIERS = [
     date: "04.03.1987",
     hebrewDate: "ד' באדר תשמ\"ז",
     izkorLink:
-      "https://www.izkor.gov.il/%D7%90%D7%99%D7%AA%D7%9F%20%D7%91%D7%9C%D7%97%D7%A1%D7%9F/en_6c56f6d5144a509d3514512c5d9d2cac",
+      "https://www.izkor.gov.il/%D7%A8%D7%95%D7%A0%D7%9F-%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%91%D7%9C%D7%98%D7%99/en_92d946c351dd74b7f8ba2e4f799d18f7",
     id: 108,
   },
   {
